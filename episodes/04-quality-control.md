@@ -135,11 +135,14 @@ Use with caution! But a great way to flag inconsistent values when entering data
 Conditional formatting basically can do something like color code your values by some
 criteria or lowest to highest. This makes it easy to scan your data for outliers.
 
-Let's try this again with weight. Go to **Format** then **Conditional Formatting**.
-
-We'll do the *2-Color Scale* with Lowest to Highest for the orange colors. Then we'll 
-apply that to the `len_hours` column again. Now we can scan through and different colors will
-stand out. Again, do we notice any strange values?
-
-It is nice to do be able to do these scans in spreadsheets, but we also can do these
-checks in a programming language like Python or R, or in OpenRefine or SQL. 
+> ## Exercise
+>
+> Let's try this again with weight. Go to **Format** then **Conditional Formatting**.
+>
+> We'll do the *2-Color Scale* with Lowest to Highest for the orange colors. Then we'll
+> apply that to the `len_hours` column again. Now we can scan through and different colors will
+> stand out. Again, do we notice any strange values?
+>
+> It is nice to do be able to do these scans in spreadsheets, but we also can do these
+> checks in a programming language like Python or R, or in OpenRefine or SQL.
+{: .challenge}
