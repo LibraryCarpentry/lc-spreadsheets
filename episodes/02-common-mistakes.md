@@ -50,7 +50,7 @@ row as an observation. You’re also potentially using the same field
 name in multiple places, which will make it harder to clean your data
 up into a usable form. The example below depicts the problem:
 
-![multiple tabs](/fig/2_datasheet_example.jpg)
+![multiple tabs](../fig/2_datasheet_example.jpg)
 
 
 ## Multiple tabs {#tabs}
@@ -90,18 +90,18 @@ The spreadsheets or statistical programs will likely mis-interpret blank cells t
 
 From White et al, 2013, [Nine simple ways to make it easier to (re)use your data.](http://library.queensu.ca/ojs/index.php/IEE/article/view/4608/4898) Ideas in Ecology and Evolution:
 
-![White et al.](/fig/3_white_table_1.jpg)
+![White et al.](../fig/3_white_table_1.jpg)
 
 
 ## Using formatting to convey information  {#formatting}
 
 **Example**: highlighting cells, rows or columns that should be excluded from an analysis, leaving blank rows to indicate separations in data.
 
-![formatting](/fig/formatting.png)
+![formatting](../fig/formatting.png)
 
 **Solution**: create a new field to encode which data should be excluded.
 
-![good formatting](/fig/good_formatting.png)
+![good formatting](../fig/good_formatting.png)
 
 
 ## Using formatting to make the data sheet look pretty {#formatting_pretty}

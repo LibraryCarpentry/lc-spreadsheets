@@ -50,13 +50,13 @@ in each data column.
 
 2. On the `Data` tab select `Data Validation`
 
-   ![Image of Data Validation button on Data tab](/fig/data_validation.png)
+   ![Image of Data Validation button on Data tab](../fig/data_validation.png)
 
 3. In the `Allow` box select the kind of data that should be in the
    column. Options include whole numbers, decimals, lists of items, dates, and
    other values.
 
-   ![Image of Data Validation window](/fig/data_validation_window.png)
+   ![Image of Data Validation window](../fig/data_validation_window.png)
    
 4. After selecting an item enter any additional details. For example if you've
    chosen a list of values then enter a comma-delimited list of allowable
@@ -70,23 +70,23 @@ plot values that are integers between 1 and 24.
 3. In the `Allow` box select `Whole number`
 4. Set the minimum and maximum values to 1 and 24.
 
-![Image of Data Validation window for validating plot values](/fig/plot_validation.png)
+![Image of Data Validation window for validating plot values](../fig/plot_validation.png)
 
 Now let's try entering a new value in the plot column that isn't a valid
 plot. The spreadsheet stops us from entering the wrong value and asks us if we
 would like to try again.
 
-![Image of error when trying to enter invalid data](/fig/invalid_value.png)
+![Image of error when trying to enter invalid data](../fig/invalid_value.png)
 
 You can also customize the resulting message to be more informative by entering
 your own message in the `Input Message` tab
 
-![Image of Input Message tab](/fig/input_message.png)
+![Image of Input Message tab](../fig/input_message.png)
 
 and allow invalid data to just result in a warning by modifying the `Style`
 option on the `Error Alert` tab.
 
-![Image of Error Alert tab](/fig/error_alert.png)
+![Image of Error Alert tab](../fig/error_alert.png)
 
 Quality assurance can make data entry easier as well as more robust. For
 example, if you use a list of options to restrict data entry, the spreadsheet
@@ -94,7 +94,7 @@ will provide you with a drop-downlist of the available items. So, instead of
 trying to remember how to spell *Dipodomys spectabilis*, you can just select the
 right option from the list.
 
-![Image of drop-down menu](/fig/drop_down_list.png)
+![Image of drop-down menu](../fig/drop_down_list.png)
 
 # Quality Control
 
@@ -116,7 +116,7 @@ Let's try this with the *1980* tab in our messy spreadsheet. Go to that tab. Sel
 
 Sort by *wgt* in the order *Smallest to Largest*
 
-![Figure of Sorting menu](/fig/sorting.png)
+![Figure of Sorting menu](../fig/sorting.png)
 
 - When you do this sort, do you notice anything strange?
 
