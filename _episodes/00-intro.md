@@ -2,6 +2,14 @@
 title: Using spreadsheet programs for data wrangling
 teaching: 10
 exercises: 20
+questions:
+  - What is this lesson all about?
+objectives:
+  - Get an overview of the lesson
+keypoints:
+  - We will discuss good practices for data entry and formatting
+  - We will not discuss analysis or visualisation
+
 authors:
   - Jez Cope
   - Christie Bahlai
@@ -15,16 +23,7 @@ contributors:
   - Clare Sloggett
   - Harriet Dashnow
   - Ben Marwick
-questions:
-- "What is this lesson all about?"
-objectives:
-- "First objective."
-keypoints:
-- "First key point."
 ---
-
-Authors: {{page.authors | join: ', '}}<br>
-Contributors: {{page.contributors | join: ', '}}
 
 Good **data organization** is the foundation of much of our day-to-day
 work in libraries. Most **librarians** have data or do data entry in
@@ -79,8 +78,7 @@ Head First Excel by O'Reilly.
 
 ### Spreadsheet programs
 
-- LibreOffice - used in these lessons because it's a free, open source
-  spreadsheet program
+- LibreOffice
 - Microsoft Excel
 - Gnumeric
 - OpenOffice.org
@@ -91,7 +89,7 @@ is the same.
 ---
 
 > ## Questions:
->  
+>
 > - How many people have used spreadsheets in their work?
 > - What kind of operations do you do in spreadsheets?
 > - Which ones do you think spreadsheets are good for?
