@@ -59,7 +59,7 @@ To save a file you have opened in Excel in `*.csv` format:
 2. In the 'Format' field, from the list, select 'Comma Separated Values' (`*.csv`).
 3. Double check the file name and the location where you want to save it and hit 'Save'.
 
-![Saving an Excel file to CSV](/fig/excel-to-csv.png)
+![Saving an Excel file to CSV](../fig/excel-to-csv.png)
 
 An important note for backwards compatibility: you can open CSVs in Excel!
 

@@ -90,7 +90,7 @@ Instead it is much safer to store dates with [MONTH, DAY and YEAR](#day) in sepa
 
 Spreadsheet programs have numerous “useful features” which allow them to “handle” dates in a variety of ways.
 
-![Many formats, many ambiguities](/fig/5_excel_dates_1.jpg)
+![Many formats, many ambiguities](../fig/5_excel_dates_1.jpg)
 
 But these ‘features’ often allow ambiguity to creep into your data. Ideally, data should be as unambiguous as possible. 
 
@@ -149,7 +149,7 @@ Storing dates in YEAR, MONTH, DAY format helps remove this ambiguity. Let's look
 
 For instance this is a spreadsheet representing insect counts that were taken every few days over the summer, and things went something like this:
 
-![So, so ambiguous, it's even confusing Excel](/fig/6_excel_dates_2.jpg)
+![So, so ambiguous, it's even confusing Excel](../fig/6_excel_dates_2.jpg)
 
 
 If Excel was to be believed, this person had been collecting bugs IN THE FUTURE. Now, we have no doubt this person is highly capable, but I believe time travel was beyond even his grasp.
@@ -168,7 +168,7 @@ Statistical models often incorporate year as a factor, to account for year-to-ye
 
 So, can you convert all your dates into DOY format? Well, in Excel, here’s a handy dandy guide:
 
-![Kill that ambiguity before it bites you!](/fig/7_excel_dates_3.jpg)
+![Kill that ambiguity before it bites you!](../fig/7_excel_dates_3.jpg)
 
 ### Storing dates as a single string {#str}
 
