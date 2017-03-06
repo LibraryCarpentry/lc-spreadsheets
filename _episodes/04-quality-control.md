@@ -43,7 +43,7 @@ collected is a count, only integers greater than or equal to zero should be
 allowed.
 
 To control the kind of data entered into a a spreadsheet we use Data Validation
-(Excel) or Validity (Libre Office Calc), to set the values that can be entered
+(Excel) or Validity (LibreOffice Calc), to set the values that can be entered
 in each data column.
 
 1. Select the cells or column you want to validate
@@ -62,13 +62,14 @@ in each data column.
    chosen a list of values then enter a comma-delimited list of allowable
    values in the `Source` box.
 
-Let's try this out by setting the plot column in our spreadsheet to only allow
-plot values that are integers between 1 and 24.
+We can't have half a person attending a workshop, so let's try this
+out by setting the `num_registered` column in our spreadsheet to only
+allow whole numbers between 1 and 100.
 
-1. Select the `plot_id` column
+1. Select the `num_registered` column
 2. On the `Data` tab select `Data Validation`
 3. In the `Allow` box select `Whole number`
-4. Set the minimum and maximum values to 1 and 24.
+4. Set the minimum and maximum values to 1 and 100.
 
 ![Image of Data Validation window for validating plot values](../fig/plot_validation.png)
 
@@ -91,7 +92,7 @@ option on the `Error Alert` tab.
 Quality assurance can make data entry easier as well as more robust. For
 example, if you use a list of options to restrict data entry, the spreadsheet
 will provide you with a drop-downlist of the available items. So, instead of
-trying to remember how to spell *Dipodomys spectabilis*, you can just select the
+trying to remember the initials of all your trainers, you can just select the
 right option from the list.
 
 ![Image of drop-down menu](../fig/drop_down_list.png)
@@ -108,22 +109,27 @@ right option from the list.
 <!-- [Example: converting all data to values: use soybean aphid suction trap dataset for this section] -->
 
 ## Sorting
+
 **Bad values often sort to bottom or top of the column**. For example, if your data should be numeric, then alphabetical and null data will group at the ends of the sorted data. Sort your data by each field, one at a time. Scan through each column, but pay the most attention to the top and the bottom of a column. 
 If your dataset is well-structured and does not contain formulas, sorting should never affect the integrity of your dataset.
 
-Let's try this with the *1980* tab in our messy spreadsheet. Go to that tab. Select
-**Data** then select **Sort**
-
-Sort by *wgt* in the order *Smallest to Largest*
-
-![Figure of Sorting menu](../fig/sorting.png)
-
-- When you do this sort, do you notice anything strange?
-
-- Try sorting by *species*. Anything strange there?
+> ## Exercise
+>
+> Let's try this with the *Date* tab in our messy spreadsheet. Go to that tab. Select
+> **Data** then select **Sort**
+> 
+> Sort by `date` in the order *Smallest to Largest*
+> 
+> ![Figure of Sorting menu](../fig/sorting.png)
+> 
+> - When you do this sort, do you notice anything strange?
+> 
+> - Try sorting by other columns. Anything strange there?
+{: .challenge}
 
 
 ## Conditional formatting ##
+
 Use with caution! But a great way to flag inconsistent values when entering data.
 
 Conditional formatting basically can do something like color code your values by some
@@ -132,8 +138,8 @@ criteria or lowest to highest. This makes it easy to scan your data for outliers
 Let's try this again with weight. Go to **Format** then **Conditional Formatting**.
 
 We'll do the *2-Color Scale* with Lowest to Highest for the orange colors. Then we'll 
-apply that to the *wgt* column again. Now we can scan through and different colors will
+apply that to the `len_hours` column again. Now we can scan through and different colors will
 stand out. Again, do we notice any strange values?
 
 It is nice to do be able to do these scans in spreadsheets, but we also can do these
-checks in a programming language like R, or in OpenRefine or SQL. 
+checks in a programming language like Python or R, or in OpenRefine or SQL. 

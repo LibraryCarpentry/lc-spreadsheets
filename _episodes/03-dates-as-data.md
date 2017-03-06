@@ -43,7 +43,7 @@ Let's try with a simple challenge.
 
 > ## Challenge: pulling month, day and year out of dates ##
 > 
-> - In the `dates` tab of your Excel file you have the data from 2014 plot 3. There's a `Date collected` column.
+> - In the `Dates` tab of your Excel file you have some more training data from 2017. There's a `date` column.
 > - Let’s extract month and year from the dates to new columns. For this we can use the built in Excel functions
 > 
 > ```
@@ -57,23 +57,25 @@ Let's try with a simple challenge.
 
 > ## Discussion
 >
-> You can see that even though you wanted the year to be 2014, Excel
-> automatically interpreted it as 2015, the year you entered the data.
+> You can see that some entries have been added more recently,
+> and even though the person adding them intended 2015,
+> Excel has actually used the current year (2017).
 {: .discussion}
 
-#### Exercise: pulling hour, minute and second out of the current time ####
-
-Current time and date are best retrieved using the functions `NOW()`, which
-returns the current date and time, and `TODAY()`, which returns the current
-date. The results will be formatted according to your computer's settings.
-
-- Try to extract the year, month and day from the current date and time string
-returned by the `NOW()` function.
-- Calculate the current time using `NOW()-TODAY()`.
-- Try to extract the hour, minute and second from the current time using
-functions `HOUR()`, `MINUTE()` and `SECOND()`.
-- press `F9` to force the spreadsheet to recalculate the `NOW()` function,
-and check that it has been updated.
+> ## Exercise: pulling hour, minute and second out of the current time ##
+> 
+> Current time and date are best retrieved using the functions `NOW()`, which
+> returns the current date and time, and `TODAY()`, which returns the current
+> date. The results will be formatted according to your computer's settings.
+> 
+> - Try to extract the year, month and day from the current date and time string
+> returned by the `NOW()` function.
+> - Calculate the current time using `NOW()-TODAY()`.
+> - Try to extract the hour, minute and second from the current time using
+> functions `HOUR()`, `MINUTE()` and `SECOND()`.
+> - press `F9` to force the spreadsheet to recalculate the `NOW()` function,
+> and check that it has been updated.
+{: .challenge}
 
 ## Preferred date format
 
@@ -141,7 +143,7 @@ What will happen if you save the file in Excel (in `csv` format) and then open t
 > You will notice that when exporting into a text-based format (such as CSV), Excel will export its internal date integer instead of a useful value (that is, the dates will be represented as integer numbers). This can potentially lead to problems, if you use other software to manipulate the file.
 {: .callout}
 
-### Advantages of Alternative Date Formatting
+## Advantages of Alternative Date Formatting ##
 
 ### Storing dates as YEAR, MONTH, DAY {#day}
 
