@@ -1,7 +1,7 @@
 ---
 title: Using spreadsheet programs for data wrangling
-teaching: 0
-exercises: 0
+teaching: 10
+exercises: 20
 authors:
   - Jez Cope
   - Christie Bahlai
@@ -92,13 +92,13 @@ is the same.
 
 > ## Questions:
 >  
-> - How many people have used spreadsheets in their research?
+> - How many people have used spreadsheets in their work?
 > - What kind of operations do you do in spreadsheets?
 > - Which ones do you think spreadsheets are good for?
 {: .challenge}
 
 Spreadsheets encompass a lot of the things we need
-to be able to do as researchers. We can use them for:
+to be able to do as librarians. We can use them for:
 
 - Data entry
 - Organizing data
@@ -160,13 +160,9 @@ package you're most likely to have available on your work computer.
 
 In this lesson, we're going to talk about:
 
-1. [Formatting data tables in spreadsheets](/01-format-data.html)
-2. [Formatting problems](/02-common-mistakes.html)
-3. [Dates as data](/03-dates-as-data.html)
-4. [Basic quality control and data manipulation in spreadsheets](/04-quality-control.html)
-5. [Exporting data from spreadsheets](/05-exporting-data.html)
-6. [Data export formats caveats](/06-data-formats-caveats.html)
-
-
-
-Next: [Formatting data tables in spreadsheets.](/01-format-data.html)
+1. [Formatting data tables in spreadsheets](/01-format-data)
+2. [Formatting problems](/02-common-mistakes)
+3. [Dates as data](/03-dates-as-data)
+4. [Basic quality control and data manipulation in spreadsheets](/04-quality-control)
+5. [Exporting data from spreadsheets](/05-exporting-data)
+6. [Data export formats caveats](/06-data-formats-caveats)
