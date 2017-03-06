@@ -123,21 +123,21 @@ So, instead we should have:
 
 ## Exercise
 
-We're going to take a messy version of the survey data and clean it up.
+We're going to take a messy version of some library training data and clean it up
 
-- Download the data by clicking [here](https://ndownloader.figshare.com/files/2252083) to get it from FigShare.
+- First [download the data](../data/training_attendance.xlsx)
 
+- Open up the data in a spreadsheet program
 
-- Open up the data in a spreadsheet program 
+- You can see that there are three tabs. Various people have recorded
+  training attendance statistics over 2016 and 2017, and they have
+  kept track of the data in their own way. Now you're being asked to
+  evaluate the training programme and you want to be able to start
+  doing statistics with the data.
 
-- You can see that there are two tabs. Two field assistants conducted the surveys, one
-in 2013 and one in 2014, and they both kept track of the data in their own way. Now
-you're the person in charge of this project and you want to be able to start doing
-statistics with the data. 
-
-- With the person next to you, work on the messy data so that a computer will
-be able to understand it. Clean up the 2013 and 2014 tabs, and put them all together
-in one spreadsheet. 
+- With the person next to you, work on the messy data so that a
+  computer will be able to understand it. Clean up the 2016 and 2017
+  tabs, and put them all together in one spreadsheet.
 
 > ## Important ##
 >
