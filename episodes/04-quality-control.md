@@ -1,7 +1,7 @@
 ---
 title: Basic quality assurance and control, and data manipulation in spreadsheets 
 teaching: 20
-exercises: 0
+exercises: 10
 questions:
   - "How can you keep data clean and sane?"
 objectives:

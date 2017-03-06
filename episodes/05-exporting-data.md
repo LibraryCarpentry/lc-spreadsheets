@@ -1,14 +1,15 @@
 ---
 title: Exporting data from spreadsheets
-teaching: 0
+teaching: 10
 exercises: 0
 questions:
-  - "Key question"
+  - What problems are there with Excel files?
+  - How can these problems be solved?
 objectives:
   - Store spreadsheet data in universal file formats.
   - Export data from a spreadsheet to a .csv file.
 keypoints:
-  - "First key point."
+  - Use .csv file format for data storage and processing
 
 authors:
   # - Jez Cope
@@ -22,8 +23,6 @@ contributors:
   - Owen Jones
   - Ben Marwick
 ---
-
-
 
 
 Storing the data you're going to work with for your analyses in Excel

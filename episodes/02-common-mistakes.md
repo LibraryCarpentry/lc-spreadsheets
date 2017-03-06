@@ -3,11 +3,20 @@ title: Formatting problems
 teaching: 5
 exercises: 0
 questions:
-- "What common mistakes are made when formatting spreadsheets?"
+  - What common mistakes are made when formatting spreadsheets?
 objectives:
-- "Recognize and resolve common spreadsheet formatting problems."
+  - Recognize and resolve common spreadsheet formatting problems.
 keypoints:
-- "First key point."
+  - "Don't use multiple tables in one sheet"
+  - "Don't use multiple tabs in a file"
+  - Fill in zero when you mean zero
+  - Use a blank cell to indicate a null value
+  - "Don't use formatting to convey information or make the data look pretty"
+  - "Don't put units or comments in cells"
+  - "Don't combine several values in one cell"
+  - "Take care over column names"
+  - "Avoid including special characters in your data file"
+  - "Put metadata (units, legends etc.) in a separate file"
 
 authors:
   - Jez Cope
