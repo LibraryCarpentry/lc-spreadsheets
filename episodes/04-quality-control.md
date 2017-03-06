@@ -1,5 +1,5 @@
 ---
-title: Basic quality assurance and control, and data manipulation in spreadsheets 
+title: Basic quality assurance and control, and data manipulation in spreadsheets
 teaching: 20
 exercises: 10
 questions:
@@ -57,7 +57,7 @@ in each data column.
    other values.
 
    ![Image of Data Validation window](../fig/data_validation_window.png)
-   
+
 4. After selecting an item enter any additional details. For example if you've
    chosen a list of values then enter a comma-delimited list of allowable
    values in the `Source` box.
@@ -100,7 +100,7 @@ right option from the list.
 # Quality Control
 
 > ## Tip!
-> 
+>
 > Before doing any quality control operations, save your original file with the formulas and a name indicating it is the original data. Create a **separate file** with appropriate naming and versioning, and ensure your data is stored as **values** and not as **formulas**.  Because formulas refer to other cells, and you may be moving cells around, you may compromise the integrity of your data if you do not take this step!
 {: .callout}
 
@@ -110,20 +110,20 @@ right option from the list.
 
 ## Sorting
 
-**Bad values often sort to bottom or top of the column**. For example, if your data should be numeric, then alphabetical and null data will group at the ends of the sorted data. Sort your data by each field, one at a time. Scan through each column, but pay the most attention to the top and the bottom of a column. 
+**Bad values often sort to bottom or top of the column**. For example, if your data should be numeric, then alphabetical and null data will group at the ends of the sorted data. Sort your data by each field, one at a time. Scan through each column, but pay the most attention to the top and the bottom of a column.
 If your dataset is well-structured and does not contain formulas, sorting should never affect the integrity of your dataset.
 
 > ## Exercise
 >
 > Let's try this with the *Date* tab in our messy spreadsheet. Go to that tab. Select
 > **Data** then select **Sort**
-> 
+>
 > Sort by `date` in the order *Smallest to Largest*
-> 
+>
 > ![Figure of Sorting menu](../fig/sorting.png)
-> 
+>
 > - When you do this sort, do you notice anything strange?
-> 
+>
 > - Try sorting by other columns. Anything strange there?
 {: .challenge}
 
