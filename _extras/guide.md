@@ -14,7 +14,7 @@ quality control in a spreadsheet program.
 
 ### Narrative
 
-#### [Introduction](/00-intro)
+#### [Introduction](../00-intro)
 
 * Introduce that we're teaching data organization, and that we're using
 spreadsheets, because most people do data entry in spreadsheets or 
@@ -33,7 +33,7 @@ does spreadsheets like Excel, LibreOffice, OpenOffice. Most learners are probabl
 of the data in the spreadsheet. What are the pain points!?
 * As people answer highlight some of these issues with spreadsheets
 
-#### [Formatting data](/01-format-data)
+#### [Formatting data](../01-format-data)
 
 * Go through the point about keeping track of your steps and keeping raw data raw
 * Go through the cardinal rule of spreadsheets about columns, rows and cells
@@ -50,28 +50,28 @@ There's an exercise in that file about how to change the
 date into three columns using Excel's built in MONTH, DAY, YEAR functions. Have them
 run through that exercise. 
 
-#### [Common formatting problems](/02-common-mistakes)
+#### [Common formatting problems](../02-common-mistakes)
 
 * **Don't go through this chapter** except to refer to as responses to the exercise in
 the previous chapter.
 
-#### [Dates as data](/03-dates-as-data)
+#### [Dates as data](../03-dates-as-data)
 
 * Do the exercise and make the point about dates either in reponse to a learner bringing
 up date as an issue during the responses, or at the end of the response time.
 
-#### [Quality control](/04-quality-control)
+#### [Quality control](../04-quality-control)
 *This lesson currently needs updating*  
 
 * Go through the exercises on different strategies for quality control, including
 sorting, conditional formatting and pivot tables. 
 
-#### [Exporting data](/05-exporting-data)
+#### [Exporting data](../05-exporting-data)
 
 * Have the students export their cleaned data as csv. Reiterate again the need for
 data in this format for the other tools we'll be using.
 
-#### [Data Format Caveats](/06-data-formats-caveats)
+#### [Data Format Caveats](../06-data-formats-caveats)
 
 * This is mainly here as a reference if people have questions about different file formats.
 You don't need to go through this. 
