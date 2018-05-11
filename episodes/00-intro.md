@@ -3,9 +3,9 @@ title: Using spreadsheet programs for data wrangling
 teaching: 10
 exercises: 20
 questions:
-  - What is this lesson all about?
+  - What are good data practices?
 objectives:
-  - Get an overview of the lesson
+  - 
 keypoints:
   - We will discuss good practices for data entry and formatting
   - We will not discuss analysis or visualisation
@@ -31,11 +31,19 @@ spreadsheets. Spreadsheet programs are very **useful graphical
 interfaces** for designing data tables and handling very basic data
 quality control functions.
 
+Spreadsheets encompass a lot of the things we need
+to be able to do as librarians. We can use them for:
+
+- Data entry
+- Organizing data
+- Subsetting and sorting data
+- Statistics
+- Plotting
 ---
 
 ### Spreadsheet outline
 
-In this lesson, we’re going to talk about:
+In this lesson, we will look at:
 
 - Good data entry practices - formatting data tables in spreadsheets
 - How to avoid common formatting mistakes
@@ -43,7 +51,6 @@ In this lesson, we’re going to talk about:
 - Basic quality control and data manipulation in spreadsheets
 - Exporting data from spreadsheets
 
-*Overall good data practices*
 
 **Much of your time when you're producing a report will be spent in
 this 'data wrangling' stage.** It's not the most fun, but it's
@@ -78,13 +85,18 @@ If you're looking to do this, a good reference is
 
 ### Spreadsheet programs
 
+Commands may differ a bit between programs, but the general idea
+is the same.
+
 - LibreOffice
 - Microsoft Excel
 - Gnumeric
 - OpenOffice.org
 
-Commands may differ a bit between programs, but the general idea
-is the same.
+In this lesson, we will assume that you are most likely using Excel as
+your primary spreadsheet program - there are others (gnumeric, Calc
+from OpenOffice), and their functionality is similar, but Excel is the
+package you're most likely to have available on your work computer.
 
 ---
 
@@ -95,14 +107,6 @@ is the same.
 > - Which ones do you think spreadsheets are good for?
 {: .challenge}
 
-Spreadsheets encompass a lot of the things we need
-to be able to do as librarians. We can use them for:
-
-- Data entry
-- Organizing data
-- Subsetting and sorting data
-- Statistics
-- Plotting
 
 ---
 
@@ -151,10 +155,6 @@ prior to importation into a statistical analysis program. We will show
 you how to use some features of spreadsheet programs to check your
 data quality along the way and produce preliminary summary statistics.
 
-In this lesson, we will assume that you are most likely using Excel as
-your primary spreadsheet program - there are others (gnumeric, Calc
-from OpenOffice), and their functionality is similar, but Excel is the
-package you're most likely to have available on your work computer.
 
 In this lesson, we're going to talk about:
 
