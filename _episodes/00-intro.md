@@ -60,7 +60,7 @@ some practices for more effective data wrangling.
 - How to *write code* in spreadsheet programs
 
 If you're looking to do this, a good reference is
-Head First Excel by O'Reilly.
+[Head First Excel by O'Reilly Media](https://www.amazon.com/Head-First-Excel-learners-spreadsheets/dp/0596807694).
 
 ---
 
