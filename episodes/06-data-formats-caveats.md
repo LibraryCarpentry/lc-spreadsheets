@@ -15,7 +15,7 @@ keypoints:
 
 ## Commas as part of data values in `*.csv` files ##
 
-In the [previous lesson](05-exporting-data.md) we discussed how to export Excel file formats into `*.csv`. Whilst Comma Separated Value files are indeed very useful allowing for easily exchanging and sharing data. 
+In the [previous lesson](../05-exporting-data) we discussed how to export Excel file formats into `*.csv`. Whilst Comma Separated Value files are indeed very useful allowing for easily exchanging and sharing data. 
 
 However, there are some significant problems with this particular format. Quite often the data values themselves may include commas (,). In that case, the software which you use (including Excel) will most likely incorrectly display the data in columns. It is because the commas which are a part of the data values will be interpreted as a delimiter.
 
@@ -36,7 +36,7 @@ The value for 'taxa' was split into two columns (instead of being put in one col
 
 ## Dealing with commas as part of data values in `*.csv` files ##
 
-If you want to store your data in `*.csv` and expect that your data may contain commas in their values, you can avoid the problem discussed above by putting the values in quotes (""). This [example data file](/data/biology/species.csv) applies this rule so the actual data looks like:
+If you want to store your data in `*.csv` and expect that your data may contain commas in their values, you can avoid the problem discussed above by putting the values in quotes (""). This [example data file](https://ndownloader.figshare.com/files/3299483) applies this rule so the actual data looks like:
 
 	species_id,genus,species,taxa
 	"AB","Amphispiza","bilineata","Bird"
@@ -54,7 +54,7 @@ This original file does not contain commas in the values.
 
 But let's see what would happen if we introduced a comma into  `"Rodent-not censused"` - so that it looks like this: `"Rodent-not, censused"`. 
 
-1. Open the [species.csv](./data/biology/species.csv) file in Excel (or Calc in Libre Office).
+1. Open the [species.csv](https://ndownloader.figshare.com/files/3299483) file in Excel (or Calc in Libre Office).
 2. Add the comma (,) in `"Rodent-not censused"`.
 3. Save the file under a **different name** (but also in the `csv` format) and reopen it in Excel.
 4. The issue with the "extra" incorrect column should not appear.
