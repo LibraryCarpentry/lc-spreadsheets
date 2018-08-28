@@ -121,23 +121,24 @@ So, instead we should have:
 
 ![single-info example](../fig/single-info.png)
 
-## Exercise
-
-We're going to take a messy version of some library training data and clean it up
-
-- First [download the data](../data/training_attendance.xlsx)
-
-- Open up the data in a spreadsheet program
-
-- You can see that there are three tabs. Various people have recorded
+> ## Exercise
+>
+> We're going to take a messy version of some library training data and clean it up
+>
+> 1. First [download the data](../data/training_attendance.xlsx)
+> 2. Open up the data in a spreadsheet program
+> 1. You can see that there are three tabs. Various people have recorded
   training attendance statistics over 2016 and 2017, and they have
   kept track of the data in their own way. Now you're being asked to
   evaluate the training programme and you want to be able to start
   doing statistics with the data.
-
-- With the person next to you, work on the messy data so that a
+> 1. With the person next to you, work on the messy data so that a
   computer will be able to understand it. Clean up the 2016 and 2017
   tabs, and put them all together in one spreadsheet.
+> 1. After you go through this exercise, we'll discuss as a group what you think was wrong
+with this data and how you fixed it. 
+{: .challenge}
+
 
 > ## Important ##
 >
@@ -146,8 +147,6 @@ We're going to take a messy version of some library training data and clean it u
 > modify the original (raw) data**.
 {: .callout}
 
-After you go through this exercise, we'll discuss as a group what you think was wrong
-with this data and how you fixed it. 
 
 An excellent reference, in particular with regard to R scripting is
 
