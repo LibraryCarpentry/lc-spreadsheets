@@ -39,6 +39,7 @@ to be able to do as librarians. We can use them for:
 - Subsetting and sorting data
 - Statistics
 - Plotting
+
 ---
 
 ### Spreadsheet outline
