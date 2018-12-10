@@ -45,7 +45,7 @@ contributors:
 - [Field name problems](#field_name)
 - [Special characters in data](#special)
 - [Inclusion of metadata in data table](#metadata)
-- [Date formatting](/lc-spreadsheets/03-dates-as-data/03-dates-as-data.html)
+- [Date formatting](/lc-spreadsheets/03-dates-as-data/)
 
 ---
 
