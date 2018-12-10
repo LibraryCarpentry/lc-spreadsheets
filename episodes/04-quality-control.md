@@ -118,9 +118,9 @@ If your dataset is well-structured and does not contain formulas, sorting should
 > Let's try this with the *Date* tab in our messy spreadsheet. Go to that tab. Select
 > **Data** then select **Sort**
 >
-> Sort by `date` in the order *Smallest to Largest*
+> Sort by `date` in the order *Smallest to Largest* or *Oldest to Newest*
 >
-> ![Figure of Sorting menu](../fig/sorting.png)
+> ![Figure of Sorting menu](../fig/sort-date.png)
 >
 > - When you do this sort, do you notice anything strange?
 >
