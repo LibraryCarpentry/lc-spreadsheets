@@ -1,6 +1,6 @@
 # Library Carpentry
 
-The Library Carpentry module '[Tidy data for librarians](http://jezcope.github.io/library-spreadsheets/)' is maintained by Jez Cope.
+The Library Carpentry module '[Tidy data for librarians](https://librarycarpentry.org/lc-spreadsheets/)' is maintained by [Tim Dennis](https://github.com/jt14den), [Thea Atwood](https://github.com/tpatwood), *[Sherry Lake](https://github.com/shlake)*, [Erika Mias](https://github.com/erikamias), [Jez Cope](https://github.com/jezcope).
 
 ## Background
 
@@ -20,7 +20,7 @@ All participants should agree to abide by the [Software Carpentry Code of Conduc
 
 ## Authors
 
-Library Carpentry is authored and maintained by the [community](https://github.com/jezcope/library-spreadsheets/network/members).
+Library Carpentry is authored and maintained by the [community](https://github.com/LibraryCarpentry/lc-spreadsheets/network/members).
 
 This module in particular is heavily based on the [Data Carpentry Spreadsheets for Ecology](http://www.datacarpentry.org/spreadsheet-ecology-lesson/) lesson maintained by Aleksandra Pawlik and Tracy Teal, with contributions from Christie Bahlai, Aleksandra Pawlik, Jennifer Bryan, Alexander Duryee, Jeffrey Hollister, Daisie Huang, Owen Jones, Ben Marwick, and Tracy Teal.
 
@@ -28,4 +28,4 @@ This module in particular is heavily based on the [Data Carpentry Spreadsheets f
 
 Please cite as:
 
-Library Carpentry. Tidy data for Librarians. March 2017. <URL to be confirmed>
+Library Carpentry. Tidy data for Librarians. March 2017. https://librarycarpentry.org/lc-spreadsheets/
