@@ -24,4 +24,4 @@ status: Teaching
 {: .prereq}
 
 ### Getting Started
-To get started, follow the directions in the "[Setup](setup/)" tab to download data to your computer and follow any installation instructions.
+To get started, follow the directions in the "[Setup](https://librarycarpentry.org/lc-spreadsheets/setup.html)" tab to download data to your computer and follow any installation instructions.
