@@ -79,7 +79,7 @@ This might be an example of a spreadsheet setup:
 
 ![spreadsheet setup](../fig/spreadsheet-setup.png)
 
-Put these principles in to practice today during your Exercises. 
+Put these principles in to practice today during your Exercises.
 
 
 ### Structuring data in spreadsheets
@@ -98,19 +98,21 @@ The cardinal rules of using spreadsheet programs for data:
    ensures that anyone can use the data, and is the format required by
    most data repositories.
 
-For instance, we have data from a survey of small mammals in a desert
-ecosystem. Different people have gone to the field and entered data in
-to a spreadsheet. They keep track of things like species, plot,
-weight, sex and date collected.
+For instance, we have data from attendance and instruction for previous
+research data management workshops. Different people have entered data in to a
+spreadsheet. They keep track of things like date, number of attendees, and who
+delivered the workshop.
 
 If they were to keep track of the data like this:
 
 ![multiple-info example](../fig/multiple-info.png)
 
-the problem is that species and sex are in the same field. So, if they wanted to 
-look at all of one species or look at different weight distributions by sex, 
-it would be hard to set up the data to do this. If instead we put sex and species 
-in different columns, you can see that it would be much easier. 
+the problem is that the number of attendees of different types (post-graduate
+researcher (PGR), post-doctoral research associate (PDRA), and other) are in
+the same field. So if they wanted to look at attendance by post-graduate
+researchers, it would be hard to set up the data to do this. If instead we
+put attendee categories in different columns, you can see that it would be much
+easier.
 
 ### Columns for variables and rows for observations
 
@@ -136,7 +138,7 @@ So, instead we should have:
   computer will be able to understand it. Clean up the 2016 and 2017
   tabs, and put them all together in one spreadsheet.
 > 1. After you go through this exercise, we'll discuss as a group what you think was wrong
-with this data and how you fixed it. 
+with this data and how you fixed it.
 {: .challenge}
 
 
