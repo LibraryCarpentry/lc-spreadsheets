@@ -64,7 +64,7 @@ up into a usable form. The example below depicts the problem:
 
 ## Multiple tabs {#tabs}
 
-But what about worksheet tabs? That seems like an easy way to organize data, right? Well, yes and no. When you create extra tabs, you fail to allow the computer to see connections in the data that are there (you have to introduce spreadsheet application-specific functions or scripting to ensure this connection). Say, for instance, you make a separate tab for each day you take a measurement.
+But what about worksheet tabs? That seems like an easy way to organize data, right? Well, yes and no. When you create extra tabs, you fail to allow the computer to see connections in the data that are there (you have to introduce spreadsheet application-specific functions or scripting to ensure this connection). Say, for instance, you make a separate tab for each year.
 
 This is bad practice for two reasons:
 **1)** you are more likely to accidentally add inconsistencies to your data if each time you take a measurement, you start recording data in a new tab, and
@@ -72,7 +72,7 @@ This is bad practice for two reasons:
 
 The next time you’re entering data, and you go to create another tab or table, I want you to ask yourself “Self, could I avoid adding this tab by adding another column to my original spreadsheet?”
 
-Your data sheet might get very long over the course of experiment. This makes it harder to enter data if you can’t see your headers at the top of the spreadsheet. But do NOT repeat headers. These can easily get mixed into the data, leading to problems down the road.
+Your data sheet might get very long over the course of recording data. This makes it harder to enter data if you can’t see your headers at the top of the spreadsheet. But do NOT repeat headers. These can easily get mixed into the data, leading to problems down the road.
 
 Instead you can Freeze the column headers.
 
@@ -84,13 +84,12 @@ Instead you can Freeze the column headers.
 ## Not filling in zeroes {#zeros}
 
 It might be that when you're measuring something, it's
-usually a zero, say the number of times an elephant
-is observed in the object or the survey. Why bother
+usually a zero, say the number of participants at a training event. Why bother
 writing in the number zero in that column, when it's mostly zeros?
 
 However, there's a difference between a zero and a blank cell in a spreadsheet. To the computer, a zero is actually data. You measured or counted it. A blank cell means that it wasn't measured and the computer will interpret it as a null value.
 
-The spreadsheets or statistical programs will likely mis-interpret blank cells that are meant to be zero. This is equivalent to leaving out data. Zero observations are real data! Leaving zero data blank is not good in a written lab notebook, but NEVER okay when you move your data into a digital format.
+The spreadsheets or statistical programs will likely mis-interpret blank cells that are meant to be zero. This is equivalent to leaving out data. Zero observations are real data! Leaving zero data blank is not good in a written format, but NEVER okay when you move your data into a digital format.
 
 
 ## Using bad null values {#null}
@@ -124,16 +123,16 @@ From White et al, 2013, [Nine simple ways to make it easier to (re)use your data
 
 ## Placing comments or units in cells {#units}
 
-**Example**: Your data was collected, in part, by a summer student who you later found out was mis-identifying some of your species, some of the time. You want a way to note these data are suspect.
+**Example**: Your data was collected, in part, by a summer student who you later found out was mis-recording the duration of training sessions, some of the time. You want a way to note these data are suspect.
 
 **Solution**: Most statistical programs can’t see Excel’s comments, and would be confused by comments placed within your data cells. As described above for formatting, create another field if you need to add notes to cells. Similarly, don’t include units in cells: ideally, all the measurements you place in one column should be in the same unit, but if for some reason they aren’t, create another field and specify the units the cell is in.
 
 
 ## More than one piece of information in a cell {#info}
 
-**Example**: You find one male, and one female of the same species. You enter this as 1M, 1F.
+**Example**: You had multiple instructors delivering the workshop. For example, you enter this as GQ & DF.
 
-**Solution**: Never include more than one piece of information in a cell. If you need both these measurements, design your data sheet to include this information.
+**Solution**: Never include more than one piece of information in a cell. If you need both these instructor initials, design your data sheet to include this information.
 
 
 ## Field name problems {#field_name}
