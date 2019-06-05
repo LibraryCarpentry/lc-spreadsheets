@@ -124,16 +124,16 @@ From White et al, 2013, [Nine simple ways to make it easier to (re)use your data
 
 ## Placing comments or units in cells {#units}
 
-**Example**: Your data was collected, in part, by a summer student who you later found out was mis-identifying some of your species, some of the time. You want a way to note these data are suspect.
+**Example**: After you created a table and the variables you needed to collect, you realized that somehow it needs to be noted when a class was cancelled.
 
-**Solution**: Most statistical programs can’t see Excel’s comments, and would be confused by comments placed within your data cells. As described above for formatting, create another field if you need to add notes to cells. Similarly, don’t include units in cells: ideally, all the measurements you place in one column should be in the same unit, but if for some reason they aren’t, create another field and specify the units the cell is in.
+**Solution**: Most statistical programs can’t see Excel’s comments, and would be confused by comments placed within your data cells. As described above for formatting, create another field if you need to add notes to cells. Similarly, don’t include units in cells (such as "hours"): ideally, all the units or measurements you place in one column should be in the same, but if for some reason they aren’t, create another field and specify the units.
 
 
 ## More than one piece of information in a cell {#info}
 
-**Example**: You find one male, and one female of the same species. You enter this as 1M, 1F.
+**Example**: You find out that different types of researchers have registered. You then put them in a single column.
 
-**Solution**: Never include more than one piece of information in a cell. If you need both these measurements, design your data sheet to include this information.
+**Solution**: Never include more than one piece of information in a cell. If you need to analye these by types, design your data sheet to include this information (separate columns for each different type).
 
 
 ## Field name problems {#field_name}
