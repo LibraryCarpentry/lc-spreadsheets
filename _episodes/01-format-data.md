@@ -16,6 +16,7 @@ authors:
   - Jez Cope
   - Christie Bahlai
   - Aleksandra Pawlik
+  - Sherry Lake
 contributors:
   - Jennifer Bryan
   - Alexander Duryee
