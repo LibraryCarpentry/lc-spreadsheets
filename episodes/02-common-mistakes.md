@@ -22,6 +22,7 @@ authors:
   - Jez Cope
   - Christie Bahlai
   - Aleksandra Pawlik
+  - Sherry Lake
 contributors:
   - Jennifer Bryan
   - Alexander Duryee
@@ -87,6 +88,8 @@ It might be that when you're measuring something, it's
 usually a zero, say the number of participants at a training event. Why bother
 writing in the number zero in that column, when it's mostly zeros?
 
+
+
 However, there's a difference between a zero and a blank cell in a spreadsheet. To the computer, a zero is actually data. You measured or counted it. A blank cell means that it wasn't measured and the computer will interpret it as a null value.
 
 The spreadsheets or statistical programs will likely mis-interpret blank cells that are meant to be zero. This is equivalent to leaving out data. Zero observations are real data! Leaving zero data blank is not good in a written format, but NEVER okay when you move your data into a digital format.
@@ -123,26 +126,19 @@ From White et al, 2013, [Nine simple ways to make it easier to (re)use your data
 
 ## Placing comments or units in cells {#units}
 
-<<<<<<< HEAD
-**Example**: After you created a table and the variables you needed to collect, you realized that somehow it needs to be noted when a class was cancelled.
-=======
 **Example**: Your data was collected, in part, by a summer student who you later found out was mis-recording the duration of training sessions, some of the time. You want a way to note these data are suspect.
->>>>>>> 8869fca15525a005354b11902a5d2eee9c4482fe
 
 **Solution**: Most statistical programs can’t see Excel’s comments, and would be confused by comments placed within your data cells. As described above for formatting, create another field if you need to add notes to cells. Similarly, don’t include units in cells (such as "hours"): ideally, all the units or measurements you place in one column should be in the same, but if for some reason they aren’t, create another field and specify the units.
 
 
 ## More than one piece of information in a cell {#info}
 
-<<<<<<< HEAD
-**Example**: You find out that different types of researchers have registered. You then put them in a single column.
+**Example**: 
+You had multiple instructors delivering the workshop. For example, you enter this as GQ & DF.
 
-**Solution**: Never include more than one piece of information in a cell. If you need to analye these by types, design your data sheet to include this information (separate columns for each different type).
-=======
-**Example**: You had multiple instructors delivering the workshop. For example, you enter this as GQ & DF.
+**Solution**: 
+Never include more than one piece of information in a cell. If you need both these instructor initials, design your data sheet to include this information.
 
-**Solution**: Never include more than one piece of information in a cell. If you need both these instructor initials, design your data sheet to include this information.
->>>>>>> 8869fca15525a005354b11902a5d2eee9c4482fe
 
 
 ## Field name problems {#field_name}
