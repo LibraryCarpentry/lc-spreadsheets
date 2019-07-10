@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Setup
-root: .
 ---
 ### Spreadsheets
 

@@ -1,6 +1,5 @@
 ---
 layout: lesson
-root: .
 contributors: ["Jez Cope", "Christie Bahlai", "Aleksandra Pawlik", "Jennifer Bryan", "Alexander Duryee", "Jeffrey Hollister", "Daisie Huang", "Owen Jones", "Ben Marwick", "Tracy Teal"]
 maintainers:
   - Jez Cope
