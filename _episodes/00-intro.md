@@ -5,7 +5,7 @@ exercises: 20
 questions:
   - What are good data practices?
 objectives:
-  - 
+  - Understanding some drawbacks and advantages of using spreadsheet programs
 keypoints:
   - We will discuss good practices for data entry and formatting
   - We will not discuss analysis or visualisation
