@@ -26,7 +26,7 @@ source spreadsheet program.
     Install LibreOffice by going to the [installation
     page](https://www.libreoffice.org/download/libreoffice-fresh/). The
     version for Windows should automatically be selected. Click
-    **Download Version 4.4.2**. You will go to a page that asks about a
+    **Download**. You will go to a page that asks about a
     donation, but you don't need to make one. Your download should begin
     automatically.
 -   **Install LibreOffice**  
@@ -43,11 +43,11 @@ source spreadsheet program.
     Install LibreOffice by going to the [installation
     page](https://www.libreoffice.org/download/libreoffice-fresh/). The
     version for Mac OS X should automatically be selected. Click
-    **Download Version 4.4.2**. You will go to a page that asks about a
+    **Download**. You will go to a page that asks about a
     donation, but you don't need to make one. Your download should begin
     automatically.
 -   **Install LibreOffice**  
-    The file *LibreOffice\_4.4.2\_MacOS\_x86-64* should have been
+    The file *LibreOffice\_X.X.X\_MacOS\_x86-64* (whichever version of LibreOffice you have selected) should have been
     downloaded. Double click on this file, and LibreOffice will be
     installed.
 
@@ -60,8 +60,7 @@ source spreadsheet program.
 -   **Download the Installer**  
     Install LibreOffice by going to the [installation
     page](https://www.libreoffice.org/download/libreoffice-fresh/). The
-    version for Linux should automatically be selected. Click **Download
-    Version 4.4.2**. You will go to a page that asks about a donation,
+    version for Linux should automatically be selected. Click **Download**. You will go to a page that asks about a donation,
     but you don't need to make one. Your download should begin
     automatically.
 -   **Install LibreOffice**  
