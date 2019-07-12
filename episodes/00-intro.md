@@ -112,13 +112,9 @@ package you're most likely to have available on your work computer.
 
 ---
 
-> ## Questions
+> ## Question
 > 
-> - Spreadsheets can be very useful, but they can also be frustrating
->   and even sometimes give us incorrect results.
-> 
-> - What are some things that you've accidentally done in a
->   spreadsheet, or have been frustrated that you can't do easily?
+> - Spreadsheets can be very useful, but they can also be frustrating and even sometimes give us incorrect results. What are > > some things that you've accidentally done in a spreadsheet, or have been frustrated that you can't do easily?
 {: .challenge}
 
 ---
