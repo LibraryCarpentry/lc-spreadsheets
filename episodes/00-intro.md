@@ -5,7 +5,8 @@ exercises: 20
 questions:
   - What are good data practices?
 objectives:
-  - 
+  - Understanding some drawbacks and advantages of using spreadsheet programs
+  - Distinguish machine readable tidy data from data that is easy to read for humans
 keypoints:
   - We will discuss good practices for data entry and formatting
   - We will not discuss analysis or visualisation
