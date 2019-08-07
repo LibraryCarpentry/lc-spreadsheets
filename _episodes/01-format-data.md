@@ -28,9 +28,7 @@ contributors:
 ---
 
 
-The most common mistake made is treating the program like it is a notebook
-- that is, relying on **context**, notes in the margin,
-spatial layout of data and fields to convey information.
+The most common mistake made is treating the program like it is a notebook by relying on context, notes in the margin, spatial layout of data and fields to convey information.
 As humans,
 we can (usually) interpret these things,
 but computers are dumb,
@@ -44,15 +42,11 @@ but to use that power,
 we have to set up our data for the computer to be able to understand it
 (and computers are very literal).
 
-This is why it’s extremely important to set up **well-formatted tables** from the outset
-- before you even start collecting data to analyse.
+This is why it’s extremely important to set up well-formatted tables from the outset **before** you even start collecting data to analyse.
 **Data organization is the foundation of your data-related work.**
-It can make it easier or harder to work with your data,
-whatever the ultimate goal,
-so it's worth thinking about when you're doing your data entry.
-You can set things up in a different way in spreadsheets,
-but it limits your ability to work with the data in other programs
-or have the you-of-6-months-from-now or your collaborator work with the data.
+Unorganized data can make it harder to work with your data,
+so you should be mindful of your data organization when doing your data entry.
+You'll want to organize your data in a way that allows other programs and people to easily understand and use the data.
 
 > **Note:** the best layouts/formats (as well as software and
 > interfaces) for **data entry** and **data analysis** might be
@@ -61,11 +55,11 @@ or have the you-of-6-months-from-now or your collaborator work with the data.
 
 ### Keeping track of your analyses
 
-When you're working with spreadsheets, during data clean up or analyses, it's
+When working with spreadsheets during data clean up or analyses, it's
 very easy to end up with a spreadsheet that looks very different from the one
 you started with. In order to be able to reproduce your analyses or figure out
 what you did when your leadership team ask for a different analysis,
-**you must**
+you **must:**
 
 - **create a new file or tab with your cleaned or analyzed data.** Do
   not modify that original dataset, or you will never know where you
@@ -80,7 +74,7 @@ This might be an example of a spreadsheet setup:
 
 ![spreadsheet setup](../fig/spreadsheet-setup.png)
 
-Put these principles in to practice today during your Exercises.
+We will put these principles into practice today during your exercises.
 
 
 ### Structuring data in spreadsheets
@@ -146,7 +140,7 @@ with this data and how you fixed it.
 > ## Important ##
 >
 > Do not forget of our first piece of advice:
-> **create a new file (or tab)** for the cleaned data, **never
+> **create a new file (or tab)** for the cleaned data, and **never
 > modify the original (raw) data**.
 {: .callout}
 
