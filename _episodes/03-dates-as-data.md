@@ -149,12 +149,12 @@ What will happen if you save the file in Excel (in `csv` format) and then open t
 
 Storing dates in YEAR, MONTH, DAY format helps remove this ambiguity. Let's look at this issue a bit closer.
 
-For instance this is a spreadsheet representing insect counts that were taken every few days over the summer, and things went something like this:
+For instance this is a spreadsheet representing insect counts that were taken every few days over the summer of 2001, and things went something like this:
 
 ![So, so ambiguous, it's even confusing Excel](../fig/6_excel_dates_2.jpg)
 
 
-If Excel was to be believed, this person had been collecting bugs IN THE FUTURE. Now, we have no doubt this person is highly capable, but I believe time travel was beyond even his grasp.
+If Excel was to be believed, this person had been collecting bugs in 2010, 2014, 2015 and 2017 even though it is stated that the data was gathered in the summer of 2001.
 
 Entering dates in one cell is helpful but due to the fact that the spreadsheet programmes may interpret and save the data in different ways (doing that somewhat behind the scenes), there is a better practice.
 
