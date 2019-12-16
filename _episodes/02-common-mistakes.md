@@ -128,7 +128,7 @@ From White et al, 2013, [Nine simple ways to make it easier to (re)use your data
 
 **Example**: Your data was collected, in part, by a summer student who you later found out was mis-recording the duration of training sessions, some of the time. You want a way to note these data are suspect.
 
-**Solution**: Most statistical programs can’t see Excel’s comments, and would be confused by comments placed within your data cells. As described above for formatting, create another field if you need to add notes to cells. Similarly, don’t include units in cells (such as "hours"): ideally, all the units or measurements you place in one column should be in the same, but if for some reason they aren’t, create another field and specify the units.
+**Solution**: Most statistical programs can’t see Excel’s comments, and would be confused by comments placed within your data cells. As described above for formatting, create another field if you need to add notes to cells. Similarly, don’t include units in cells (such as "hours","min"): ideally, all the units or measurements you place in one column should be of the same standard, but if for some reason they aren’t, insert another column and specify the units.
 
 
 ## More than one piece of information in a cell {#info}
