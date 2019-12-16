@@ -53,6 +53,10 @@ Let's try with a simple challenge.
 > ```
 > 
 > (Make sure the new column is formatted as a number and not as a date.)
+> > ## Solution
+> > ![dates, exersize 1](../fig/solution_exercise_1_dates.png)
+> > {: .output}
+> {: .solution}
 {: .challenge}
 
 > ## Discussion
