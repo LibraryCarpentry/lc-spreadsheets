@@ -42,48 +42,47 @@ conserve the timestamps you are better off handling them using custom solutions.
 Let's try with a simple challenge.
 
 > ## Challenge: pulling month, day and year out of dates ##
-> 
-> - In the `Dates` tab of your Excel file you have some more training data from 2017. There's a `date` column.
+>
+> - In the `Dates` tab of your Excel file we summarized training data from 2016. There's a `date` column.
 > - Let’s extract month and year from the dates to new columns. For this we can use the built in Excel functions
-> 
+>
 > ```
 > =MONTH(A3)
 > =DAY(A3)
 > =YEAR(A3)
 > ```
-> 
+>
 > (Make sure the new column is formatted as a number and not as a date.)
+>
+> You can see that even though you wanted the year to be 2015 for all entries, your spreadsheet program interpreted two entries as 2017, the year you entered the data.
+>
 > > ## Solution
 > > ![dates, exersize 1](../fig/solution_exercise_1_dates.png)
 > > {: .output}
 > {: .solution}
 {: .challenge}
 
-> ## Discussion
->
-> You can see that some entries have been added more recently,
-> and even though the person adding them intended 2015,
-> Excel has actually used the current year (2017).
-{: .discussion}
-
-> ## Exercise: pulling hour, minute and second out of the current time ##
-> 
-> Current time and date are best retrieved using the functions `NOW()`, which
-> returns the current date and time, and `TODAY()`, which returns the current
-> date. The results will be formatted according to your computer's settings.
-> 
-> - Try to extract the year, month and day from the current date and time string
-> returned by the `NOW()` function.
-> - Calculate the current time using `NOW()-TODAY()`.
-> - Try to extract the hour, minute and second from the current time using
-> functions `HOUR()`, `MINUTE()` and `SECOND()`.
-> - press `F9` to force the spreadsheet to recalculate the `NOW()` function,
-> and check that it has been updated.
-{: .challenge}
-
 ## Preferred date format
 
 Instead it is much safer to store dates with [MONTH, DAY and YEAR](#day) in separate columns or as [YEAR and DAY-OF-YEAR](#doy) in separate columns.
+
+> ## Exercise: pulling hour, minute and second out of the current time ##
+>
+> Current time and date are best retrieved using the functions `NOW()`, which
+> returns the current date and time, and `TODAY()`, which returns the current
+> date. The results will be formatted according to your computer's settings.
+> * In an empty cell, try to extract the year, month and day from the current date and time string returned by the `NOW()`` function.
+>```
+> =YEAR(NOW())
+> =MONTH( ____ ())
+> =____( ____ ())
+> ```
+>
+> - Calculate the current time using `NOW()-TODAY()`. Note that the default output will be a decimal, not in the hh:mm:ss format.
+> - Try to extract the hour, minute and second from the current time using functions `HOUR()`, `MINUTE()` and `SECOND()`.
+> - Press <kbd>F9</kbd> to force the spreadsheet to recalculate the `NOW()`` function, and check that it has been updated. Note, on some keyboards you may need to press <kbd>Fn</kbd> + <kbd>F9</kbd> keys together.
+{: .challenge}
+
 
 > ## Note
 >
@@ -98,7 +97,7 @@ Spreadsheet programs have numerous “useful features” which allow them to “
 
 ![Many formats, many ambiguities](../fig/5_excel_dates_1.jpg)
 
-But these ‘features’ often allow ambiguity to creep into your data. Ideally, data should be as unambiguous as possible. 
+But these ‘features’ often allow ambiguity to creep into your data. Ideally, data should be as unambiguous as possible.
 
 ### Dates stored as integers
 
@@ -110,9 +109,9 @@ This serial number thing can actually be useful in some circumstances. By using
 the above functions we can easily add days, months or years to a given date.
 Say you had a sampling plan where you needed to sample every thirty seven days.
 In another cell, you could type:
-    
+
     =B2+37
-    
+
 And it would return
 
     8-Aug
@@ -124,26 +123,26 @@ formatting to the cell before, and then all bets are off). Month and year
 rollovers are internally tracked and applied.
 
 > ## Note
-> 
+>
 > Adding years and months and days is slightly trickier because we need to make
 > sure that we are adding the amount to the correct entity.
-> 
+>
 > - First we extract the single entities (day, month or year)
 > - We can then add values to to that
 > - Finally the complete date string is reconstructed using the `DATE()` function.
-> 
+>
 > As for dates, times are handled in a similar way; seconds cam be directly
 > added but to add hour and minutes we need to make sure that we are adding
 > the quantities to the correct entities.
 {: .callout}
 
-Which brings us to the many different ways Excel provides in how it displays dates. If you refer to the figure above, you’ll see that there are many, MANY ways that ambiguity creeps into your data depending on the format you chose when you enter your data, and if you’re not fully cognizant of which format you’re using, you can end up actually entering your data in a way that Excel will badly misinterpret. 
+Which brings us to the many different ways Excel provides in how it displays dates. If you refer to the figure above, you’ll see that there are many, MANY ways that ambiguity creeps into your data depending on the format you chose when you enter your data, and if you’re not fully cognizant of which format you’re using, you can end up actually entering your data in a way that Excel will badly misinterpret.
 
-**Question**  
-What will happen if you save the file in Excel (in `csv` format) and then open the file using a plain text editor? 
+**Question**
+What will happen if you save the file in Excel (in `csv` format) and then open the file using a plain text editor?
 
 > ## Note
-> 
+>
 > You will notice that when exporting into a text-based format (such as CSV), Excel will export its internal date integer instead of a useful value (that is, the dates will be represented as integer numbers). This can potentially lead to problems, if you use other software to manipulate the file.
 {: .callout}
 
@@ -162,15 +161,15 @@ If Excel was to be believed, this person had been collecting bugs in 2010, 2014,
 
 Entering dates in one cell is helpful but due to the fact that the spreadsheet programmes may interpret and save the data in different ways (doing that somewhat behind the scenes), there is a better practice.
 
-In dealing with dates in spreadsheets, we recommend separating **date data into separate fields** (day, month, year), which will eliminate any chance of ambiguity. 
+In dealing with dates in spreadsheets, we recommend separating **date data into separate fields** (day, month, year), which will eliminate any chance of ambiguity.
 
 ### Storing dates as YEAR, DAY-OF-YEAR {#doy}
 
-There is also another option:  
+There is also another option:
 You can also store dates as year, and day of year (DOY). Why? Because depending on your
 question, this might be what's useful to you, and there is practically no possibility for ambiguity creeping in.
 
-Statistical models often incorporate year as a factor, to account for year-to-year variation, and DOY can be used to measure the passage of time within a year. 
+Statistical models often incorporate year as a factor, to account for year-to-year variation, and DOY can be used to measure the passage of time within a year.
 
 So, can you convert all your dates into DOY format? Well, in Excel, here’s a handy dandy guide:
 
