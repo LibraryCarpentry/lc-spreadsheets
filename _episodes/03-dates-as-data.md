@@ -43,7 +43,7 @@ Let's try with a challenge.
 
 > ## Challenge: pulling month, day and year out of dates ##
 >
-> - In the `Dates` tab of your Excel file you have some more training data from 2017. There's a `date` column.
+> - In the `Dates` tab of your Excel file we summarized training data from 2016. There's a `date` column.
 > - Let’s extract month and year from the dates to new columns. For this we can use the built in Excel functions
 >
 > ```
@@ -53,37 +53,36 @@ Let's try with a challenge.
 > ```
 >
 > (Make sure the new column is formatted as a number and not as a date.)
+>
+> You can see that even though you wanted the year to be 2015 for all entries, your spreadsheet program interpreted two entries as 2017, the year you entered the data.
+>
 > > ## Solution
 > > ![dates, exersize 1](../fig/solution_exercise_1_dates.png)
 > > {: .output}
 > {: .solution}
 {: .challenge}
 
-> ## Discussion
->
-> You can see that some entries have been added more recently,
-> and even though the person adding them intended 2015,
-> Excel has actually used the current year (2017).
-{: .discussion}
+## Preferred date format
+
+Instead it is much safer to store dates with [MONTH, DAY and YEAR](#day) in separate columns or as [YEAR and DAY-OF-YEAR](#doy) in separate columns.
 
 > ## Exercise: pulling hour, minute and second out of the current time ##
 >
 > Current time and date are best retrieved using the functions `NOW()`, which
 > returns the current date and time, and `TODAY()`, which returns the current
 > date. The results will be formatted according to your computer's settings.
+> * In an empty cell, try to extract the year, month and day from the current date and time string returned by the `NOW()`` function.
+>```
+> =YEAR(NOW())
+> =MONTH( ____ ())
+> =____( ____ ())
+> ```
 >
-> - Try to extract the year, month and day from the current date and time string
-> returned by the `NOW()` function.
-> - Calculate the current time using `NOW()-TODAY()`.
-> - Try to extract the hour, minute and second from the current time using
-> functions `HOUR()`, `MINUTE()` and `SECOND()`.
-> - press `F9` to force the spreadsheet to recalculate the `NOW()` function,
-> and check that it has been updated.
+> - Calculate the current time using `NOW()-TODAY()`. Note that the default output will be a decimal, not in the hh:mm:ss format.
+> - Try to extract the hour, minute and second from the current time using functions `HOUR()`, `MINUTE()` and `SECOND()`.
+> - Press <kbd>F9</kbd> to force the spreadsheet to recalculate the `NOW()`` function, and check that it has been updated. Note, on some keyboards you may need to press <kbd>Fn</kbd> + <kbd>F9</kbd> keys together.
 {: .challenge}
 
-## Preferred date format
-
-Instead it is much safer to store dates with [MONTH, DAY and YEAR](#day) in separate columns or as [YEAR and DAY-OF-YEAR](#doy) in separate columns.
 
 > ## Note
 >
