@@ -73,9 +73,7 @@ allow whole numbers between 1 and 100.
 
 ![Image of Data Validation window for validating plot values](../fig/4_data-validation-whole-num.png)
 
-Now let's try entering a new value in the plot column that isn't a valid
-plot. The spreadsheet stops us from entering the wrong value and asks us if we
-would like to try again.
+Now let's try entering a new value in the num_registered column that isn't a valid class size. The spreadsheet stops us from entering the wrong value and asks us if we would like to try again.
 
 ![Image of error when trying to enter invalid data](../fig/4_data-validation-alert.png)
 
