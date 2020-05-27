@@ -71,23 +71,23 @@ allow whole numbers between 1 and 100.
 3. In the `Allow` box select `Whole number`
 4. Set the minimum and maximum values to 1 and 100.
 
-![Image of Data Validation window for validating plot values](../fig/plot_validation.png)
+![Image of Data Validation window for validating plot values](../fig/4_data-validation-whole-num.png)
 
 Now let's try entering a new value in the plot column that isn't a valid
 plot. The spreadsheet stops us from entering the wrong value and asks us if we
 would like to try again.
 
-![Image of error when trying to enter invalid data](../fig/invalid_value.png)
+![Image of error when trying to enter invalid data](../fig/4_data-validation-alert.png)
 
 You can also customize the resulting message to be more informative by entering
 your own message in the `Input Message` tab
 
-![Image of Input Message tab](../fig/input_message.png)
+![Image of Input Message tab](../fig/4_data-validation-input-message.png)
 
 and allow invalid data to just result in a warning by modifying the `Style`
 option on the `Error Alert` tab.
 
-![Image of Error Alert tab](../fig/error_alert.png)
+![Image of Error Alert tab](../fig/4_data-validation-error-msg.png)
 
 Quality assurance can make data entry easier as well as more robust. For
 example, if you use a list of options to restrict data entry, the spreadsheet
@@ -95,7 +95,7 @@ will provide you with a drop-downlist of the available items. So, instead of
 trying to remember the initials of all your trainers, you can just select the
 right option from the list.
 
-![Image of drop-down menu](../fig/drop_down_list.png)
+![Image of drop-down menu](../fig/4_data-validation-auto-complete.png)
 
 # Quality Control
 
@@ -104,9 +104,7 @@ right option from the list.
 > Before doing any quality control operations, save your original file with the formulas and a name indicating it is the original data. Create a **separate file** with appropriate naming and versioning, and ensure your data is stored as **values** and not as **formulas**.  Because formulas refer to other cells, and you may be moving cells around, you may compromise the integrity of your data if you do not take this step!
 {: .callout}
 
-**readMe (README) files:** As you start manipulating your data files, create a readMe document / text file to keep track of your files and document your manipulations so that they may be easily understood and replicated, either by your future self or by an independent researcher. Your readMe file should document all of the files in your data set (including documentation), describe their content and format, and lay out the organizing principles of folders and subfolders. For each of the separate files listed, it is a good idea to document the manipulations or analyses that were carried out on those data.
-
-<!-- [Example: converting all data to values: use soybean aphid suction trap dataset for this section] -->
+**readme (README) files:** As you start manipulating your data files, create a readme document / text file to keep track of your files and document your manipulations so that they may be easily understood and replicated, either by your future self or by an independent researcher. Your readme file should document all of the files in your data set (including documentation), describe their content and format, and lay out the organizing principles of folders and subfolders. For each of the separate files listed, it is a good idea to document the manipulations or analyses that were carried out on those data. [Cornell University’s Research Data Management Service Group](https://data.research.cornell.edu/content/readme) provides detailed guidelines for how to write a good readMe file, along with an adaptable template.
 
 ## Sorting
 
@@ -133,16 +131,19 @@ If your dataset is well-structured and does not contain formulas, sorting should
 Use with caution! But a great way to flag inconsistent values when entering data.
 
 Conditional formatting basically can do something like color code your values by some
-criteria or lowest to highest. This makes it easy to scan your data for outliers.
+criteria or from lowest to highest. This makes it easy to scan your data for outliers. It is nice to be able to do these scans in spreadsheets, but we also can do these
+checks in a programming language like Python or R, or in OpenRefine or SQL.
 
 > ## Exercise
 >
-> Let's try this again with weight. Go to **Format** then **Conditional Formatting**.
+> 1. Make sure the `num_attended` column is highlighted.
+> 1. Go to **Format** then **Conditional Formatting**.
+> 1. Apply any 2-Color Scale formatting rule.
+> 1. Now we can scan through and different colors will stand out. Do you notice any strange values?
 >
-> We'll do the *2-Color Scale* with Lowest to Highest for the orange colors. Then we'll
-> apply that to the `len_hours` column again. Now we can scan through and different colors will
-> stand out. Again, do we notice any strange values?
->
-> It is nice to do be able to do these scans in spreadsheets, but we also can do these
-> checks in a programming language like Python or R, or in OpenRefine or SQL.
+>> ## Solution
+>> We can see two outlier cells of 0 and can see these two classes were cancled.
+>>![Conditional Formatting](../fig/4_conditional-formatting.png)
+>>{: .output}
+> {: .solution}
 {: .challenge}
