@@ -116,13 +116,23 @@ If your dataset is well-structured and does not contain formulas, sorting should
 > Let's try this with the *Date* tab in our messy spreadsheet. Go to that tab. Select
 > **Data** then select **Sort**
 >
-> Sort by `date` in the order *Smallest to Largest* or *Oldest to Newest*
->
-> ![Figure of Sorting menu](../fig/sort-date.png)
+> Sort by `len_hours` in the order *Largest to Smallest*
 >
 > - When you do this sort, do you notice anything strange?
 >
 > - Try sorting by other columns. Anything strange there?
+>
+>> ## Solution
+>>
+>> Click the <kbd>Sort</kbd> button on the <kbd>Data</kbd> tab in Excel. A pop-up will appear.
+>>
+>> The following window will display, choose the column you want to sort as well as the sort order.
+>>
+>>![Figure of Sorting menu](../fig/4-sort-len_hours.png)
+>>
+>>Note how the odd values sort to the top. The cells containing  “min” or "hour" are   found towards the top. Larger values like 90, 60 and 15 also are sorted so you can evaluate them. This is a powerful way to check your data for outliers and odd values.
+>>![Sorted data](../fig/4-sorted-len_hours.png)
+> {: .solution}
 {: .challenge}
 
 
