@@ -39,7 +39,7 @@ Gnumeric, etc.) are usually guaranteed to be compatible only within the same
 family of products. If you will later need to export the data and need to
 conserve the timestamps you are better off handling them using custom solutions.
 
-Let's try with a simple challenge.
+Let's try with a challenge.
 
 > ## Challenge: pulling month, day and year out of dates ##
 >
