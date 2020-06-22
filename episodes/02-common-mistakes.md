@@ -10,7 +10,7 @@ keypoints:
   - "Don't use multiple tables in one sheet"
   - "Don't use multiple tabs in a file"
   - Fill in zero when you mean zero
-  - Use a blank cell to indicate a null value
+  - Use an appropriate null value to record missing data
   - "Don't use formatting to convey information or make the data look pretty"
   - "Don't put units or comments in cells"
   - "Don't combine several values in one cell"
