@@ -43,21 +43,21 @@ Let's try with a challenge.
 
 > ## Challenge: pulling month, day and year out of dates ##
 >
-> - In the `Dates` tab of your Excel file we summarized training data from 2016. There's a `date` column.
-> - Let’s extract month and year from the dates to new columns. For this we can use the built in Excel functions
+> - In the `Dates` tab of your Excel file we summarized training data from 2015. There's a `date` column.
+> - Let’s extract month, day and year from the date to three new columns. For this we can use the built in Excel functions
 >
 > ```
-> =MONTH(A3)
-> =DAY(A3)
-> =YEAR(A3)
+> =MONTH(A2)
+> =DAY(A2)
+> =YEAR(A2)
 > ```
 >
-> (Make sure the new column is formatted as a number and not as a date.)
+> (Make sure the new column is formatted as a number and not as a date. Change the function to correspond to each row - i.e., =MONTH(A3), =DAY(A3), =YEAR(A3) for the next row.)
 >
 > You can see that even though you wanted the year to be 2015 for all entries, your spreadsheet program interpreted two entries as 2017, the year you entered the data.
 >
 > > ## Solution
-> > ![dates, exersize 1](../fig/solution_exercise_1_dates.png)
+> > ![dates, exersize 1](../fig/3_Dates_as_Columns.png)
 > > {: .output}
 > {: .solution}
 {: .challenge}
