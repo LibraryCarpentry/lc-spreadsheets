@@ -134,10 +134,10 @@ From White et al, 2013, [Nine simple ways to make it easier to (re)use your data
 ## More than one piece of information in a cell {#info}
 
 **Example**: 
-You had multiple instructors delivering the workshop. For example, you enter this as GQ & DF.
+One table recorded attendance by the different types of attendees. This table recorded number of attendees of different types: post-graduate researcher (PGR), post-doctoral research associate (PDRA), and other. 
 
 **Solution**: 
-Never include more than one piece of information in a cell. If you need both these instructor initials, design your data sheet to include this information.
+Never include more than one piece of information in a cell. Design your data sheet to include a column for each type of attendee, if this information is important to collect, rather than just a total number.
 
 
 
