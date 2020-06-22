@@ -11,7 +11,7 @@ keypoints:
   - "Don't use multiple tabs in a file"
   - Fill in zero when you mean zero
   - Use an appropriate null value to record missing data
-  - "Don't use formatting to convey information or make the data look pretty"
+  - "Don't use formatting to convey information or make the spreadsheet look pretty"
   - "Don't put units or comments in cells"
   - "Don't combine several values in one cell"
   - "Take care over column names"
