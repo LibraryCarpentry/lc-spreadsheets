@@ -23,6 +23,7 @@ contributors:
   - Owen Jones
   - Ben Marwick
   - Ethan White
+  - Sherry Lake
 ---
 
 
@@ -91,7 +92,7 @@ option on the `Input Message` tab.
 Quality assurance can make data entry easier as well as more robust. For
 example, if you use a list of options to restrict data entry, the spreadsheet
 will provide you with a drop-downlist of the available items. So, instead of
-trying to remember the initials of all your trainers, you can just select the
+trying to remember the workshop title abbreviation, you can just select the
 right option from the list.
 
 ![Image of drop-down menu](../fig/4_data-validation-auto-complete.png)
