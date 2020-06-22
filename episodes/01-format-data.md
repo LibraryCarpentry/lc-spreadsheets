@@ -7,10 +7,13 @@ questions:
 objectives:
   - "Describe best practices for data entry and formatting in spreadsheets."
   - "Apply best practices to arrange variables and observations in a spreadsheet."
+  
 keypoints:
   - Use one column for one variable
   - Use one row for one observation
   - Use one cell for one value
+  - Never modify your raw data. Always make a copy before making any changes.
+  - Keep all of the steps you take to clean your data in a plain text file.
 
 authors:
   - Jez Cope
