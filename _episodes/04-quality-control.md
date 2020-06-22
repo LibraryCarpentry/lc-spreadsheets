@@ -3,7 +3,7 @@ title: Basic quality assurance and control, and data manipulation in spreadsheet
 teaching: 20
 exercises: 10
 questions:
-  - "How can you keep data clean and sane?"
+  - "How can you keep data entry clean?"
 objectives:
   - "Apply quality assurance techniques to limit incorrect data entry."
   - "Apply quality control techniques to identify errors in spreadsheets."
