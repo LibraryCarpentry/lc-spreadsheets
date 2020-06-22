@@ -113,7 +113,7 @@ If your dataset is well-structured and does not contain formulas, sorting should
 
 > ## Exercise
 >
-> Let's try this with the *Date* tab in our messy spreadsheet. Go to that tab. Select
+> Let's try this with the *Dates* tab in our messy spreadsheet. Go to that tab. Select
 > **Data** then select **Sort**
 >
 > Sort by `len_hours` in the order *Largest to Smallest*
