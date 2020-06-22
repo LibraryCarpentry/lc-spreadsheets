@@ -78,14 +78,15 @@ Now let's try entering a new value in the num_registered column that isn't a val
 ![Image of error when trying to enter invalid data](../fig/4_data-validation-alert.png)
 
 You can also customize the resulting message to be more informative by entering
-your own message in the `Input Message` tab
-
-![Image of Input Message tab](../fig/4_data-validation-input-message.png)
-
-and allow invalid data to just result in a warning by modifying the `Style`
-option on the `Error Alert` tab.
+your own message in the `Error Alert` tab
 
 ![Image of Error Alert tab](../fig/4_data-validation-error-msg.png)
+
+
+to display a message about the correct values for a column with Data Validation set, you can edit the `Style`
+option on the `Input Message` tab.
+
+![Image of Input Message tab](../fig/4_data-validation-input-message.png)
 
 Quality assurance can make data entry easier as well as more robust. For
 example, if you use a list of options to restrict data entry, the spreadsheet
