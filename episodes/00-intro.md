@@ -1,5 +1,5 @@
 ---
-title: Using spreadsheet programs for data wrangling
+title: Using spreadsheet programs for data organization
 teaching: 10
 exercises: 20
 questions:
