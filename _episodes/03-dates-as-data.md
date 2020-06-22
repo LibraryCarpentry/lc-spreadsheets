@@ -66,29 +66,14 @@ Let's try with a challenge.
 
 Instead it is much safer to store dates with [MONTH, DAY and YEAR](#day) in separate columns or as [YEAR and DAY-OF-YEAR](#doy) in separate columns.
 
-> ## Exercise: pulling hour, minute and second out of the current time ##
->
-> Current time and date are best retrieved using the functions `NOW()`, which
-> returns the current date and time, and `TODAY()`, which returns the current
-> date. The results will be formatted according to your computer's settings.
-> * In an empty cell, try to extract the year, month and day from the current date and time string returned by the `NOW()`` function.
->```
-> =YEAR(NOW())
-> =MONTH( ____ ())
-> =____( ____ ())
-> ```
->
-> - Calculate the current time using `NOW()-TODAY()`. Note that the default output will be a decimal, not in the hh:mm:ss format.
-> - Try to extract the hour, minute and second from the current time using functions `HOUR()`, `MINUTE()` and `SECOND()`.
-> - Press <kbd>F9</kbd> to force the spreadsheet to recalculate the `NOW()`` function, and check that it has been updated. Note, on some keyboards you may need to press <kbd>Fn</kbd> + <kbd>F9</kbd> keys together.
-{: .challenge}
 
+**Note**: Excel is unable to parse dates from before 1899-12-31, and will thus leave these untouched.  If you’re mixing historic data
+from before and after this date, Excel will translate only the post-1900 dates into its internal format, thus resulting in mixed data.
+If you’re working with historic data, be extremely careful with your dates!
 
-> ## Note
->
-> Excel is unable to parse dates from before 1899-12-31, and will thus leave these untouched.  If you’re mixing historic data from before and after this date, Excel will translate only the post-1900 dates into its internal format, thus resulting in mixed data.  If you’re working with historic data, be extremely careful with your dates!
-> Excel also entertains a second date system, the 1904 date system, as the default in Excel for Macintosh. This system will assign a different serial number than the [1900 date system](https://support.microsoft.com/en-ca/help/214330/differences-between-the-1900-and-the-1904-date-system-in-excel). Because of this, [dates must be checked for accuracy when exporting data from Excel](https://uc3.cdlib.org/2014/04/09/abandon-all-hope-ye-who-enter-dates-in-excel/) (look for dates that are ~4 years off).
-{: .callout}
+Excel also entertains a second date system, the 1904 date system, as the default in Excel for Macintosh. This system will assign a
+different serial number than the [1900 date system](https://support.microsoft.com/en-us/help/214330/differences-between-the-1900-and-the-1904-date-system-in-excel). Because of this,
+[dates must be checked for accuracy when exporting data from Excel](http://uc3.cdlib.org/2014/04/09/abandon-all-hope-ye-who-enter-dates-in-excel/) (look for dates that are ~4 years off). 
 
 
 ## Data formats in spreadsheets
