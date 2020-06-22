@@ -3,7 +3,7 @@ title: Using spreadsheet programs for data organization
 teaching: 10
 exercises: 20
 questions:
-  - What are good data practices?
+  - What are good data practices for using spreadsheets for organizing data?
 objectives:
   - Understanding some drawbacks and advantages of using spreadsheet programs
   - Distinguish machine readable tidy data from data that is easy to read for humans
@@ -114,7 +114,7 @@ package you're most likely to have available on your work computer.
 
 > ## Question
 > 
-> - Spreadsheets can be very useful, but they can also be frustrating and even sometimes give us incorrect results. What are > > some things that you've accidentally done in a spreadsheet, or have been frustrated that you can't do easily?
+> - Spreadsheets can be very useful, but they can also be frustrating and even sometimes give us incorrect results. What are some things that you've accidentally done in a spreadsheet, or have been frustrated that you can't do easily?
 {: .challenge}
 
 ---
