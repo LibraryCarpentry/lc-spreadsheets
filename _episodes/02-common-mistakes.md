@@ -153,7 +153,7 @@ Underscores (`_`) are a good alternative to spaces and consider writing names in
 | Precipitation\_mm  | Precipitation      | precmm               |
 | Mean\_year\_growth | MeanYearGrowth     | Mean growth/year	 |
 | sex                | sex                | M/F                  |
-| weight             | weight             | w.                   |
+| length             | length             | l                   |
 | cell\_type         | CellType           | Cell Type            |
 | Observation\_01    | first\_observation | 1st Obs              |
 
