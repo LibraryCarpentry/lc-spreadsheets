@@ -1,5 +1,5 @@
 ---
-title: Basic quality assurance and control, and data manipulation in spreadsheets
+title: Basic quality assurance and control
 teaching: 20
 exercises: 10
 questions:
