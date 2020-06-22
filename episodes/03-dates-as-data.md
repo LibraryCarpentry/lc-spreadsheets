@@ -10,7 +10,7 @@ objectives:
   - Demonstrate best practices for entering dates in spreadsheets.
 keypoints:
   - Excel is notoriously bad at handling dates.
-  - Dates can be stored more robustly as YEAR, MONTH, DAY or YEAR, DAY-OF-YEAR in separate columns.
+  - Treating dates as multiple pieces of data rathre than one makes them easier to handle and exchange between programs.
 
 authors:
   - Jez Cope
@@ -168,8 +168,8 @@ So, can you convert all your dates into DOY format? Well, in Excel, here’s a h
 
 ### Storing dates as a single string {#str}
 
-Another alternative could be to convert the date string
-into a single string using the `YYYYMMDDhhmmss` format.
+The best alternative is to convert the date string
+into a single string using the `YYYYMMDDhhmmss` format, ISO 8601, the international date standard.
 For example the date `March 24, 2015 17:25:35` would
 become `20150324172535`, where:
 
@@ -182,6 +182,6 @@ mm:     minutes, i.e. 25
 ss:     seconds, i.e. 35
 ```
 
-Such strings will be correctly sorted in ascendng or descending order, and by
+Such strings will be correctly sorted in ascending or descending order, and by
 knowing the format they can then be correctly processed by the receiving
 software.
