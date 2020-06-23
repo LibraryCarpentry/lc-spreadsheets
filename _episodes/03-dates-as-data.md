@@ -24,6 +24,7 @@ contributors:
   - Daisie Huang
   - Owen Jones
   - Ben Marwick
+  - Sherry Lake
 ---
 
 
