@@ -24,6 +24,7 @@ contributors:
   - Clare Sloggett
   - Harriet Dashnow
   - Ben Marwick
+  - Sherry Lake
 ---
 
 Good **data organization** is the foundation of much of our day-to-day
