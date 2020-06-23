@@ -9,7 +9,7 @@ objectives:
   - "Apply quality control techniques to identify errors in spreadsheets."
 keypoints:
   - "Use data validation tools to minimise the possibility of input errors."
-  - "Use sorting and conditional formatting to identify possibly errors."
+  - "Use sorting and conditional formatting to identify possible errors."
 
 authors:
   - Jez Cope
