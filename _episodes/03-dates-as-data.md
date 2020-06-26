@@ -10,7 +10,7 @@ objectives:
   - Demonstrate best practices for entering dates in spreadsheets.
 keypoints:
   - Excel is notoriously bad at handling dates.
-  - Treating dates as multiple pieces of data rathre than one makes them easier to handle and exchange between programs.
+  - Treating dates as multiple pieces of data rather than one makes them easier to handle and exchange between programs.
 
 authors:
   - Jez Cope
@@ -53,11 +53,12 @@ Let's try with a challenge.
 > =YEAR(A2)
 > ```
 >
-> (Make sure the new column is formatted as a number and not as a date. Change the function to correspond to each row - i.e., =MONTH(A3), =DAY(A3), =YEAR(A3) for the next row.)
+> (Make sure the new column is formatted as a number and not as a date. Change the function to correspond to each row - i.e., =MONTH(A3), =DAY(A3), =YEAR(A3) for the next row.
 >
-> You can see that even though you wanted the year to be 2015 for all entries, your spreadsheet program interpreted two entries as 2017, the year you entered the data.
+
 >
 > > ## Solution
+> > You can see that even though you wanted the year to be 2015 for all entries, your spreadsheet program interpreted two entries as 2017, the year the data was entered, not the year of the workshop.
 > > ![dates, exersize 1](../fig/3_Dates_as_Columns.png)
 > > {: .output}
 > {: .solution}
@@ -65,7 +66,7 @@ Let's try with a challenge.
 
 ## Preferred date format
 
-Instead it is much safer to store dates with [MONTH, DAY and YEAR](#day) in separate columns or as [YEAR and DAY-OF-YEAR](#doy) in separate columns.
+As you an see, it is much safer to store dates with [MONTH, DAY and YEAR](#day) in separate columns or as [YEAR and DAY-OF-YEAR](#doy) in separate columns.
 
 
 **Note**: Excel is unable to parse dates from before 1899-12-31, and will thus leave these untouched.  If you’re mixing historic data
