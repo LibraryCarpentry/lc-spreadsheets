@@ -25,7 +25,7 @@ Data could look like this:
 		AB,Amphispiza,bilineata,Bird
 		AH,Ammospermophilus,harrisi,Rodent-not,censused
 		AS,Ammodramus,savannarum,Bird
-    BA,Baiomys,taylori,Rodent
+		BA,Baiomys,taylori,Rodent
 
 In record `AH,Ammospermophilus,harrisi,Rodent-not,censused` the value for *taxa* includes a comma (`Rodent-not,censused`). 
 If we try to read the above into Excel (or other spreadsheet programme), we will get something like this:
