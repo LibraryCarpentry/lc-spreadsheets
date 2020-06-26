@@ -4,7 +4,7 @@ teaching: 10
 exercises: 0
 questions:
   - What problems are there with Excel files?
-  - How can these problems be solved?
+  - How can we share data from spreadsheets that is useful for a variety of applications?
 objectives:
   - Store spreadsheet data in universal file formats.
   - Export data from a spreadsheet to a .csv file.
