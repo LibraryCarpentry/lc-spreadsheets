@@ -68,7 +68,10 @@ source spreadsheet program.
     install.
 
 </div>
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ### Download Data File
 Download [training_attendance.xlsx](../data/training_attendance.xlsx), which is a `xlsx` file that should automatically download. You may need to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as**). Make a note of the location (i.e the folder, your desktop) to which you save the file.
