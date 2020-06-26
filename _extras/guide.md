@@ -60,17 +60,20 @@ the previous chapter.
 up date as an issue during the responses, or at the end of the response time.
 
 #### [Quality control](../04-quality-control)
-*This lesson currently needs updating*  
+*This lesson is optional*  
 
-* Go through the exercises on different strategies for quality control, including
-sorting, conditional formatting and pivot tables. 
+The challenge with this lesson is that the instructor's version of the spreadsheet software is going to look different than about half the room's. It makes
+it challenging to show where you can find menu options and navigate through.
+
+Instead discuss the concepts of quality control, and how things like sorting can help you find outliers in your data.
 
 #### [Exporting data](../05-exporting-data)
 
-* Have the students export their cleaned data as csv. Reiterate again the need for
+* Have the students export their cleaned data as `.csv`. Reiterate again the need for
 data in this format for the other tools we'll be using.
 
 #### [Data Format Caveats](../06-data-formats-caveats)
+*This lesson is for reference* 
 
 * This is mainly here as a reference if people have questions about different file formats.
 You don't need to go through this. 
@@ -87,9 +90,16 @@ is great for data cleaning and for some of the quality control that we touched o
 in this lesson. It also has the advantage that it automatically keeps track of the
 steps you take. 
 
+## Technical tips and tricks
+
+Provide information on setting up your environment for learners to view your 
+live coding (increasing text size, changing text color, etc), as well as 
+general recommendations for working with coding tools to best suit the 
+learning environment.
+
 ### Potential issues
 
-#### Excel looks and acts different on different OSes
+#### Excel looks and acts different on different operating systems
 
 The main challenge with this lesson is that Excel looks very different and how you
 do things is even different between Mac and PC, and between different versions of
