@@ -73,7 +73,7 @@ As such, when exporting to CSV using Excel, your data in text format will look l
 
 When opening your CSV file in Excel again, it will parse it as follows:
 
-![CR-LF](../fig/NewLine_example.png)
+![CR LF](../fig/NewLine_example.png)
 
 However, if you open your CSV file on a different system that does not parse the `CR` character it will interpret your CSV file differently:
 
@@ -87,7 +87,7 @@ Your data in text format then look like this:
 
 You will then see a weird character or possibly the string `CR` or `\r`:
 
-![no/CR-LF](../fig/NewLine_example2.png)
+![no CR LF](../fig/NewLine_example2.png)
 
 thus causing terrible things to happen to your data.  For example, `2\r` is not a valid integer, and thus will throw an error (if you’re lucky) when you attempt to operate on it in R or Python.  Note that this happens on Excel for OSX as well as Windows, due to legacy Windows compatibility.
 
