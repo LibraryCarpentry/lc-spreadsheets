@@ -12,6 +12,10 @@ carpentry: "lc"
 # Overall title for pages.
 title: "Tidy data for librarians"
 
+# Life cycle stage of the lesson
+# possible values: "pre-alpha", "alpha", "beta", "stable"
+life_cycle: "stable"
+
 # Contact.  This *must* include the protocol: if it's an email
 # address, it must look like "mailto:lessons@software-carpentry.org",
 # or if it's a URL, "https://gitter.im/username/ProjectName".
