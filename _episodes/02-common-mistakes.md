@@ -10,8 +10,8 @@ keypoints:
   - "Don't use multiple tables in one sheet"
   - "Don't use multiple tabs in a file"
   - Fill in zero when you mean zero
-  - Use a blank cell to indicate a null value
-  - "Don't use formatting to convey information or make the data look pretty"
+  - Use an appropriate null value to record missing data
+  - "Don't use formatting to convey information or make the spreadsheet look pretty"
   - "Don't put units or comments in cells"
   - "Don't combine several values in one cell"
   - "Take care over column names"
@@ -60,7 +60,7 @@ row as an observation. You’re also potentially using the same field
 name in multiple places, which will make it harder to clean your data
 up into a usable form. The example below depicts the problem:
 
-![multiple tabs](../fig/2_datasheet_example.jpg)
+![multiple tabs](../fig/2_Multiple_Tables.png)
 
 
 ## Multiple tabs {#tabs}
@@ -134,10 +134,10 @@ From White et al, 2013, [Nine simple ways to make it easier to (re)use your data
 ## More than one piece of information in a cell {#info}
 
 **Example**: 
-You had multiple instructors delivering the workshop. For example, you enter this as GQ & DF.
+One table recorded attendance by the different types of attendees. This table recorded number of attendees of different types: post-graduate researcher (PGR), post-doctoral research associate (PDRA), and other. 
 
 **Solution**: 
-Never include more than one piece of information in a cell. If you need both these instructor initials, design your data sheet to include this information.
+Never include more than one piece of information in a cell. Design your data sheet to include a column for each type of attendee, if this information is important to collect, rather than just a total number.
 
 
 
@@ -153,7 +153,7 @@ Underscores (`_`) are a good alternative to spaces and consider writing names in
 | Precipitation\_mm  | Precipitation      | precmm               |
 | Mean\_year\_growth | MeanYearGrowth     | Mean growth/year	 |
 | sex                | sex                | M/F                  |
-| weight             | weight             | w.                   |
+| length             | length             | l                   |
 | cell\_type         | CellType           | Cell Type            |
 | Observation\_01    | first\_observation | 1st Obs              |
 
