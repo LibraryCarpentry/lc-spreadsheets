@@ -10,7 +10,7 @@ objectives:
   - Demonstrate best practices for entering dates in spreadsheets.
 keypoints:
   - Excel is notoriously bad at handling dates.
-  - Dates can be stored more robustly as YEAR, MONTH, DAY or YEAR, DAY-OF-YEAR in separate columns.
+  - Treating dates as multiple pieces of data rather than one makes them easier to handle and exchange between programs.
 
 authors:
   - Jez Cope
@@ -24,6 +24,7 @@ contributors:
   - Daisie Huang
   - Owen Jones
   - Ben Marwick
+  - Sherry Lake
 ---
 
 
@@ -43,52 +44,38 @@ Let's try with a challenge.
 
 > ## Challenge: pulling month, day and year out of dates ##
 >
-> - In the `Dates` tab of your Excel file we summarized training data from 2016. There's a `date` column.
-> - Let’s extract month and year from the dates to new columns. For this we can use the built in Excel functions
+> - In the `Dates` tab of your Excel file we summarized training data from 2015. There's a `date` column.
+> - Let’s extract month, day and year from the date to three new columns. For this we can use the built in Excel functions
 >
 > ```
-> =MONTH(A3)
-> =DAY(A3)
-> =YEAR(A3)
+> =MONTH(A2)
+> =DAY(A2)
+> =YEAR(A2)
 > ```
 >
-> (Make sure the new column is formatted as a number and not as a date.)
+> (Make sure the new column is formatted as a number and not as a date. Change the function to correspond to each row - i.e., =MONTH(A3), =DAY(A3), =YEAR(A3) for the next row.
 >
-> You can see that even though you wanted the year to be 2015 for all entries, your spreadsheet program interpreted two entries as 2017, the year you entered the data.
+
 >
 > > ## Solution
-> > ![dates, exersize 1](../fig/solution_exercise_1_dates.png)
+> > You can see that even though you wanted the year to be 2015 for all entries, your spreadsheet program interpreted two entries as 2017, the year the data was entered, not the year of the workshop.
+> > ![dates, exersize 1](../fig/3_Dates_as_Columns.png)
 > > {: .output}
 > {: .solution}
 {: .challenge}
 
 ## Preferred date format
 
-Instead it is much safer to store dates with [MONTH, DAY and YEAR](#day) in separate columns or as [YEAR and DAY-OF-YEAR](#doy) in separate columns.
-
-> ## Exercise: pulling hour, minute and second out of the current time ##
->
-> Current time and date are best retrieved using the functions `NOW()`, which
-> returns the current date and time, and `TODAY()`, which returns the current
-> date. The results will be formatted according to your computer's settings.
-> * In an empty cell, try to extract the year, month and day from the current date and time string returned by the `NOW()`` function.
->```
-> =YEAR(NOW())
-> =MONTH( ____ ())
-> =____( ____ ())
-> ```
->
-> - Calculate the current time using `NOW()-TODAY()`. Note that the default output will be a decimal, not in the hh:mm:ss format.
-> - Try to extract the hour, minute and second from the current time using functions `HOUR()`, `MINUTE()` and `SECOND()`.
-> - Press <kbd>F9</kbd> to force the spreadsheet to recalculate the `NOW()`` function, and check that it has been updated. Note, on some keyboards you may need to press <kbd>Fn</kbd> + <kbd>F9</kbd> keys together.
-{: .challenge}
+As you an see, it is much safer to store dates with [MONTH, DAY and YEAR](#day) in separate columns or as [YEAR and DAY-OF-YEAR](#doy) in separate columns.
 
 
-> ## Note
->
-> Excel is unable to parse dates from before 1899-12-31, and will thus leave these untouched.  If you’re mixing historic data from before and after this date, Excel will translate only the post-1900 dates into its internal format, thus resulting in mixed data.  If you’re working with historic data, be extremely careful with your dates!
-> Excel also entertains a second date system, the 1904 date system, as the default in Excel for Macintosh. This system will assign a different serial number than the [1900 date system](https://support.microsoft.com/en-ca/help/214330/differences-between-the-1900-and-the-1904-date-system-in-excel). Because of this, [dates must be checked for accuracy when exporting data from Excel](https://uc3.cdlib.org/2014/04/09/abandon-all-hope-ye-who-enter-dates-in-excel/) (look for dates that are ~4 years off).
-{: .callout}
+**Note**: Excel is unable to parse dates from before 1899-12-31, and will thus leave these untouched.  If you’re mixing historic data
+from before and after this date, Excel will translate only the post-1900 dates into its internal format, thus resulting in mixed data.
+If you’re working with historic data, be extremely careful with your dates!
+
+Excel also entertains a second date system, the 1904 date system, as the default in Excel for Macintosh. This system will assign a
+different serial number than the [1900 date system](https://support.microsoft.com/en-us/help/214330/differences-between-the-1900-and-the-1904-date-system-in-excel). Because of this,
+[dates must be checked for accuracy when exporting data from Excel](http://uc3.cdlib.org/2014/04/09/abandon-all-hope-ye-who-enter-dates-in-excel/) (look for dates that are ~4 years off). 
 
 
 ## Data formats in spreadsheets
@@ -138,13 +125,19 @@ rollovers are internally tracked and applied.
 
 Which brings us to the many different ways Excel provides in how it displays dates. If you refer to the figure above, you’ll see that there are many, MANY ways that ambiguity creeps into your data depending on the format you chose when you enter your data, and if you’re not fully cognizant of which format you’re using, you can end up actually entering your data in a way that Excel will badly misinterpret.
 
-**Question**
-What will happen if you save the file in Excel (in `csv` format) and then open the file using a plain text editor?
+> ## Exercise  
+> What happens to the dates in the `dates` tab of our workbook if we save this sheet in Excel (in `csv` format) and then open the file in a plain text editor (like TextEdit or Notepad)? What happens to the dates if we then open the `csv` file in Excel?
+> > ## Solution
+> > - Click to the `dates` tab of the workbook and double-click on any of the values in the `Date collected` column. Notice that most of the dates display with the year 2015 and two are 2017.   
+> > - Select `File -> Save As` in Excel and in the drop down menu for file format select `CSV UTF-8 (Comma delimited) (.csv)`. Click `Save`.  
+> > - You will see a pop-up that says "This workbook cannot be saved in the selected file format because it contains multiple sheets." Choose `Save Active Sheet`.   
+> > - Navigate to the file in your finder application. Right click and select `Open With`. Choose a plain text editor application and view the file. Notice that the dates display as month/day without any year information.   
+> > - Now right click on the file again and open with Excel. Notice that the dates display with the current year, not 2015.   
+> > As you can see, exporting data from Excel and then importing it back into Excel fundamentally changed the data once again!  
+> {: .solution}
+{: .challenge}
 
-> ## Note
->
-> You will notice that when exporting into a text-based format (such as CSV), Excel will export its internal date integer instead of a useful value (that is, the dates will be represented as integer numbers). This can potentially lead to problems, if you use other software to manipulate the file.
-{: .callout}
+
 
 ## Advantages of Alternative Date Formatting ##
 
@@ -177,8 +170,8 @@ So, can you convert all your dates into DOY format? Well, in Excel, here’s a h
 
 ### Storing dates as a single string {#str}
 
-Another alternative could be to convert the date string
-into a single string using the `YYYYMMDDhhmmss` format.
+The best alternative is to convert the date string
+into a single string using the `YYYYMMDDhhmmss` format, ISO 8601, the international date standard.
 For example the date `March 24, 2015 17:25:35` would
 become `20150324172535`, where:
 
@@ -191,6 +184,6 @@ mm:     minutes, i.e. 25
 ss:     seconds, i.e. 35
 ```
 
-Such strings will be correctly sorted in ascendng or descending order, and by
+Such strings will be correctly sorted in ascending or descending order, and by
 knowing the format they can then be correctly processed by the receiving
 software.

@@ -3,14 +3,17 @@ title: Formatting data tables in Spreadsheets
 teaching: 10
 exercises: 15
 questions:
-  - "How should data tables be formatted in spreadsheets?"
+  - "How should data be formatted in spreadsheets?"
 objectives:
   - "Describe best practices for data entry and formatting in spreadsheets."
   - "Apply best practices to arrange variables and observations in a spreadsheet."
+  
 keypoints:
   - Use one column for one variable
   - Use one row for one observation
   - Use one cell for one value
+  - Never modify your raw data. Always make a copy before making any changes.
+  - Keep all of the steps you take to clean your data in a plain text file.
 
 authors:
   - Jez Cope
@@ -83,7 +86,7 @@ We will put these principles into practice today during your exercises.
 The cardinal rules of using spreadsheet programs for data:
 
 1. Put all your **variables in columns** - the thing you're measuring,
-   like 'weight' or 'temperature'.
+   like 'length' or 'attendance'.
 2. Put each **observation in its own row**.
 3. **Don't combine multiple pieces of information in one
    cell**. Sometimes it just seems like one thing, but think if that's
@@ -120,10 +123,10 @@ So, instead we should have:
 
 > ## Exercise
 >
-> We're going to take a messy version of some library training data and clean it up
+> We're going to take a messy version of some library training data and clean it up.
 >
 > 1. First [download the data](../data/training_attendance.xlsx)
-> 2. Open up the data in a spreadsheet program
+> 2. Open up the data in a spreadsheet program.
 > 1. You can see that there are three tabs. Various people have recorded
   training attendance statistics over 2016 and 2017, and they have
   kept track of the data in their own way. Now you're being asked to
@@ -140,7 +143,7 @@ with this data and how you fixed it.
 > ## Important ##
 >
 > Do not forget of our first piece of advice:
-> **create a new file (or tab)** for the cleaned data, and **never
+> **create a new file** for the cleaned data, and **never
 > modify the original (raw) data**.
 {: .callout}
 

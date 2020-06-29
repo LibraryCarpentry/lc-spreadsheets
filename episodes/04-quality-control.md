@@ -1,15 +1,15 @@
 ---
-title: Basic quality assurance and control, and data manipulation in spreadsheets
+title: Basic quality assurance and control
 teaching: 20
 exercises: 10
 questions:
-  - "How can you keep data clean and sane?"
+  - "How can you keep data entry clean?"
 objectives:
   - "Apply quality assurance techniques to limit incorrect data entry."
   - "Apply quality control techniques to identify errors in spreadsheets."
 keypoints:
   - "Use data validation tools to minimise the possibility of input errors."
-  - "Use sorting and conditional formatting to identify possibly errors."
+  - "Use sorting and conditional formatting to identify possible errors."
 
 authors:
   - Jez Cope
@@ -23,6 +23,7 @@ contributors:
   - Owen Jones
   - Ben Marwick
   - Ethan White
+  - Sherry Lake
 ---
 
 
@@ -73,24 +74,25 @@ allow whole numbers between 1 and 100.
 
 ![Image of Data Validation window for validating plot values](../fig/4_data-validation-whole-num.png)
 
-Now let's try entering a new value in the num_registered column that isn't a valid class size. The spreadsheet stops us from entering the wrong value and asks us if we would like to try again.
+Now let's try entering a new value in the `num_registered` column that isn't a valid class size. The spreadsheet stops us from entering the wrong value and asks us if we would like to try again.
 
 ![Image of error when trying to enter invalid data](../fig/4_data-validation-alert.png)
 
 You can also customize the resulting message to be more informative by entering
-your own message in the `Input Message` tab
-
-![Image of Input Message tab](../fig/4_data-validation-input-message.png)
-
-and allow invalid data to just result in a warning by modifying the `Style`
-option on the `Error Alert` tab.
+your own message in the `Error Alert` tab
 
 ![Image of Error Alert tab](../fig/4_data-validation-error-msg.png)
+
+
+to display a message about the correct values for a column with Data Validation set, you can edit the `Style`
+option on the `Input Message` tab.
+
+![Image of Input Message tab](../fig/4_data-validation-input-message.png)
 
 Quality assurance can make data entry easier as well as more robust. For
 example, if you use a list of options to restrict data entry, the spreadsheet
 will provide you with a drop-downlist of the available items. So, instead of
-trying to remember the initials of all your trainers, you can just select the
+trying to remember the workshop title abbreviation, you can just select the
 right option from the list.
 
 ![Image of drop-down menu](../fig/4_data-validation-auto-complete.png)
@@ -111,7 +113,7 @@ If your dataset is well-structured and does not contain formulas, sorting should
 
 > ## Exercise
 >
-> Let's try this with the *Date* tab in our messy spreadsheet. Go to that tab. Select
+> Let's try this with the *Dates* tab in our messy spreadsheet. Go to that tab. Select
 > **Data** then select **Sort**
 >
 > Sort by `len_hours` in the order *Largest to Smallest*

@@ -4,7 +4,7 @@ teaching: 10
 exercises: 0
 questions:
   - What problems are there with Excel files?
-  - How can these problems be solved?
+  - How can we share data from spreadsheets that is useful for a variety of applications?
 objectives:
   - Store spreadsheet data in universal file formats.
   - Export data from a spreadsheet to a .csv file.
@@ -22,6 +22,7 @@ contributors:
   - Daisie Huang
   - Owen Jones
   - Ben Marwick
+  - Sherry Lake
 ---
 
 
@@ -63,19 +64,30 @@ To save a file you have opened in Excel in `*.csv` format:
 An important note for backwards compatibility: you can open CSVs in Excel!
 
 ## A Note on Cross-platform Operability
-(or, how typewriters are ruining your work)
 
-By default, most coding and statistical environments expect UNIX-style line endings (`\n`) as representing line breaks.  However, Windows uses an alternate line ending signifier (`\r\n`) by default for legacy compatibility with Teletype-based systems.  As such, when exporting to CSV using Excel, your data will look like this:
+By default, most coding and statistical environments expect UNIX-style line endings (ASCII `LF` character) as representing line breaks.  However, Windows uses an alternate line ending signifier (ASCII `CR LF` characters) by default for legacy compatibility with Teletype-based systems..  
 
->data1,data2\r\n1,2\r\n4,5\r\n…
+As such, when exporting to CSV using Excel, your data in text format will look like this:
 
-which, upon passing into most environments (which split on `\n`), will parse as:
+>data1,data2<CR><LF>1,2<CR><LF>4,5<CR><LF>
+
+When opening your CSV file in Excel again, it will parse it as follows:
+
+![CR LF](../fig/NewLine_example.png)
+
+However, if you open your CSV file on a different system that does not parse the `CR` character it will interpret your CSV file differently:
+
+Your data in text format then look like this:
 
 >data1<br>
->data2\r<br>
+>data2<CR><br>
 >1<br>
->2\r<br>
->...
+>2<CR><br>
+>…
+
+You will then see a weird character or possibly the string `CR` or `\r`:
+
+![no CR LF](../fig/NewLine_example2.png)
 
 thus causing terrible things to happen to your data.  For example, `2\r` is not a valid integer, and thus will throw an error (if you’re lucky) when you attempt to operate on it in R or Python.  Note that this happens on Excel for OSX as well as Windows, due to legacy Windows compatibility.
 
