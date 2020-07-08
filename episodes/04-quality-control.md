@@ -128,10 +128,10 @@ If your dataset is well-structured and does not contain formulas, sorting should
 >>
 >> The following window will display, choose the column you want to sort as well as the sort order.
 >>
->>![Figure of Sorting menu](../fig/4-sort-len_hours.png)
+>> ![Figure of Sorting menu](../fig/4-sort-len_hours.png)
 >>
->>Note how the odd values sort to the top. The cells containing  “min” or "hour" are   found towards the top. Larger values like 90, 60 and 15 also are sorted so you can evaluate them. This is a powerful way to check your data for outliers and odd values.
->>![Sorted data](../fig/4-sorted-len_hours.png)
+>> Note how the odd values sort to the top. The cells containing  “min” or "hour" are   found towards the top. Larger values like 90, 60 and 15 also are sorted so you can evaluate them. This is a powerful way to check your data for outliers and odd values.
+>> ![Sorted data](../fig/4-sorted-len_hours.png)
 > {: .solution}
 {: .challenge}
 
