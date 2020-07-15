@@ -1,6 +1,6 @@
 ---
 title: Caveats of popular data and file formats 
-teaching: 10
+teaching: 5
 exercises: 0
 questions:
 - What do you need to be aware of when exporting data?
