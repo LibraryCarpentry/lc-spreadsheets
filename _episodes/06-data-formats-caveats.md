@@ -21,26 +21,28 @@ However, there are some significant problems with this particular format. Quite 
 
 Data could look like this:
 	
-		species_id,genus,species,taxa
-		AB,Amphispiza,bilineata,Bird
-		AH,Ammospermophilus,harrisi,Rodent-not,censused
-		AS,Ammodramus,savannarum,Bird
-		BA,Baiomys,taylori,Rodent
+		date,type,len_hours,num_registered,num_attended,trainer,cancelled
+    29 Apr,OA,1.5,1.5,15,JM,N
+    3 Mar,OA,60,19,25,PG,N
+    3 Jul,OA,1,25,20,PG, JM ,N
+    4 Jan,OA,1,26,17,JM,N
+    29 Mar,RDM,1,27,24,JM,N
 
-In record `AH,Ammospermophilus,harrisi,Rodent-not,censused` the value for *taxa* includes a comma (`Rodent-not,censused`). 
+In record `3 Jul,OA,1,25,20,PG, JM ,N` the value for *trainer* includes a comma for multiple trainers (`PG, JM`). 
 If we try to read the above into Excel (or other spreadsheet programme), we will get something like this:
 
 ![Issue with importing csv format](../fig/csv-mistake.png)
 
-The value for 'taxa' was split into two columns (instead of being put in one column `D`). This can propagate to a number of further errors. For example, the "extra" column will be interpreted as a column with many missing values (and without a proper header!). In addition to that, the value in column `D` for the record in row 3 (so the one where the value for 'taxa' contained the comma) is now incorrect. 
+The value for 'trainer' was split into two columns (instead of being put in one column `F`). This can propagate to a number of further errors. For example, the "extra" column will be interpreted as a column with many missing values (and without a proper header!). 
  
-If you want to store your data in `csv` format and expect that your data values may contain commas, you can avoid the problem discussed above by putting the values in quotes (""). Applying this rule, the data might look like this:
+If you want to store your data in `csv` format and expect that your data values may contain commas, you can avoid the problem discussed above by putting the values to be included in the same column in quotes (""). Applying this rule, the data might look like this:
 
-	species_id,genus,species,taxa
-	"AB","Amphispiza","bilineata","Bird"
-	"AH","Ammospermophilus","harrisi","Rodent-not, censused"
-	"AS","Ammodramus","savannarum","Bird"
-	"BA","Baiomys","taylori","Rodent
+		date,type,len_hours,num_registered,num_attended,trainer,cancelled
+    29 Apr,OA,1.5,1.5,15,JM,N
+    3 Mar,OA,60,19,25,PG,N
+    3 Jul,OA,1,25,20,"PG, JM",N
+    4 Jan,OA,1,26,17,JM,N
+    29 Mar,RDM,1,27,24,JM,N
 	
 
 Now opening this file as a `csv` in Excel will not lead to an extra column, because Excel will only use commas that fall outside of quotation marks as delimiting characters. However, if you are working with an already existing dataset in which the data values are not included in "" but which have commas as both delimiters and parts of data values, you are potentially facing a major problem with data cleaning.
