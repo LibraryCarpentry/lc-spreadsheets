@@ -1,7 +1,7 @@
 ---
 title: Using spreadsheet programs for data organization
 teaching: 10
-exercises: 20
+exercises: 5
 questions:
   - What are good data practices for using spreadsheets for organizing data?
 objectives:
