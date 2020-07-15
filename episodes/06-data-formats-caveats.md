@@ -35,7 +35,7 @@ If we try to read the above into Excel (or other spreadsheet programme), we will
 
 The value for 'trainer' was split into two columns (instead of being put in one column `F`). This can propagate to a number of further errors. For example, the "extra" column will be interpreted as a column with many missing values (and without a proper header!). 
  
-If you want to store your data in `csv` format and expect that your data values may contain commas, you can avoid the problem discussed above by putting the values to be included in the same column in quotes (""). Applying this rule, the data might look like this:
+If you want to store your data in `csv` format and expect that your data values may contain commas, you can avoid the problem discussed above by putting the values to be included in the same column in quotes (""). Applying this rule, the data might look like this: 
 
 		date,type,len_hours,num_registered,num_attended,trainer,cancelled
     29 Apr,OA,1.5,1.5,15,JM,N
