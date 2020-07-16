@@ -1,7 +1,7 @@
 ---
 title: Dates as data
 teaching: 20
-exercises: 0
+exercises: 5
 questions:
   - "How are dates handled by computers?"
 objectives:

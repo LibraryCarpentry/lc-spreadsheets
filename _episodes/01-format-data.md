@@ -1,7 +1,7 @@
 ---
 title: Formatting data tables in Spreadsheets
 teaching: 10
-exercises: 15
+exercises: 20
 questions:
   - "How should data be formatted in spreadsheets?"
 objectives:

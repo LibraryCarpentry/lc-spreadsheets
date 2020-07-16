@@ -1,6 +1,6 @@
 ---
 title: Formatting problems
-teaching: 5
+teaching: 20
 exercises: 0
 questions:
   - What common mistakes are made when formatting spreadsheets?
