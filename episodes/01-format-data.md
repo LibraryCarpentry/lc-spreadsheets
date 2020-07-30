@@ -34,7 +34,7 @@ contributors:
 The most common mistake made is treating the program like it is a notebook by relying on context, notes in the margin, spatial layout of data and fields to convey information.
 As humans,
 we can (usually) interpret these things,
-but computers are dumb,
+but computers are unintelligent,
 and unless we explain to the computer what every single thing means
 (and that can be hard!)
 it will not be able to see how our data fit together.
