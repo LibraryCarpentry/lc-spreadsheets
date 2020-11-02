@@ -65,11 +65,13 @@ An important note for backwards compatibility: you can open CSVs in Excel!
 
 ## A Note on Cross-platform Operability
 
-By default, most coding and statistical environments expect UNIX-style line endings (ASCII `LF` character) as representing line breaks.  However, Windows uses an alternate line ending signifier (ASCII `CR LF` characters) by default for legacy compatibility with Teletype-based systems..  
+By default, most coding and statistical environments expect UNIX-style line endings (ASCII `LF` character) as representing line breaks.  However, Windows uses an alternate line ending signifier (ASCII `CR LF` characters) by default for legacy compatibility with Teletype-based systems..
 
 As such, when exporting to CSV using Excel, your data in text format will look like this:
 
->data1,data2<CR><LF>1,2<CR><LF>4,5<CR><LF>
+~~~
+data1,data2<CR><LF>1,2<CR><LF>4,5<CR><LF>
+~~~
 
 When opening your CSV file in Excel again, it will parse it as follows:
 
@@ -79,11 +81,11 @@ However, if you open your CSV file on a different system that does not parse the
 
 Your data in text format then look like this:
 
->data1<br>
->data2<CR><br>
->1<br>
->2<CR><br>
->…
+~~~
+data1,data2<CR>
+1,2<CR>
+…
+~~~
 
 You will then see a weird character or possibly the string `CR` or `\r`:
 
@@ -100,15 +102,15 @@ There are a handful of solutions for enforcing uniform UNIX-style line endings o
    ```
    [filter "cr"]
    clean = LC_CTYPE=C awk '{printf(\"%s\\n\", $0)}' | LC_CTYPE=C tr '\\r' '\\n'
-   smudge = tr '\\n' '\\r'` 
+   smudge = tr '\\n' '\\r'`
    ```
-   
+
    and then create a file `.gitattributes` that contains the line:
- 
+
    ```
    *.csv filter=cr
    ```
-	
+
 3. Use [dos2unix](http://dos2unix.sourceforge.net/) (available on OSX, *nix, and Cygwin) on local files to standardize line endings.
 
 #### A note on Python and `xls`

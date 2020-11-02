@@ -7,7 +7,7 @@ questions:
 objectives:
   - "Describe best practices for data entry and formatting in spreadsheets."
   - "Apply best practices to arrange variables and observations in a spreadsheet."
-  
+
 keypoints:
   - Use one column for one variable
   - Use one row for one observation
@@ -34,7 +34,7 @@ contributors:
 The most common mistake made is treating the program like it is a notebook by relying on context, notes in the margin, spatial layout of data and fields to convey information.
 As humans,
 we can (usually) interpret these things,
-but computers are dumb,
+but computers are unintelligent,
 and unless we explain to the computer what every single thing means
 (and that can be hard!)
 it will not be able to see how our data fit together.
@@ -51,10 +51,13 @@ Unorganized data can make it harder to work with your data,
 so you should be mindful of your data organization when doing your data entry.
 You'll want to organize your data in a way that allows other programs and people to easily understand and use the data.
 
+> ## Callout
+>
 > **Note:** the best layouts/formats (as well as software and
 > interfaces) for **data entry** and **data analysis** might be
 > different. It is important to take this into account, and ideally
 > automate the conversion from one to another.
+{: .callout}
 
 ### Keeping track of your analyses
 
@@ -140,7 +143,7 @@ with this data and how you fixed it.
 {: .challenge}
 
 
-> ## Important ##
+> ## Important
 >
 > Do not forget of our first piece of advice:
 > **create a new file** for the cleaned data, and **never
@@ -150,7 +153,10 @@ with this data and how you fixed it.
 
 An excellent reference, in particular with regard to R scripting is
 
+> ## Resource
+>
 > Hadley Wickham, *Tidy Data*, Vol. 59, Issue 10, Sep 2014, Journal of
 > Statistical Software. [http://www.jstatsoft.org/v59/i10](http://www.jstatsoft.org/v59/i10).
+{: .callout}
 
 <!-- *Instructors see notes in 'instructors_notes.md' on this exercise.* -->

@@ -38,11 +38,11 @@ In particular, please remember that functions that are valid for a given
 spreadsheet program (be it LibreOffice, Microsoft Excel, OpenOffice.org,
 Gnumeric, etc.) are usually guaranteed to be compatible only within the same
 family of products. If you will later need to export the data and need to
-conserve the timestamps you are better off handling them using one of the solutions discussed below.  
+conserve the timestamps you are better off handling them using one of the solutions discussed below.
 
 
 > ## Exercise
-> 
+>
 > Challenge: pulling month, day and year out of dates
 >
 > - In the `Dates` tab of your Excel file we summarized training data from 2015. There's a `date` column.
@@ -56,12 +56,10 @@ conserve the timestamps you are better off handling them using one of the soluti
 >
 > (Make sure the new column is formatted as a number and not as a date. Change the function to correspond to each row - i.e., =MONTH(A3), =DAY(A3), =YEAR(A3) for the next row.
 >
-
 >
 > > ## Solution
 > > You can see that even though you wanted the year to be 2015 for all entries, your spreadsheet program interpreted two entries as 2017, the year the data was entered, not the year of the workshop.
 > > ![dates, exersize 1](../fig/3_Dates_as_Columns.png)
-> > {: .output}
 > {: .solution}
 {: .challenge}
 
@@ -76,7 +74,7 @@ If you’re working with historic data, be extremely careful with your dates!
 
 Excel also entertains a second date system, the 1904 date system, as the default in Excel for Macintosh. This system will assign a
 different serial number than the [1900 date system](https://support.microsoft.com/en-us/help/214330/differences-between-the-1900-and-the-1904-date-system-in-excel). Because of this,
-[dates must be checked for accuracy when exporting data from Excel](http://uc3.cdlib.org/2014/04/09/abandon-all-hope-ye-who-enter-dates-in-excel/) (look for dates that are ~4 years off). 
+[dates must be checked for accuracy when exporting data from Excel](http://uc3.cdlib.org/2014/04/09/abandon-all-hope-ye-who-enter-dates-in-excel/) (look for dates that are ~4 years off).
 
 
 ## Data formats in spreadsheets
@@ -98,11 +96,15 @@ the above functions we can easily add days, months or years to a given date.
 Say you had a sampling plan where you needed to sample every thirty seven days.
 In another cell, you could type:
 
-    =B2+37
+~~~
+=B2+37
+~~~
 
 And it would return
 
-    8-Aug
+~~~
+8-Aug
+~~~
 
 because it understands the date as a number `41822`, and `41822 + 37 = 41859`
 which Excel interprets as August 8, 2014. It retains the format (for the most
@@ -124,15 +126,15 @@ the quantities to the correct entities.
 
 Which brings us to the many different ways Excel provides in how it displays dates. If you refer to the figure above, you’ll see that there are many, MANY ways that ambiguity creeps into your data depending on the format you chose when you enter your data, and if you’re not fully cognizant of which format you’re using, you can end up actually entering your data in a way that Excel will badly misinterpret.
 
-> ## Exercise  
+> ## Exercise
 > What happens to the dates in the `dates` tab of our workbook if we save this sheet in Excel (in `csv` format) and then open the file in a plain text editor (like TextEdit or Notepad)? What happens to the dates if we then open the `csv` file in Excel?
 > > ## Solution
-> > - Click to the `dates` tab of the workbook and double-click on any of the values in the `Date collected` column. Notice that most of the dates display with the year 2015 and two are 2017.   
-> > - Select `File -> Save As` in Excel and in the drop down menu for file format select `CSV UTF-8 (Comma delimited) (.csv)`. Click `Save`.  
-> > - You will see a pop-up that says "This workbook cannot be saved in the selected file format because it contains multiple sheets." Choose `Save Active Sheet`.   
-> > - Navigate to the file in your finder application. Right click and select `Open With`. Choose a plain text editor application and view the file. Notice that the dates display as month/day without any year information.   
-> > - Now right click on the file again and open with Excel. Notice that the dates display with the current year, not 2015.   
-> > As you can see, exporting data from Excel and then importing it back into Excel fundamentally changed the data once again!  
+> > - Click to the `dates` tab of the workbook and double-click on any of the values in the `Date collected` column. Notice that most of the dates display with the year 2015 and two are 2017.
+> > - Select `File -> Save As` in Excel and in the drop down menu for file format select `CSV UTF-8 (Comma delimited) (.csv)`. Click `Save`.
+> > - You will see a pop-up that says "This workbook cannot be saved in the selected file format because it contains multiple sheets." Choose `Save Active Sheet`.
+> > - Navigate to the file in your finder application. Right click and select `Open With`. Choose a plain text editor application and view the file. Notice that the dates display as month/day without any year information.
+> > - Now right click on the file again and open with Excel. Notice that the dates display with the current year, not 2015.
+> > As you can see, exporting data from Excel and then importing it back into Excel fundamentally changed the data once again!
 > {: .solution}
 {: .challenge}
 
