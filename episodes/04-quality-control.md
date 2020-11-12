@@ -152,7 +152,7 @@ checks in a programming language like Python or R, or in OpenRefine or SQL.
 > 1. Now we can scan through and different colors will stand out. Do you notice any strange values?
 >
 >> ## Solution
->> We can see two outlier cells of 0 and can see these two classes were cancled.
+>> We can see two outlier cells of 0 and can see these two classes were canceled.
 >>![Conditional Formatting](../fig/4_conditional-formatting.png)
 >>{: .output}
 > {: .solution}
