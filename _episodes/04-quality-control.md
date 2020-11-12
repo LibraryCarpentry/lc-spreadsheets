@@ -78,14 +78,14 @@ Now let's try entering a new value in the `num_registered` column that isn't a v
 
 ![Image of error when trying to enter invalid data](../fig/4_data-validation-alert.png)
 
-You can also customize the resulting message to be more informative by entering
-your own message in the `Error Alert` tab
+You can customize the resulting message to be more informative by entering
+your own message in the `Error Alert` tab, and you can edit the `Style`
+for when a non-valid value is entered, by not allowing other values or just give a warning about non valid entries. 
 
 ![Image of Error Alert tab](../fig/4_data-validation-error-msg.png)
 
 
-to display a message about the correct values for a column with Data Validation set, you can edit the `Style`
-option on the `Input Message` tab.
+to display a (pop up) message about the correct values for a column with Data Validation set, use the `Input Message` tab.
 
 ![Image of Input Message tab](../fig/4_data-validation-input-message.png)
 
