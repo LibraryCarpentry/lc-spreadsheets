@@ -37,12 +37,12 @@ source spreadsheet program.
 
 <div class="col-md-4" markdown="1">
 
-#### Mac OS X {#macosx}
+#### macOS {#macosx}
 
 -   **Download the Installer**  
     Install LibreOffice by going to the [installation
     page](https://www.libreoffice.org/download/libreoffice-fresh/). The
-    version for Mac OS X should automatically be selected. Click
+    version for macOS should automatically be selected. Click
     **Download**. You will go to a page that asks about a
     donation, but you don't need to make one. Your download should begin
     automatically.
