@@ -91,7 +91,7 @@ You will then see a weird character or possibly the string `CR` or `\r`:
 
 ![no CR LF](../fig/NewLine_example2.png)
 
-thus causing terrible things to happen to your data.  For example, `2\r` is not a valid integer, and thus will throw an error (if you’re lucky) when you attempt to operate on it in R or Python.  Note that this happens on Excel for OSX as well as Windows, due to legacy Windows compatibility.
+thus causing terrible things to happen to your data.  For example, `2\r` is not a valid integer, and thus will throw an error (if you’re lucky) when you attempt to operate on it in R or Python.  Note that this happens on Excel for macOS as well as Windows, due to legacy Windows compatibility.
 
 There are a handful of solutions for enforcing uniform UNIX-style line endings on your exported CSVs:
 
