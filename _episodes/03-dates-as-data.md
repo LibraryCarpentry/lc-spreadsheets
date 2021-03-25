@@ -43,7 +43,7 @@ conserve the timestamps you are better off handling them using one of the soluti
 
 > ## Exercise
 >
-> Challenge: pulling month, day and year out of dates
+> Pulling month, day, and year out of dates:
 >
 > - In the `Dates` tab of your Excel file we summarized training data from 2015. There's a `date` column.
 > - Let’s extract month, day and year from the date to three new columns. For this we can use the built in Excel functions
