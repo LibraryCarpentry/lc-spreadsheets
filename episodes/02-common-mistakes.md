@@ -60,7 +60,7 @@ row as an observation. You’re also potentially using the same field
 name in multiple places, which will make it harder to clean your data
 up into a usable form. The example below depicts the problem:
 
-![multiple tabs](../fig/2_Multiple_Tables.png)
+![Screengrab of spreadsheet showing formatting errors - multiple tables in one sheet](../fig/2_Multiple_Tables.png)
 
 
 ## Multiple tabs {#tabs}
