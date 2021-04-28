@@ -74,7 +74,8 @@ you **must:**
   You should track these steps as a scientist would each step in an
   experiment. You can do this in another text file, or a good option
   is to create a new tab in your spreadsheet with your notes. This way
-  the notes and data stay together.
+  the notes and data stay together. Be sure you're saving your spreadsheet 
+  with a file format compatible with multiple tabs, if you do this!
 
 This might be an example of a spreadsheet setup:
 
@@ -100,9 +101,9 @@ The cardinal rules of using spreadsheet programs for data:
    most data repositories.
 
 For instance, we have data from attendance and instruction for previous
-research data management workshops. Different people have entered data in to a
-spreadsheet. They keep track of things like date, number of attendees, and who
-delivered the workshop.
+research data management workshops. Different people have entered data into a 
+single spreadsheet. They keep track of things like date, number of attendees, and 
+who delivered the workshop.
 
 If they were to keep track of the data like this:
 
