@@ -88,18 +88,18 @@ If you're looking to do this, a good reference is
 
 ### Spreadsheet programs
 
-Commands may differ a bit between programs, but the general idea
-is the same.
+There are a number of spreadsheet programs available for use on a desktop or web browser:
 
-- LibreOffice
+- LibreOffice Calc
 - Microsoft Excel
+- Apple Numbers
+- Google Sheets
 - Gnumeric
-- OpenOffice.org
+- Apache OpenOffice Calc
 
-In this lesson, we will assume that you are most likely using Excel as
-your primary spreadsheet program - there are others (gnumeric, Calc
-from OpenOffice), and their functionality is similar, but Excel is the
-package you're most likely to have available on your work computer.
+Commands may differ a bit between programs, but the general idea
+is the same. In this lesson, we will assume that you are most likely using Excel as
+your primary spreadsheet program. There are others with similar functionality, including Gnumeric, OpenOffice Calc, and Google Sheets, but Excel is the package you're most likely to have available on your work computer.
 
 ---
 
