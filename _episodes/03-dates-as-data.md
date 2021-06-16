@@ -132,7 +132,7 @@ Which brings us to the many different ways Excel provides in how it displays dat
 > > - Click to the `dates` tab of the workbook and double-click on any of the values in the `Date collected` column. Notice that most of the dates display with the year 2015 and two are 2017.
 > > - Select `File -> Save As` in Excel and in the drop down menu for file format select `CSV UTF-8 (Comma delimited) (.csv)`. Click `Save`.
 > > - You will see a pop-up that says "This workbook cannot be saved in the selected file format because it contains multiple sheets." Choose `Save Active Sheet`.
-> > - Navigate to the file in your finder application. Right click and select `Open With`. Choose a plain text editor application and view the file. Notice that the dates display as month/day without any year information.
+> > - Navigate to the file in Finder (Mac) or Explorer (Windows). Right click and select `Open With`. Choose a plain text editor application and view the file. Notice that the dates display as month/day without any year information.
 > > - Now right click on the file again and open with Excel. Notice that the dates display with the current year, not 2015.
 > > As you can see, exporting data from Excel and then importing it back into Excel fundamentally changed the data once again!
 > {: .solution}
