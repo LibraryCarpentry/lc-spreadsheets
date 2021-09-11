@@ -81,6 +81,9 @@ Instead you can Freeze the column headers.
 
 [Documentation on how to freeze column headers in LibreOffice Calc](https://help.libreoffice.org/Calc/Freezing_Rows_or_Columns_as_Headers)
 
+[Documentation on how to freeze column headers in Google Sheets](https://support.google.com/docs/answer/9060449?co=GENIE.Platform%3DDesktop&hl=en)
+
+
 
 ## Not filling in zeroes {#zeros}
 
