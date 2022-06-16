@@ -46,7 +46,7 @@ contributors:
 - [Field name problems](#field_name)
 - [Special characters in data](#special)
 - [Inclusion of metadata in data table](#metadata)
-- [Date formatting]({% link _episodes/03-dates-as-data.md %})
+- [Date formatting]({{ site.baseurl }}{% link _episodes/03-dates-as-data.md %})
 
 ---
 
@@ -175,4 +175,3 @@ General best practice is to avoid adding characters such as newlines, tabs, and 
 **Example**: You add a legend at the top or bottom of your data table explaining column meaning, units, exceptions, etc.
 
 **Solution**: While recording data about your data ("metadata") is essential, this information should not be contained in the data file itself. Unlike a table in a paper or a supplemental file, metadata (in the form of legends) should not be included in a data file since this information is not data, and including it can disrupt how computer programs interpret your data file. Rather, metadata should be stored as a separate file in the same directory as your data file, preferably in plain text format with a name that clearly associates it with your data file. Because metadata files are free text format, they also allow you to encode comments, units, information about how null values are encoded, etc. that are important to document but can disrupt the formatting of your data file.
-
