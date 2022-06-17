@@ -146,7 +146,7 @@ Which brings us to the many different ways Excel provides in how it displays dat
 
 Storing dates in YEAR, MONTH, DAY format helps remove this ambiguity. Let's look at this issue a bit closer.
 
-For instance this is a spreadsheet representing insect counts that were taken every few days over the summer of 2001, and things went something like this:
+For instance, in a spreadsheet representing insect counts recorded every few days over the summer of 2001, the data displayed as shown below in Column A:
 
 ![So, so ambiguous, it's even confusing Excel](../fig/6_excel_dates_2.jpg)
 
