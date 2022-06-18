@@ -99,7 +99,7 @@ part) of the cell that is being operated upon, (unless you did some sort of
 formatting to the cell before, and then all bets are off). Month and year
 rollovers are internally tracked and applied.
 
-### Adding and displaying dates
+### Adding dates
 
 Adding years and months and days is slightly trickier because we need to make
 sure that we are adding the amount to the correct entity.
@@ -111,6 +111,8 @@ sure that we are adding the amount to the correct entity.
 **Note:** Time values raise similar challenges. Seconds can be directly
 added but to add hour and minutes you will need to make sure 
 that quantities are added to the correct entities.
+
+### Displaying dates
 
 Which brings us to the many ways that Excel displays dates. If you refer to the figure above, you’ll see that ambiguity may creep into your data in numerous ways depending on the format you chose when you entered your data. 
 If you’re not fully aware of these ambiguities, you may find that Excel will interpret your data in unexpected ways later.
