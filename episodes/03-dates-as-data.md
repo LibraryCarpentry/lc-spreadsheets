@@ -3,7 +3,7 @@ title: Dates as data
 teaching: 20
 exercises: 5
 questions:
-  - "How are dates handled by computers?"
+  - 'How are dates handled by computers?'
 objectives:
   - Describe how dates are stored and formatted in spreadsheets.
   - Describe the advantages of alternative date formatting in spreadsheets.
@@ -66,11 +66,11 @@ conserve the timestamps you are better off handling them using one of the soluti
 
 ## Date formats in spreadsheets
 
-Spreadsheet programs have numerous “useful features” which allow them to “handle” dates in a variety of ways.
+Spreadsheet programs have numerous 'useful features' which allow them to 'handle' dates in a variety of ways.
 
 ![Many formats, many ambiguities](../fig/5_excel_dates_1.jpg)
 
-But these ‘features’ often allow ambiguity to creep into your data. Ideally, data should be as unambiguous as possible.
+But these 'features' often allow ambiguity to creep into your data. Ideally, data should be as unambiguous as possible.
 
 ### Dates stored as integers
 
@@ -120,7 +120,7 @@ If you’re not fully aware of these ambiguities, you may find that Excel will i
 > > ## Solution
 > > - Click to the `dates` tab of the workbook and double-click on any of the values in the `Date collected` column. Notice that most of the dates display with the year 2015 and two are 2017.
 > > - Select `File -> Save As` in Excel and in the drop down menu for file format select `CSV UTF-8 (Comma delimited) (.csv)`. Click `Save`.
-> > - You will see a pop-up that says "This workbook cannot be saved in the selected file format because it contains multiple sheets." Choose `Save Active Sheet`.
+> > - You will see a pop-up that says 'This workbook cannot be saved in the selected file format because it contains multiple sheets.' Choose `Save Active Sheet`.
 > > - Navigate to the file in Finder (Mac) or Explorer (Windows). Right click and select `Open With`. Choose a plain text editor application and view the file. Notice that the dates display as month/day without any year information.
 > > - Now right click on the file again and open with Excel. Notice that the dates display with the current year, not 2015.
 > > As you can see, exporting data from Excel and then importing it back into Excel fundamentally changed the data once again!
