@@ -63,21 +63,6 @@ conserve the timestamps you are better off handling them using one of the soluti
 > {: .solution}
 {: .challenge}
 
-## Preferred date format
-
-Due to the issues caused by the way that spreadsheet programs handle and display dates, it is safer to store dates with [MONTH, DAY and YEAR](#day) in separate columns or as [YEAR and DAY-OF-YEAR](#doy) in separate columns.
-This practice will make your data less ambiguous, will guard
-against changes that may be caused if the spreadsheet is opened by other software,
-and generally make your data table more accessible and interoperable.
-
-**Note**: Excel is unable to parse dates from before 1899-12-31, and will thus leave these untouched.  If you’re mixing historic data
-from before and after this date, Excel will translate only the post-1900 dates into its internal format, thus resulting in mixed data.
-If you’re working with historic data, be extremely careful with your dates!
-
-Excel also entertains a second date system, the 1904 date system, as the default in Excel for Macintosh. This system will assign a
-different serial number than the [1900 date system](https://support.microsoft.com/en-us/help/214330/differences-between-the-1900-and-the-1904-date-system-in-excel). Because of this,
-[dates must be checked for accuracy when exporting data from Excel](http://uc3.cdlib.org/2014/04/09/abandon-all-hope-ye-who-enter-dates-in-excel/) (look for dates that are about 4 years off).
-
 
 ## Date formats in spreadsheets
 
@@ -140,9 +125,18 @@ Which brings us to the many different ways Excel provides in how it displays dat
 > {: .solution}
 {: .challenge}
 
+### Working with dates before 1900
+
+Excel is unable to parse dates from before 1899-12-31, and will thus leave these untouched.  If you’re mixing historic data
+from before and after this date, Excel will translate only the post-1900 dates into its internal format, thus resulting in mixed data.
+If you’re working with historic data, be extremely careful with your dates!
+
+Excel also entertains a second date system, the 1904 date system, as the default in Excel for Macintosh. This system will assign a
+different serial number than the [1900 date system](https://support.microsoft.com/en-us/help/214330/differences-between-the-1900-and-the-1904-date-system-in-excel). Because of this,
+[dates must be checked for accuracy when exporting data from Excel](http://uc3.cdlib.org/2014/04/09/abandon-all-hope-ye-who-enter-dates-in-excel/) (look for dates that are about 4 years off).
 
 
-## Advantages of Alternative Date Formatting ##
+## Advantages of Alternative Date Formatting
 
 ### Storing dates as YEAR, MONTH, DAY {#day}
 
@@ -189,3 +183,10 @@ ss:     seconds, i.e. 35
 Such strings will be correctly sorted in ascending or descending order, and by
 knowing the format they can then be correctly processed by the receiving
 software.
+
+## Preferred date format
+
+Due to the issues caused by the way that spreadsheet programs handle and display dates, it is safer to store dates with [MONTH, DAY and YEAR](#day) in separate columns or as [YEAR and DAY-OF-YEAR](#doy) in separate columns.
+This practice will make your data less ambiguous, will guard
+against changes that may be caused if the spreadsheet is opened by other software,
+and generally make your data table more accessible and interoperable.
