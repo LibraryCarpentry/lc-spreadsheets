@@ -65,8 +65,10 @@ conserve the timestamps you are better off handling them using one of the soluti
 
 ## Preferred date format
 
-As you an see, it is much safer to store dates with [MONTH, DAY and YEAR](#day) in separate columns or as [YEAR and DAY-OF-YEAR](#doy) in separate columns.
-
+Due to the issues caused by the way that spreadsheet programs handle and display dates, it is safer to store dates with [MONTH, DAY and YEAR](#day) in separate columns or as [YEAR and DAY-OF-YEAR](#doy) in separate columns.
+This practice will make your data less ambiguous, will guard
+against changes that may be caused if the spreadsheet is opened by other software,
+and generally make your data table more accessible and interoperable.
 
 **Note**: Excel is unable to parse dates from before 1899-12-31, and will thus leave these untouched.  If you’re mixing historic data
 from before and after this date, Excel will translate only the post-1900 dates into its internal format, thus resulting in mixed data.
