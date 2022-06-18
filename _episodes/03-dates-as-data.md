@@ -146,12 +146,11 @@ Which brings us to the many different ways Excel provides in how it displays dat
 
 Storing dates in YEAR, MONTH, DAY format helps remove this ambiguity. Let's look at this issue a bit closer.
 
-For instance this is a spreadsheet representing insect counts that were taken every few days over the summer of 2001, and things went something like this:
+For instance, in a spreadsheet recording insect counts every few days in July 2001, the data displayed as shown below in Column A. Note that the data was recorded in only one cell in each row, and the data only included reference to the month and day (`<MONTH>-<DAY>`).
 
 ![So, so ambiguous, it's even confusing Excel](../fig/6_excel_dates_2.jpg)
 
-
-If Excel was to be believed, this person had been collecting bugs in 2010, 2014, 2015 and 2017 even though it is stated that the data was gathered in the summer of 2001.
+When interpreted in Excel, it appears that the observations had been recorded in 2010, 2014, 2015 and 2017 even though our records state that the data was gathered in 2001.
 
 Entering dates in one cell is helpful but due to the fact that the spreadsheet programmes may interpret and save the data in different ways (doing that somewhat behind the scenes), there is a better practice.
 
