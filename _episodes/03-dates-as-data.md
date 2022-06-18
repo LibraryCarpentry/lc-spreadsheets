@@ -192,7 +192,7 @@ software.
 
 ## Preferred date format
 
-Due to the issues caused by the way that spreadsheet programs handle and display dates, it is safer to store dates with [YEAR, MONTH, and DAY](#day) in separate columns or as [YEAR and DAY-OF-YEAR](#doy) in separate columns.
+Due to the issues caused by the way that spreadsheet programs handle and display dates, it is safer to store dates with [YEAR, MONTH, DAY](#day) in separate columns or as [YEAR and DAY-OF-YEAR](#doy) in separate columns.
 This practice will make your data less ambiguous, will guard
 against changes that may be caused if the spreadsheet is opened by other software,
 and generally make your data table more accessible and interoperable.
