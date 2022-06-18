@@ -96,8 +96,8 @@ This would return:
 
 This happens because Excel processes the date July 2, 2014 as the number `41822`.
 Adding `41822 + 37` results in `41859`
-which Excel interprets as August 8, 2014. It retains the format (for the most
-part) of the cell that is being operated upon, (unless you did some sort of
+which Excel interprets as August 8, 2014. The program retains the format (for the most
+part) of the cell that is being operated upon (unless you did some sort of
 formatting to the cell before, and then all bets are off). Month and year
 rollovers are internally tracked and applied.
 
