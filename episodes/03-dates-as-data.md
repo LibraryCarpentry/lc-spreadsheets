@@ -87,7 +87,7 @@ In another cell, you could type:
 =B2+37
 ~~~
 
-And it would return
+This would return:
 
 ~~~
 8-Aug
