@@ -173,7 +173,7 @@ So, can you convert all your dates into DOY format? Well, in Excel, here’s a h
 ### Storing dates and times as a single string {#str}
 
 When dealing with dates and times, the best alternative is to convert the date string
-into a single string using the `YYYYMMDDhhmmss` format, ISO 8601, the international date standard.
+into a single string using the `YYYYMMDDhhmmss` format, following the international date standard [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601).
 For example the date `March 24, 2015 17:25:35` would
 become `20150324172535`, where:
 
