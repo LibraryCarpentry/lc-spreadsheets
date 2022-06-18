@@ -78,8 +78,9 @@ The first thing you need to know is that Excel **stores dates as a number** (see
 
 (But wait. That’s the default on one version of Excel. We’ll get into how this can introduce problems down the line later in this lesson.)
 
-This serial number thing can actually be useful in some circumstances. By using
-the above functions we can easily add days, months or years to a given date.
+Understanding the spreadsheet program uses serial numbers to process
+dates can be useful in some circumstances. Using
+the above functions, you can easily add days, months or years to a given date.
 Say you had a sampling plan where you needed to sample every thirty seven days.
 In another cell, you could type:
 
