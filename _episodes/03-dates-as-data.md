@@ -166,7 +166,7 @@ So, can you convert all your dates into DOY format? Well, in Excel, here’s a h
 
 ![Kill that ambiguity before it bites you!](../fig/7_excel_dates_3.jpg)
 
-### Storing dates as a single string {#str}
+### Storing dates and times as a single string {#str}
 
 The best alternative is to convert the date string
 into a single string using the `YYYYMMDDhhmmss` format, ISO 8601, the international date standard.
