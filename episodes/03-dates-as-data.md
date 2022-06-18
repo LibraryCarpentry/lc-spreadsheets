@@ -76,7 +76,7 @@ If you’re working with historic data, be extremely careful with your dates!
 
 Excel also entertains a second date system, the 1904 date system, as the default in Excel for Macintosh. This system will assign a
 different serial number than the [1900 date system](https://support.microsoft.com/en-us/help/214330/differences-between-the-1900-and-the-1904-date-system-in-excel). Because of this,
-[dates must be checked for accuracy when exporting data from Excel](http://uc3.cdlib.org/2014/04/09/abandon-all-hope-ye-who-enter-dates-in-excel/) (look for dates that are ~4 years off).
+[dates must be checked for accuracy when exporting data from Excel](http://uc3.cdlib.org/2014/04/09/abandon-all-hope-ye-who-enter-dates-in-excel/) (look for dates that are about 4 years off).
 
 
 ## Date formats in spreadsheets
@@ -89,9 +89,9 @@ But these ‘features’ often allow ambiguity to creep into your data. Ideally,
 
 ### Dates stored as integers
 
-The first thing you need to know is that Excel **stores dates as a number** - see the last column in the above figure. Essentially, it counts the days from a default of December 31, 1899, and thus stores July 2, 2014 as  the serial number 41822.
+The first thing you need to know is that Excel **stores dates as a number** - see the last column in the above figure. Essentially, it counts the days from a default of December 31, 1899, and thus stores July 2, 2014 as the serial number 41822.
 
-(But wait. That’s the default on my version of Excel. We’ll get into how this can introduce problems down the line later in this lesson. )
+(But wait. That’s the default on my version of Excel. We’ll get into how this can introduce problems down the line later in this lesson.)
 
 This serial number thing can actually be useful in some circumstances. By using
 the above functions we can easily add days, months or years to a given date.
@@ -118,7 +118,7 @@ rollovers are internally tracked and applied.
 Adding years and months and days is slightly trickier because we need to make
 sure that we are adding the amount to the correct entity.
 
-- First we extract the single entities (day, month or year)
+- First we extract the single entities (day, month, or year)
 - We can then add values to do that
 - Finally the complete date string is reconstructed using the `DATE()` function.
 
