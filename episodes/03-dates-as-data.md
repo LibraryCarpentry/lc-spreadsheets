@@ -28,7 +28,7 @@ contributors:
 ---
 
 
-Dates in spreadsheets are stored in one column. Whilst this seems the
+Dates in spreadsheets are often stored in one column. Whilst this seems the
 most natural way to record dates, it actually is not a good
 practice. A spreadsheet application will display the dates in
 seemingly correct way (for the human eye) but how it actually handles
