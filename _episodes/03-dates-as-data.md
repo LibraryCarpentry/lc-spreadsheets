@@ -99,7 +99,8 @@ part) of the cell that is being operated upon, (unless you did some sort of
 formatting to the cell before, and then all bets are off). Month and year
 rollovers are internally tracked and applied.
 
-**Note**
+### Adding and displaying dates
+
 Adding years and months and days is slightly trickier because we need to make
 sure that we are adding the amount to the correct entity.
 
@@ -107,11 +108,12 @@ sure that we are adding the amount to the correct entity.
 - We can then add values to do that
 - Finally the complete date string is reconstructed using the `DATE()` function.
 
-As for dates, times are handled in a similar way; seconds can be directly
-added but to add hour and minutes we need to make sure that we are adding
-the quantities to the correct entities.
+**Note:** Time values raise similar challenges. Seconds can be directly
+added but to add hour and minutes you will need to make sure 
+that quantities are added to the correct entities.
 
-Which brings us to the many different ways Excel provides in how it displays dates. If you refer to the figure above, you’ll see that there are many, MANY ways that ambiguity creeps into your data depending on the format you chose when you enter your data, and if you’re not fully cognizant of which format you’re using, you can end up actually entering your data in a way that Excel will badly misinterpret.
+Which brings us to the many ways that Excel displays dates. If you refer to the figure above, you’ll see that ambiguity may creep into your data in numerous ways depending on the format you chose when you entered your data. 
+If you’re not fully aware of these ambiguities, you may find that Excel will interpret your data in unexpected ways later.
 
 > ## Exercise
 > What happens to the dates in the `dates` tab of our workbook if we save this sheet in Excel (in `csv` format) and then open the file in a plain text editor (like TextEdit or Notepad)? What happens to the dates if we then open the `csv` file in Excel?
