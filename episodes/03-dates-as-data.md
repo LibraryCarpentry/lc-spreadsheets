@@ -54,7 +54,7 @@ conserve the timestamps you are better off handling them using one of the soluti
 > =YEAR(A2)
 > ```
 >
-> (Make sure the new column is formatted as a number and not as a date. Change the function to correspond to each row - i.e., =MONTH(A3), =DAY(A3), =YEAR(A3) for the next row.
+> Tip: Make sure the new column is formatted as a number and not as a date. Change the function to correspond to each row: i.e., =MONTH(A3), =DAY(A3), =YEAR(A3) for the next row.
 >
 >
 > > ## Solution
