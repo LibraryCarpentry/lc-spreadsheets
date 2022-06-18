@@ -76,7 +76,7 @@ But these 'features' often allow ambiguity to creep into your data. Ideally, dat
 
 The first thing you need to know is that Excel **stores dates as a number** (see Column I in the figure above). Essentially, Excel counts the days from a default of December 31, 1899, and thus stores July 2, 2014 as the serial number `41822`.
 
-(But wait. That’s the default on my version of Excel. We’ll get into how this can introduce problems down the line later in this lesson.)
+(But wait. That’s the default on one version of Excel. We’ll get into how this can introduce problems down the line later in this lesson.)
 
 This serial number thing can actually be useful in some circumstances. By using
 the above functions we can easily add days, months or years to a given date.
