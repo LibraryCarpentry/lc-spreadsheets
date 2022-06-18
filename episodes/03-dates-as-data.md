@@ -116,7 +116,7 @@ that quantities are added to the correct entities.
 
 ### Displaying dates
 
-Which brings us to the many ways that Excel displays dates. If you refer to the figure above, you’ll see that ambiguity may creep into your data in numerous ways depending on the format you chose when you entered your data. 
+Which brings us to the many ways that Excel displays dates. In the figure above, you’ll see that ambiguity may creep into your data in numerous ways depending on the format you chose when you entered your data. 
 If you’re not fully aware of these ambiguities, you may find that Excel will interpret your data in unexpected ways later.
 
 > ## Exercise
