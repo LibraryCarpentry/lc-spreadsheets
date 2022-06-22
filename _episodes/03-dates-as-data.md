@@ -29,8 +29,8 @@ contributors:
 
 
 Dates in spreadsheets are often stored in one column. Whilst this seems the
-most natural way to record dates, it actually is not a good
-practice. A spreadsheet application will display the dates in
+most natural way to enter dates, it actually is not a good
+practice. A spreadsheet application may display the dates in
 seemingly correct way (for the human eye) but how it actually handles
 and stores the dates may be problematic.
 
