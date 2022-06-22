@@ -7,7 +7,7 @@ questions:
 objectives:
   - Describe how dates are stored and formatted in spreadsheets.
   - Describe the advantages of alternative date formatting in spreadsheets.
-  - Demonstrate best practices for entering dates in spreadsheets.
+  - Demonstrate best practices for entering dates in spreadsheets. -> Understand and apply best practices for entering dates in spreadsheets
 keypoints:
   - Excel is notoriously bad at handling dates.
   - Treating dates as multiple pieces of data rather than one makes them easier to handle and exchange between programs.
@@ -34,11 +34,13 @@ practice. A spreadsheet application may display the dates
 correctly (for readability) but how it actually handles
 and stores the dates may be problematic.
 
-In particular, please remember that functions that are valid for a given
+ In particular, please remember that functions that are valid for a given
 spreadsheet program (be it LibreOffice, Microsoft Excel, OpenOffice.org,
 Gnumeric, etc.) are usually guaranteed to be compatible only within the same
 family of products. If you will later need to export the data and need to
 conserve the timestamps you are better off handling them using one of the solutions discussed below.
+
+
 
 > ## Using Date-Related Functions (Excel)
 >
@@ -80,14 +82,14 @@ Understanding the spreadsheet program uses serial numbers to process
 dates can be useful in some circumstances. Using
 the above functions, you can easily add days, months or years to a given date.
 Say you had a sampling plan where you needed to sample every thirty seven days.
-In another cell, you could type:
+In another cell, you could input the following:
 
 ~~~
 =B2+37
 ~~~
 {: .source}
 
-This would return:
+This would display:
 
 ~~~
 8-Aug
