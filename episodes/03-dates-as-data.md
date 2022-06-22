@@ -85,12 +85,14 @@ In another cell, you could type:
 ~~~
 =B2+37
 ~~~
+{: .source}
 
 This would return:
 
 ~~~
 8-Aug
 ~~~
+{: .output}
 
 This happens because Excel processes the date July 2, 2014 as the number `41822`.
 Adding `41822 + 37` results in `41859`
