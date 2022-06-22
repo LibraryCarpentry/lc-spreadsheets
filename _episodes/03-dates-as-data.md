@@ -40,7 +40,7 @@ Gnumeric, etc.) are usually guaranteed to be compatible only within the same
 family of products. If you will later need to export the data and need to
 conserve the timestamps you are better off handling them using one of the solutions discussed below.
 
-> ## Exercise
+> ## Using Date-Related Functions (Excel)
 >
 > Pulling month, day, and year out of dates:
 >
@@ -130,7 +130,7 @@ that quantities are added to the correct entities.
 Which brings us to the many ways that Excel displays dates. In the figure above, you’ll see that ambiguity may creep into your data in numerous ways depending on the format you chose when you entered your data.
 If you’re not fully aware of these ambiguities, you may find that Excel will interpret your data in unexpected ways later.
 
-> ## Exercise
+> ## Exchanging Date Information between Formats
 >
 > What happens to the dates in the `dates` tab of our workbook if we save this sheet in Excel (in `csv` format) and then open the file in a plain text editor (like TextEdit or Notepad)? What happens to the dates if we then open the `csv` file in Excel?
 >
