@@ -33,6 +33,7 @@ most natural way to enter dates, it actually is not a good
 practice. A spreadsheet application may display the dates
 correctly (for readability) but how it actually handles
 and stores the dates may be problematic.
+This can cause problems if the date displayed does not fully represent the information that the spreadsheet application is using, such as when the year is not displayed; in addition, date information may be changed when data is converted to different spreadsheet formats, such as between `.xlsx` and `.csv`, or opened in different applications.
 
 ## Date formats in spreadsheets
 
