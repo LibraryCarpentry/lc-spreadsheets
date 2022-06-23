@@ -49,6 +49,11 @@ Spreadsheet applications employ numerous features that facilitate the processing
 > * What aspects of the display lack specificity and may introduce ambiguity?
 {: .discussion}
 
+### Displaying dates
+
+Which brings us to the many ways that Excel displays dates. In the figure above, you’ll see that ambiguity may creep into your data in numerous ways depending on the format you chose when you entered your data.
+If you’re not fully aware of these ambiguities, you may find that Excel will interpret your data in unexpected ways later.
+
 ### Dates stored as integers
 
 The first thing you need to know is that Excel **stores dates as a number** (see Column I in the figure above). Essentially, Excel counts the days from a default of December 31, 1899, and thus stores July 2, 2014 as the serial number `41822`.
@@ -141,11 +146,6 @@ sure that we are adding the amount to the correct entity.
 **Note:** Time values raise similar challenges. Seconds can be directly
 added but to add hour and minutes you will need to make sure
 that quantities are added to the correct entities.
-
-### Displaying dates
-
-Which brings us to the many ways that Excel displays dates. In the figure above, you’ll see that ambiguity may creep into your data in numerous ways depending on the format you chose when you entered your data.
-If you’re not fully aware of these ambiguities, you may find that Excel will interpret your data in unexpected ways later.
 
 > ## Exchanging Date Information between Formats
 >
