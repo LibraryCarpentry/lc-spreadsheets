@@ -148,6 +148,10 @@ sure that we are adding the amount to the correct entity.
 added but to add hour and minutes you will need to make sure
 that quantities are added to the correct entities.
 
+## Advantages of Alternative Date Formatting
+
+The display ambiguities discussed above can lead to unintended changes or unknown errors in your data. Exchanging data between applications or converting data into different formats can also create unexpected changes. Similar issues also cause challenges for data interoperability, sharing and reuse, and long-term preservation. Alternative date formats can help to address these issues, and we will learn about three below. First, however, let's explore the challenges further by seeing what happens to date information when converted between different formats. 
+
 > ## Exchanging Date Information between Formats
 >
 > What happens to the dates in the `dates` tab of our workbook if we save this sheet in Excel (in `csv` format) and then open the file in a plain text editor (like TextEdit or Notepad)? What happens to the dates if we then open the `csv` file in Excel?
@@ -162,8 +166,6 @@ that quantities are added to the correct entities.
 > > As you can see, exporting data from Excel and then importing it back into Excel fundamentally changed the data once again!
 > {: .solution}
 {: .challenge}
-
-## Advantages of Alternative Date Formatting
 
 ### Storing dates as YEAR, MONTH, DAY {#day}
 
