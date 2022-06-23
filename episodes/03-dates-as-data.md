@@ -116,7 +116,7 @@ Return the month number represented in the referenced date serial number | ```MO
 Return the day of the month represented in the referenced date serial number | ```DAY()``` | ```DAY()``` | |
 Calculate and display a date based on supplied year, month, and day values | ```DATE(Year, Month, Day)``` | ```DATE(Year; Month; Day)``` | |
 Return the serial number for date information supplied as a string | ```DATEVALUE()``` | ```DATEVALUE("Text")``` |  |
-Return the serial number of the current system date | ```NOW()``` | ```NOW()``` |  |
+Return the current system date | ```NOW()``` | ```NOW()``` |  |
 
 > ## Using Date-Related Functions (Excel)
 >
