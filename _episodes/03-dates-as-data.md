@@ -51,8 +51,10 @@ Spreadsheet applications employ numerous features that facilitate the processing
 
 ### Displaying dates
 
-Which brings us to the many ways that Excel displays dates. In the figure above, you’ll see that ambiguity may creep into your data in numerous ways depending on the format you chose when you entered your data.
-If you’re not fully aware of these ambiguities, you may find that Excel will interpret your data in unexpected ways later.
+The figure above shows that ambiguity may creep into your data in numerous ways depending on the format you chose when you entered your data.
+If you’re not fully aware of these ambiguities, you may find that Excel will interpret your data in unexpected ways later. 
+
+The display format of each cell can be modified. To change the display in Excel, navigate to the Format menu and choose "Cells...". In the "Format Cells" dialog box, you can select a Date format and choose various display outputs (some are shown in the above figure). In the dialog box, you can also choose to format the cell as a number or text. It may be useful to format the cell as one of these other datatypes, since as we will discuss next, the spreadsheet program understands the date information as a number.
 
 ### Dates stored as integers
 
