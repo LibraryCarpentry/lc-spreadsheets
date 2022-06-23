@@ -91,19 +91,6 @@ rollovers are internally tracked and applied.
 > [dates must be checked for accuracy when exporting data from Excel](http://uc3.cdlib.org/2014/04/09/abandon-all-hope-ye-who-enter-dates-in-excel/) (look for dates that are about 4 years off).
 {: .callout}
 
-### Adding dates
-
-Adding years and months and days is slightly trickier because we need to make
-sure that we are adding the amount to the correct entity.
-
-- First we extract the single entities (day, month, or year)
-- We can then add values to do that
-- Finally the complete date string is reconstructed using the `DATE()` function.
-
-**Note:** Time values raise similar challenges. Seconds can be directly
-added but to add hour and minutes you will need to make sure
-that quantities are added to the correct entities.
-
 ## Useful spreadsheet functions for working with date information
 
 Let's take a look at some functions that will help us work with date information in spreadsheet applications.
@@ -141,6 +128,19 @@ Return the serial number of the current system date | ```NOW()``` | ```NOW()``` 
 > > ![dates, exersize 1](../fig/3_Dates_as_Columns.png)
 > {: .solution}
 {: .challenge}
+
+### Adding dates
+
+Adding years and months and days is slightly trickier because we need to make
+sure that we are adding the amount to the correct entity.
+
+- First we extract the single entities (day, month, or year)
+- We can then add values to do that
+- Finally the complete date string is reconstructed using the `DATE()` function.
+
+**Note:** Time values raise similar challenges. Seconds can be directly
+added but to add hour and minutes you will need to make sure
+that quantities are added to the correct entities.
 
 ### Displaying dates
 
