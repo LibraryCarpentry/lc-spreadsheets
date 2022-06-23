@@ -7,7 +7,7 @@ questions:
 objectives:
   - Describe how dates are stored and formatted in spreadsheets.
   - Describe the advantages of alternative date formatting in spreadsheets.
-  - Demonstrate best practices for entering dates in spreadsheets. -> Understand and apply best practices for entering dates in spreadsheets
+  - Demonstrate best practices for entering dates in spreadsheets.
 keypoints:
   - Excel is notoriously bad at handling dates.
   - Treating dates as multiple pieces of data rather than one makes them easier to handle and exchange between programs.
