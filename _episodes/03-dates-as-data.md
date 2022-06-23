@@ -58,7 +58,7 @@ The display format of each cell can be modified. To change the display in Excel,
 
 ### Storing dates
 
-Spreadsheet applications, including Excel, **store dates as a number** (see Column I in the figure above). The application developers chose a single day to designate as day zero, and each subsequent day is incremented by a value of one. Essentially, Excel counts the days from a default of December 31, 1899. Thus, July 2, 2014 is stored as the serial number `41822`. Not all applications or operating systems use the same date for day zero.
+Spreadsheet applications, including Excel, **store dates as a number** (see Column I in the figure above). The application developers chose a single day to designate as day zero, and each subsequent day is incremented by a value of one. Essentially, Excel counts the days from a default of December 31, 1899. Thus, July 2, 2014 is stored as the serial number `41822` because it is 41,822 days after day zero. Not all applications or operating systems use the same date for day zero.
 
 Understanding the spreadsheet program uses serial numbers to process
 dates can be useful in some circumstances. Using
