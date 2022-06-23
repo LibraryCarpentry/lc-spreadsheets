@@ -210,3 +210,10 @@ Due to the issues caused by the way that spreadsheet programs handle and display
 This practice will make your data less ambiguous, will guard
 against changes that may be caused if the spreadsheet is opened by other software,
 and generally make your data table more accessible and interoperable.
+
+## Resources
+
+Most spreadsheet applications offer more detailed information about working with date and time information. Some of these are referenced below:
+
+* Microsoft Excel [date and time functions reference](https://support.microsoft.com/en-us/office/date-and-time-functions-reference-fd1b5961-c1ae-4677-be58-074152f97b81)
+* LibreOffice Date & Time Functions Reference [v. 6.2](https://help.libreoffice.org/6.2/en-US/text/scalc/01/04060102.html)
