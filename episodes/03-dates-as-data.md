@@ -56,7 +56,7 @@ If you’re not fully aware of these ambiguities, you may find that Excel will i
 
 The display format of each cell can be modified. To change the display in Excel, navigate to the Format menu and choose "Cells...". In the "Format Cells" dialog box, you can select a Date format and choose various display outputs (some are shown in the above figure). In the dialog box, you can also choose to format the cell as a number or text. It may be useful to format the cell as one of these other datatypes, since as we will discuss next, the spreadsheet program understands the date information as a number.
 
-### Dates stored as integers
+### Storing dates
 
 The first thing you need to know is that Excel **stores dates as a number** (see Column I in the figure above). Essentially, Excel counts the days from a default of December 31, 1899, and thus stores July 2, 2014 as the serial number `41822`.
 
