@@ -34,36 +34,6 @@ practice. A spreadsheet application may display the dates
 correctly (for readability) but how it actually handles
 and stores the dates may be problematic.
 
- In particular, please remember that functions that are valid for a given
-spreadsheet program (be it LibreOffice, Microsoft Excel, OpenOffice.org,
-Gnumeric, etc.) are usually guaranteed to be compatible only within the same
-family of products. If you will later need to export the data and need to
-conserve the timestamps you are better off handling them using one of the solutions discussed below.
-
-
-
-> ## Using Date-Related Functions (Excel)
->
-> Pulling month, day, and year out of dates:
->
-> - In the `Dates` tab of your Excel file we summarized training data from 2015. There's a `date` column.
-> - Let’s extract month, day and year from the date to three new columns. For this we can use the built in Excel functions
->
-> ```
-> =MONTH(A2)
-> =DAY(A2)
-> =YEAR(A2)
-> ```
->
-> Tip: Make sure the new column is formatted as a number and not as a date. Change the function to correspond to each row: i.e., =MONTH(A3), =DAY(A3), =YEAR(A3) for the next row.
->
-> > ## Solution
-> >
-> > You can see that even though you wanted the year to be 2015 for all entries, your spreadsheet program interpreted two entries as 2017, the year the data was entered, not the year of the workshop.
-> > ![dates, exersize 1](../fig/3_Dates_as_Columns.png)
-> {: .solution}
-{: .challenge}
-
 ## Date formats in spreadsheets
 
 Spreadsheet programs have numerous 'useful features' which allow them to 'handle' dates in a variety of ways.
@@ -126,6 +96,44 @@ sure that we are adding the amount to the correct entity.
 **Note:** Time values raise similar challenges. Seconds can be directly
 added but to add hour and minutes you will need to make sure
 that quantities are added to the correct entities.
+
+## Useful spreadsheet functions for working with date information
+
+Let's take a look at some functions that will help us work with date information in spreadsheet applications.
+Please remember that **functions that are valid for a given
+spreadsheet program (be it LibreOffice, Microsoft Excel, OpenOffice.org,
+Gnumeric, etc.) are usually guaranteed to be compatible only within the same
+family of products.** So, if you will later need to export the data and need to
+conserve the timestamps you should consider recording date information using one of the solutions discussed below.
+
+If a date is entered in one column, we can use functions to extract information from that column into other columns. For example, it can be useful to display the specific information about the year, month, and day. Conversely, these functions can convert supplied numerical values from numbers into dates. Date-related functions allow us to convert date values from the stored numerical value to a readable display value, make calculations between date values, and also to extract the date values so that they do not change as data is transformed or exchanged between new users and systems. 
+
+The table below outlines a few useful date-related functions and how they differ between some of the widely used spreadsheet applications.
+
+Action of function | Excel | LibreOffice | OpenOffice
+--- | --- | --- | --- |
+Return the year number represented in the referenced cell value | ```YEAR()``` | ```YEAR()``` | |
+Return the month number represented in the referenced date serial number | ```MONTH()``` | ```MONTH()``` |  |
+Return the day of the month represented in the referenced date serial number | ```DAY()``` | ```DAY()``` | |
+Calculate and display a date based on supplied year, month, and day values | ```DATE(Year, Month, Day)``` | ```DATE(Year; Month; Day)``` | |
+Return the serial number for date information supplied as a string | ```DATEVALUE()``` | ```DATEVALUE("Text")``` |  |
+Return the serial number of the current system date | ```NOW()``` | ```NOW()``` |  |
+
+> ## Using Date-Related Functions (Excel)
+>
+> Pulling month, day, and year out of dates:
+>
+> - In the `Dates` tab of your Excel file we summarized training data from 2015. There's a `date` column.
+> - Extract month, day and year from the date to three new columns. 
+>
+> Tip: Make sure the new column is formatted as a number and not as a date. Change the function to correspond to each row: i.e., =MONTH(A3), =DAY(A3), =YEAR(A3) for the next row.
+>
+> > ## Solution
+> >
+> > You can see that even though you wanted the year to be 2015 for all entries, your spreadsheet program interpreted two entries as 2017, the year the data was entered, not the year of the workshop.
+> > ![dates, exersize 1](../fig/3_Dates_as_Columns.png)
+> {: .solution}
+{: .challenge}
 
 ### Displaying dates
 
