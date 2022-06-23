@@ -219,6 +219,11 @@ and generally make your data table more accessible and interoperable.
 
 ## Resources
 
+Working with dates and day of year information can be unfamiliar since it does not match how we typically see dates on a calendar by the day of a month. These resources provide useful information for calculating the day of the year:
+
+* The Earth Systems Research Lab provides this calendar that displays day of year information for any year you select: [https://www.esrl.noaa.gov/gmd/grad/neubrew/Calendar.jsp](https://www.esrl.noaa.gov/gmd/grad/neubrew/Calendar.jsp)
+* The U.S. National Snow and Ice Data Center provides a useful chart to calculate the day of year: [https://nsidc.org/support/faq/day-year-doy-calendar](https://nsidc.org/support/faq/day-year-doy-calendar)
+
 Most spreadsheet applications offer more detailed information about working with date and time information. Some of these are referenced below:
 
 * Microsoft Excel [date and time functions reference](https://support.microsoft.com/en-us/office/date-and-time-functions-reference-fd1b5961-c1ae-4677-be58-074152f97b81)
