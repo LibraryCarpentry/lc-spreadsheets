@@ -37,7 +37,7 @@ This can cause problems if the date displayed does not fully represent the infor
 
 ## Date formats in spreadsheets
 
-Spreadsheet programs have numerous 'useful features' which allow them to 'handle' dates in a variety of ways.
+Spreadsheet applications employ numerous features that facilitate the processing and display of date information. While these features often make date information more easily readable, the underlying data handling techniques can create data ambiguity in a variety of ways. The figure below illustrates some of the ways that the display of information representing the same date can vary. Column A is the information as entered by a user, and the following columns show different ways that the information may be displayed. 
 
 ![Many formats, many ambiguities](../fig/5_excel_dates_1.jpg)
 
