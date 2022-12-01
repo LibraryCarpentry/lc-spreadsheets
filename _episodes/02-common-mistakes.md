@@ -101,9 +101,20 @@ The spreadsheets or statistical programs will likely mis-interpret blank cells t
 ## Using bad null values {#null}
 
 **Example**: using -999, other numerical values, zero, or text to represent missing values.
+Whatever the reason, it’s a problem if unknown or missing data is recorded as -999, 999, or 0. 
+Many statistical programs will not recognize that these are intended to represent missing (null) values. 
+How these values are interpreted will depend on the software you use to analyze your data. 
 
-**Solution**: Many statistical programs will not recognize that numeric values of null are indeed null. It will depend on the final application of your data and how you intend to analyse it, but it is essential to use a clearly defined and CONSISTENT null indicator. Blanks (most applications) and NA (for R) are good choices.
+**Solution**: A solution will depend on the final application of your data and how you intend to analyse it, 
+but it is essential to use a clearly defined and CONSISTENT null indicator. Blank cells are the best choices for most applications; 
+when working in R, `NA` may be an acceptable null value choice.
 
+There are many reasons that null values may be represented differently within a dataset. Sometimes confusing null values are automatically recorded from the measuring device. 
+In that case, there’s not much you can do, but such inconsistencies can often be addressed in data cleaning 
+with a tool like [OpenRefine](https://librarycarpentry.org/lc-open-refine/) before using or sharing the data. 
+In other cases, null values may convey different reasons why the data is missing. 
+It may be useful to capture these reasons, but if you use the same column it is effectively storing two pieces of information in one column. 
+In such a case, it would be good to create a new column like `data_missing`, then to use that column to capture the reasons for missing data.
 
 | Null Values | Problems                                                                                                                                                                   | Compatibility         | Recommendation |
 |-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|----------------|
