@@ -100,9 +100,10 @@ The spreadsheets or statistical programs will likely mis-interpret blank cells t
 
 ## Using bad null values {#null}
 
-**Example**: using -999, other numerical values, zero, or text to represent missing.
+**Example**: using -999, other numerical values, zero, or text to represent missing values.
 
 **Solution**: Many statistical programs will not recognize that numeric values of null are indeed null. It will depend on the final application of your data and how you intend to analyse it, but it is essential to use a clearly defined and CONSISTENT null indicator. Blanks (most applications) and NA (for R) are good choices.
+
 
 | Null Values | Problems                                                                                                                                                                   | Compatibility         | Recommendation |
 |-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|----------------|
@@ -117,7 +118,7 @@ The spreadsheets or statistical programs will likely mis-interpret blank cells t
 | Missing     | Uncommon. Can cause problems with data type.                                                                                                                               |                       | Avoid          |
 | -, +, .     | Uncommon. Can cause problems with data type.                                                                                                                               |                       | Avoid          |
 
-From White et al, 2013, [Nine simple ways to make it easier to (re)use your data.](https://ojs.library.queensu.ca/index.php/IEE/article/view/4608) Ideas in Ecology and Evolution 6 (2): 1-10. DOI: [10.4033/iee.2013.6b.6.f](http://10.4033/iee.2013.6b.6.f)
+Choices for representing null values, as illustrated in the table above, are proposed and explained further by White and others in their article: [Nine simple ways to make it easier to (re)use your data.](https://ojs.library.queensu.ca/index.php/IEE/article/view/4608) Ideas in Ecology and Evolution 6 (2013): 1-10. DOI: [10.4033/iee.2013.6b.6.f](http://10.4033/iee.2013.6b.6.f)
 
 ## Using formatting to convey information  {#formatting}
 
