@@ -104,10 +104,20 @@ The spreadsheets or statistical programs will likely mis-interpret blank cells t
 
 **Solution**: Many statistical programs will not recognize that numeric values of null are indeed null. It will depend on the final application of your data and how you intend to analyse it, but it is essential to use a clearly defined and CONSISTENT null indicator. Blanks (most applications) and NA (for R) are good choices.
 
+| Null Values | Problems                                                                                                                                                                   | Compatibility         | Recommendation |
+|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|----------------|
+| 0           | Indistinguishable from a true zero                                                                                                                                         |                       | NEVER use      |
+| Blank       | Hard to distinguish values that are missing from those overlooked on entry. Hard to distinguish blanks from spaces, which behave differently.                              | R, Python, SQL, Excel | Best option    |
+| -999, 999   | Not recognized as null by many programs without user input. Can be inadvertently entered into calculations.                                                                |                       | Avoid          |
+| NA, na      | Can also be an abbreviation (e.g., North America), can cause problems with data type (turn a numerical column into a text column). NA is more commonly recognized than na. | R                     | Good option    |
+| N/A         | An alternate form of NA, but often not compatible with software.                                                                                                           |                       | Avoid          |
+| NULL        | Can cause problems with data type.                                                                                                                                         | SQL                   | Good option    |
+| None        | Uncommon. Can cause problems with data type.                                                                                                                               | Python                | Avoid          |
+| No data     | Uncommon. Can cause problems with data type, contains a space.                                                                                                             |                       | Avoid          |
+| Missing     | Uncommon. Can cause problems with data type.                                                                                                                               |                       | Avoid          |
+| -, +, .     | Uncommon. Can cause problems with data type.                                                                                                                               |                       | Avoid          |
+
 From White et al, 2013, [Nine simple ways to make it easier to (re)use your data.](https://ojs.library.queensu.ca/index.php/IEE/article/view/4608) Ideas in Ecology and Evolution:
-
-![White et al.](../fig/3_white_table_1.jpg)
-
 
 ## Using formatting to convey information  {#formatting}
 
