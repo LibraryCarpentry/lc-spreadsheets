@@ -100,14 +100,36 @@ The spreadsheets or statistical programs will likely mis-interpret blank cells t
 
 ## Using bad null values {#null}
 
-**Example**: using -999 or other numerical values (or zero).
+**Example**: using -999, other numerical values, zero, or text to represent missing values.
+Whatever the reason, it’s a problem if unknown or missing data is recorded as -999, 999, or 0. 
+Many statistical programs will not recognize that these are intended to represent missing (null) values. 
+How these values are interpreted will depend on the software you use to analyze your data. 
 
-**Solution**: Many statistical programs will not recognize that numeric values of null are indeed null. It will depend on the final application of your data and how you intend to analyse it, but it is essential to use a clearly defined and CONSISTENT null indicator. Blanks (most applications) and NA (for R) are good choices.
+**Solution**: A solution will depend on the final application of your data and how you intend to analyse it, 
+but it is essential to use a clearly defined and CONSISTENT null indicator. Blank cells are the best choices for most applications; 
+when working in R, `NA` may be an acceptable null value choice.
 
-From White et al, 2013, [Nine simple ways to make it easier to (re)use your data.](https://ojs.library.queensu.ca/index.php/IEE/article/view/4608) Ideas in Ecology and Evolution:
+There are many reasons that null values may be represented differently within a dataset. Sometimes confusing null values are automatically recorded from the measuring device. 
+In that case, there’s not much you can do, but such inconsistencies can often be addressed in data cleaning 
+with a tool like [OpenRefine](https://librarycarpentry.org/lc-open-refine/) before using or sharing the data. 
+In other cases, null values may convey different reasons why the data is missing. 
+It may be useful to capture these reasons, but if you use the same column it is effectively storing two pieces of information in one column. 
+In such a case, it would be good to create a new column like `data_missing`, then to use that column to capture the reasons for missing data.
 
-![White et al.](../fig/3_white_table_1.jpg)
+| Null Values | Problems                                                                                                                                                                   | Compatibility         | Recommendation |
+|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|----------------|
+| 0           | Indistinguishable from a true zero                                                                                                                                         |                       | NEVER use      |
+| Blank       | Hard to distinguish values that are missing from those overlooked on entry. Hard to distinguish blanks from spaces, which behave differently.                              | R, Python, SQL, Excel | Best option    |
+| -999, 999   | Not recognized as null by many programs without user input. Can be inadvertently entered into calculations.                                                                |                       | Avoid          |
+| NA, na      | Can also be an abbreviation (e.g., North America), can cause problems with data type (turn a numerical column into a text column). NA is more commonly recognized than na. | R                     | Good option    |
+| N/A         | An alternate form of NA, but often not compatible with software.                                                                                                           |                       | Avoid          |
+| NULL        | Can cause problems with data type.                                                                                                                                         | SQL                   | Good option    |
+| None        | Uncommon. Can cause problems with data type.                                                                                                                               | Python                | Avoid          |
+| No data     | Uncommon. Can cause problems with data type, contains a space.                                                                                                             |                       | Avoid          |
+| Missing     | Uncommon. Can cause problems with data type.                                                                                                                               |                       | Avoid          |
+| -, +, .     | Uncommon. Can cause problems with data type.                                                                                                                               |                       | Avoid          |
 
+Choices for representing null values, as illustrated in the table above, are proposed and explained further by White and others in their article: [Nine simple ways to make it easier to (re)use your data.](https://ojs.library.queensu.ca/index.php/IEE/article/view/4608) Ideas in Ecology and Evolution 6 (2013): 1-10. DOI: [10.4033/iee.2013.6b.6.f](http://10.4033/iee.2013.6b.6.f)
 
 ## Using formatting to convey information  {#formatting}
 
