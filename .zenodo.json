@@ -2,26 +2,25 @@
   "contributors": [
     {
       "type": "Editor",
-      "name": "Sherry Lake",
-      "orcid": "0000-0002-5660-2970"
-    },
-    {
-      "type": "Editor",
       "name": "Tim Dennis",
       "orcid": "0000-0001-6632-3812"
     },
     {
       "type": "Editor",
-      "name": "Thea Atwood",
-      "orcid": "0000-0001-8348-1097"
+      "name": "Barulaganye Hulela"
     },
     {
       "type": "Editor",
-      "name": "erikamias"
+      "name": "morskyjezek",
+      "orcid": "0000-0003-2617-0166"
     }
   ],
   "creators": [
     {
+      "name": "morskyjezek",
+      "orcid": "0000-0003-2617-0166"
+    },
+    {
       "name": "Sherry Lake",
       "orcid": "0000-0002-5660-2970"
     },
@@ -30,69 +29,31 @@
       "orcid": "0000-0001-6632-3812"
     },
     {
-      "name": "Jez Cope",
-      "orcid": "0000-0003-3629-1383"
-    },
-    {
-      "name": "Francois Michonneau",
-      "orcid": "0000-0002-9092-966X"
-    },
-    {
-      "name": "Christopher Erdmann",
-      "orcid": "0000-0003-2554-180X"
-    },
-    {
-      "name": "erikamias"
-    },
-    {
-      "name": "Jeffrey Oliver",
-      "orcid": "0000-0003-2160-1086"
-    },
-    {
-      "name": "James Baker",
-      "orcid": "0000-0002-2682-6922"
-    },
-    {
-      "name": "Niamh Wallace"
-    },
-    {
-      "name": "Annelise Sklar"
-    },
-    {
-      "name": "Thea Atwood",
-      "orcid": "0000-0001-8348-1097"
-    },
-    {
-      "name": "Alex Volkov"
-    },
-    {
-      "name": "Belinda Weaver",
-      "orcid": "0000-0002-6156-7997"
-    },
-    {
-      "name": "Erin Alison Becker",
-      "orcid": "0000-0002-6832-0233"
-    },
-    {
-      "name": "Jacqueline Frisina"
-    },
-    {
-      "name": "Ken Lacey"
+      "name": "Jo Klein",
+      "orcid": "0000-0003-3984-9645"
     },
     {
       "name": "Phil Reed",
       "orcid": "0000-0002-4479-715X"
     },
     {
-      "name": "Scott Carl Peterson",
-      "orcid": "0000-0002-1920-616X"
+      "name": "doujouDC",
+      "orcid": "0000-0003-4090-5587"
     },
     {
-      "name": "Serah Anne Njambi Kiburu",
+      "name": "Annajiat Alim Rasel",
+      "orcid": "0000-0003-0198-3734"
+    },
+    {
+      "name": "Matthias Liffers"
+    },
+    {
+      "name": "Nathaniel Porter",
+      "orcid": "0000-0002-0479-6777"
+    },
+    {
+      "name": "Serah Njambi",
       "orcid": "0000-0002-7834-1038"
-    },
-    {
-      "name": "yvonnemery"
     }
   ],
   "license": {
