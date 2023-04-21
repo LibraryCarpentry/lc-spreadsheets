@@ -14,7 +14,7 @@ carpentry: 'lc'
 title: 'Tidy data for librarians'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: 
+created: '2018-04-13'
 
 # Comma-separated list of keywords for the lesson
 keywords: 'software, data, lesson, The Carpentries'
@@ -27,7 +27,7 @@ life_cycle: 'stable'
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/fishtree-attempt/lc-spreadsheets/'
+source: 'https://github.com/librarycarpentry/lc-spreadsheets'
 
 # Default branch of your lesson
 branch: 'main'
@@ -82,7 +82,6 @@ profiles:
 # sandpaper and varnish versions) should live
 
 
-url: https://preview.carpentries.org/lc-spreadsheets
+url: 'https://librarycarpentry.github.io/lc-spreadsheets'
 analytics: carpentries
 lang: en
-workbench-beta: 'true'
