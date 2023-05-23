@@ -319,13 +319,13 @@ below illustrates some of the ways that the display of information
 representing the same date can vary. Column A is the information as
 entered by a user, and the following columns show different ways that
 the information may be displayed.</p>
-<figure><img src="fig/5_excel_dates_1.jpg" alt="Many formats, many ambiguities" class="figure mx-auto d-block"></figure><div id="discussion1" class="callout discussion">
+<figure><img src="fig/5_excel_dates_1.jpg" alt="Many formats, many ambiguities" class="figure mx-auto d-block"></figure><div id="how-can-these-features-create-data-ambiguity" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="how-can-these-features-create-data-ambiguity" class="callout-inner">
 <h3 class="callout-title">How can these features create data
-ambiguity?<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+ambiguity?<a class="anchor" aria-label="anchor" href="#how-can-these-features-create-data-ambiguity"></a>
 </h3>
 <div class="callout-content">
 <p>Ideally, data should be as unambiguous as possible.</p>
@@ -380,13 +380,13 @@ retains the format (for the most part) of the cell that is being
 operated upon (unless you did some sort of formatting to the cell
 before, and then all bets are off). Month and year rollovers are
 internally tracked and applied.</p>
-<div id="callout1" class="callout callout">
+<div id="working-with-historical-dates-before-1900" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="working-with-historical-dates-before-1900" class="callout-inner">
 <h3 class="callout-title">Working with historical dates (before
-1900)<a class="anchor" aria-label="anchor" href="#callout1"></a>
+1900)<a class="anchor" aria-label="anchor" href="#working-with-historical-dates-before-1900"></a>
 </h3>
 <div class="callout-content">
 <p>Excel is unable to parse dates from before 1899-12-31, and will thus
@@ -462,12 +462,12 @@ string</td>
 <td><code>NOW()</code></td>
 <td><code>NOW()</code></td>
 <td></td>
-</tr></tbody></table><div id="challenge1" class="callout challenge">
+</tr></tbody></table><div id="using-date-related-functions-excel" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="using-date-related-functions-excel" class="callout-inner">
-<h3 class="callout-title">Using Date-Related Functions (Excel)<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">Using Date-Related Functions (Excel)<a class="anchor" aria-label="anchor" href="#using-date-related-functions-excel"></a>
 </h3>
 <div class="callout-content">
 <p>Pulling month, day, and year out of dates:</p>
@@ -487,11 +487,12 @@ date. Change the function to correspond to each row: i.e., =MONTH(A3),
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
-<figure>You can see that even though you wanted the year to be 2015 for all
+<p>You can see that even though you wanted the year to be 2015 for all
 entries, your spreadsheet program interpreted two entries as 2017, the
-year the data was entered, not the year of the workshop. <img src="fig/3_Dates_as_Columns.png" alt="dates, exersize 1" class="figure mx-auto d-block"></figure></div>
+year the data was entered, not the year of the workshop. <img src="fig/3_Dates_as_Columns.png" alt="dates, exersize 1" class="figure"></p>
+</div>
 </div>
 </div>
 </div>
@@ -518,13 +519,13 @@ Alternative date formats can help to address these issues, and we will
 learn about three below. First, however, let’s explore the challenges
 further by seeing what happens to date information when converted
 between different formats.</p>
-<div id="challenge2" class="callout challenge">
+<div id="exchanging-date-information-between-formats" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exchanging-date-information-between-formats" class="callout-inner">
 <h3 class="callout-title">Exchanging Date Information between
-Formats<a class="anchor" aria-label="anchor" href="#challenge2"></a>
+Formats<a class="anchor" aria-label="anchor" href="#exchanging-date-information-between-formats"></a>
 </h3>
 <div class="callout-content">
 <p>What happens to the dates in the <code>dates</code> tab of our
@@ -542,7 +543,7 @@ Excel?</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <ul><li>Click to the <code>dates</code> tab of the workbook and double-click
 on any of the values in the <code>Date collected</code> column. Notice
@@ -689,7 +690,7 @@ easier to handle and exchange between programs.</li>
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.11.16" class="external-link">sandpaper (0.11.16)</a>,
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.12.0" class="external-link">sandpaper (0.12.0)</a>,
         <a href="https://github.com/carpentries/pegboard" class="external-link">pegboard (0.5.3)</a>,
       and <a href="https://github.com/carpentries/varnish/tree/0.2.16" class="external-link">varnish (0.2.16)</a>.</p>
 			</div>
@@ -713,7 +714,7 @@ easier to handle and exchange between programs.</li>
   "identifier": "https://librarycarpentry.github.io/lc-spreadsheets/03-dates-as-data.html",
   "dateCreated": "2018-04-13",
   "dateModified": "2023-04-21",
-  "datePublished": "2023-05-16"
+  "datePublished": "2023-05-23"
 }
 
   </script><script>
