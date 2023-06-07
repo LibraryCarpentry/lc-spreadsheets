@@ -12,54 +12,6 @@ quality control in a spreadsheet program.
 
 ### Narrative
 
-#### [Formatting data](../episodes/01-format-data.md)
-
-- Go through the point about keeping track of your steps and keeping raw data raw
-- Go through the cardinal rule of spreadsheets about columns, rows and cells
-- Hand them a messy data file and have them pair up and work together to clean up the data.
-  *Give them 15 minutes to do this.*
-- Ask for what people did to clean the data. As they bring up different points you can
-  refer to them in the 02-common-mistakes.md file, or expand a bit on the point they brought up.
-  If you are just teaching the lesson, it would be good to familiarize yourself with
-  the set of mistakes in 02-common-mistakes. All these mistakes are present in the messy
-  dataset.
-- If you get a response where they've fixed the date, you can pause and go to the
-  03-dates-as-data.md lesson. Or you can say you'll come back to dates at the end.
-  There's an exercise in that file about how to change the
-  date into three columns using Excel's built in MONTH, DAY, YEAR functions. Have them
-  run through that exercise.
-
-#### [Common formatting problems](../episodes/02-common-mistakes.md)
-
-- **Don't go through this chapter** except to refer to as responses to the exercise in
-  the previous chapter.
-
-#### [Dates as data](../episodes/03-dates-as-data.md)
-
-- Do the exercise and make the point about dates either in response to a learner bringing
-  up date as an issue during the responses, or at the end of the response time.
-
-#### [Quality control](../episodes/04-quality-control.md)
-
-*This lesson is optional*
-
-The challenge with this lesson is that the instructor's version of the spreadsheet software is going to look different than about half the room's. It makes
-it challenging to show where you can find menu options and navigate through.
-
-Instead discuss the concepts of quality control, and how things like sorting can help you find outliers in your data.
-
-#### [Exporting data](../episodes/05-exporting-data.md)
-
-- Have the students export their cleaned data as `.csv`. Reiterate again the need for
-  data in this format for the other tools we'll be using.
-
-#### [Data Format Caveats](../episodes/06-data-formats-caveats.md)
-
-*This lesson is for reference*
-
-- This is mainly here as a reference if people have questions about different file formats.
-  You don't need to go through this.
-
 #### Concluding points
 
 - Now your data is organized so that a computer can read and understand it. This

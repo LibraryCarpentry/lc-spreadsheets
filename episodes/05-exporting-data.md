@@ -29,6 +29,16 @@ contributors:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+
+:::::::::::::::::::::::::::::::::::::::: instructor
+
+### Narrative Guidance
+
+- Have the students export their cleaned data as `.csv`. Reiterate again the need for
+  data in this format for the other tools we'll be using.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::
+
 Storing the data you're going to work with for your analyses in Excel
 default file format (`*.xls` or `*.xlsx` - depending on the Excel
 version) is a **bad idea**. Why?

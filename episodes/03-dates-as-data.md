@@ -31,6 +31,16 @@ contributors:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+
+:::::::::::::::::::::::::::::::::::::::: instructor
+
+### Narrative Guidance
+
+- Do the exercise and make the point about dates either in response to a learner bringing
+  up date as an issue during the responses, or at the end of the response time.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::
+
 Dates in spreadsheets are often stored in one column. Whilst this seems the
 most natural way to enter dates, it actually is not a good
 practice. A spreadsheet application may display the dates
