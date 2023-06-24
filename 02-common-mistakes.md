@@ -14,6 +14,7 @@ contributors:
 - Daisie Huang
 - Owen Jones
 - Ben Marwick
+- Jesse Johnston
 ---
 
 ::::::::::::::::::::::::::::::::::::::: objectives
@@ -127,7 +128,7 @@ In such a case, it would be good to create a new column like `data_missing`, the
 | Missing     | Uncommon. Can cause problems with data type.                                                                                                                               |                       | Avoid          | 
 | \-, +, .     | Uncommon. Can cause problems with data type.                                                                                                                               |                       | Avoid          | 
 
-Choices for representing null values, as illustrated in the table above, are proposed and explained further by White and others in their article: [Nine simple ways to make it easier to (re)use your data.](https://ojs.library.queensu.ca/index.php/IEE/article/view/4608) Ideas in Ecology and Evolution 6 (2013): 1-10. DOI: [10\.4033/iee.2013.6b.6.f](https://10.4033/iee.2013.6b.6.f)
+Choices for representing null values, as illustrated in the table above, are proposed and explained further by White and others in their article: [Nine simple ways to make it easier to (re)use your data.](https://ojs.library.queensu.ca/index.php/IEE/article/view/4608) _Ideas in Ecology and Evolution_ 6 (2013): 1-10. DOI: [10\.4033/iee.2013.6b.6.f](https://10.4033/iee.2013.6b.6.f)
 
 ## Using formatting to convey information  {#formatting}
 
@@ -139,7 +140,7 @@ Choices for representing null values, as illustrated in the table above, are pro
 
 ![](fig/good_formatting.png){alt='good formatting'}
 
-## Using formatting to make the data sheet look pretty {#formatting\_pretty}
+## Using formatting to make the data sheet look pretty {#formatting-pretty}
 
 **Example**: merging cells.
 
@@ -159,7 +160,7 @@ One table recorded attendance by the different types of attendees. This table re
 **Solution**:
 Never include more than one piece of information in a cell. Design your data sheet to include a column for each type of attendee, if this information is important to collect, rather than just a total number.
 
-## Field name problems {#field\_name}
+## Field name problems {#field-name}
 
 Choose descriptive field names, but be careful not to include: spaces, numbers, or special characters of any kind. Spaces can be misinterpreted by parsers that use whitespace as delimiters and some programs don't like field names that are text strings that start with numbers.
 Underscores (`_`) are a good alternative to spaces and consider writing names in camel-case to improve readability. Remember that abbreviations that make sense at the moment may not be so obvious in 6 months but don't overdo it with names that are excessively long. Including the units in the field names avoids confusion and enables others to readily interpret your fields.
