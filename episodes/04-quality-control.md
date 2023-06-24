@@ -184,9 +184,8 @@ checks in a programming language like Python or R, or in OpenRefine or SQL.
 ### Solution
 
 We can now quickly see the two outlier cells with the value of `0` and can also see that these two classes were canceled.
+
 ![](fig/4_conditional-formatting.png){alt='Conditional Formatting' .output}
-
-
 
 :::::::::::::::::::::::::
 
