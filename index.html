@@ -128,12 +128,19 @@
                   <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
         Summary and Setup
         </span>
-      
+      </button>
     </div><!--/div.accordion-header-->
+        
+    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
+      <div class="accordion-body">
+        <ul><li><a href="#setup">Setup</a></li>
+        </ul></div><!--/div.accordion-body-->
+    </div><!--/div.accordion-collapse-->
         
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -251,48 +258,69 @@
       <hr></nav><main id="main-content" class="main-content"><h1 class="schedule-heading">Summary and Setup</h1>
       
 
-<p><a href="https://librarycarpentry.org/" class="external-link">Library Carpentry</a>’s aim
-is to teach researchers basic concepts, skills, and tools for working
-with data so that they can get more done in less time, and with less
-pain. The lessons below were designed for those interested in working
-with {{page.domain}} data in {{page.topic}}.</p>
-<div id="prerequisites" class="callout prereq">
+<p><a href="https://librarycarpentry.org/" class="external-link">Library Carpentry</a> aims to
+teach librarians, information professionals, and researchers basic
+concepts, skills, and tools for working with data so that they can get
+more done in less time, and with less pain. This lesson was designed for
+those interested in working with Library Carpentry data in
+spreadsheets.</p>
+<div id="getting-started" class="callout prereq">
 <div class="callout-square">
 <i class="callout-icon" data-feather="check"></i>
 </div>
-<div id="prerequisites" class="callout-inner">
-<h3 class="callout-title">Prerequisites<a class="anchor" aria-label="anchor" href="#prerequisites"></a>
+<div id="getting-started" class="callout-inner">
+<h3 class="callout-title">Getting Started<a class="anchor" aria-label="anchor" href="#getting-started"></a>
 </h3>
 <div class="callout-content">
 <p>Library Carpentry’s teaching is hands-on, so participants are
 encouraged to use their own computers to insure the proper setup of
 tools for an efficient workflow. <em>These lessons assume no prior
-knowledge of the skills or tools</em>, but working through this lesson
-requires working copies of the software described below. To most
-effectively use these materials, please make sure to install everything
-<em>before</em> working through this lesson.</p>
+knowledge of the skills or tools.</em></p>
+<div class="section level4">
+<h4 id="prerequisites">Prerequisites<a class="anchor" aria-label="anchor" href="#prerequisites"></a></h4>
+<p>This lesson requires working copies of the data, linked below, as
+well as a working spreadsheet program, such as Microsoft Excel,
+LibreOffice, or another program described below. To most effectively use
+these materials, install everything <em>before</em> working through this
+lesson.</p>
 </div>
 </div>
 </div>
-<div class="section level3">
-<h3 id="getting-started">Getting Started<a class="anchor" aria-label="anchor" href="#getting-started"></a></h3>
-<p>To get started, follow the directions in the “<a href="https://librarycarpentry.org/lc-spreadsheets/setup.html" class="external-link">Setup</a>”
-tab to download data to your computer and follow any installation
-instructions.</p>
+</div>
+<div id="for-instructors" class="callout prereq">
+<div class="callout-square">
+<i class="callout-icon" data-feather="check"></i>
+</div>
+<div id="for-instructors" class="callout-inner">
+<h3 class="callout-title">For Instructors<a class="anchor" aria-label="anchor" href="#for-instructors"></a>
+</h3>
+<div class="callout-content">
+<p>If you are teaching this lesson in a workshop, please see the <a href="instructor-notes.html">Instructor Notes</a>.</p>
+</div>
+</div>
 </div>
 
 
-      <section id="setup"><div class="section level3">
-<h3 id="spreadsheets">Spreadsheets<a class="anchor" aria-label="anchor" href="#spreadsheets"></a></h3>
-<p>Spreadsheets are useful for data entry and data organization, and
+      <section id="setup"><section id="setup"><h2 class="section-heading">Setup<a class="anchor" aria-label="anchor" href="#setup"></a>
+</h2>
+<hr class="half-width"><p>Spreadsheets are useful for data entry and data organization, and
 some subsetting and sorting of the data as well as getting an overview
-of the data. To interact with spreadsheets, we can use <a href="https://www.libreoffice.org" class="external-link">LibreOffice</a>, <a href="https://products.office.com/en-us/excel" class="external-link">Microsoft Excel</a>, <a href="https://www.gnumeric.org" class="external-link">Gnumeric</a>, <a href="https://www.openoffice.org" class="external-link">OpenOffice.org</a>, or other programs.
+of the data.</p>
+<div id="software" class="callout prereq">
+<div class="callout-square">
+<i class="callout-icon" data-feather="check"></i>
+</div>
+<div id="software" class="callout-inner">
+<h3 class="callout-title">Software<a class="anchor" aria-label="anchor" href="#software"></a>
+</h3>
+<div class="callout-content">
+<p>To interact with spreadsheets, we can use <a href="https://www.libreoffice.org" class="external-link">LibreOffice</a>, <a href="https://products.office.com/en-us/excel" class="external-link">Microsoft Excel</a>, <a href="https://www.gnumeric.org" class="external-link">Gnumeric</a>, <a href="https://www.openoffice.org" class="external-link">OpenOffice.org</a>, or other programs.
 Commands may differ a bit between programs, but general ideas for
 thinking about spreadsheets is the same.</p>
 <p>For this lesson, if you don’t have a spreadsheet program already, you
 can use <a href="https://www.libreoffice.org" class="external-link">LibreOffice</a>. It’s a
 free, open source spreadsheet program.</p>
-<div class="section level4 col-md-4" markdown="1">
+<div class="section level4">
 <h4 id="windows">Windows<a class="anchor" aria-label="anchor" href="#windows"></a></h4>
 <ul><li>
 <strong>Download the Installer</strong><br>
@@ -306,8 +334,8 @@ automatically.</li>
 Once the installer is downloaded, double click on it and it should
 install.</li>
 </ul></div>
-<div class="section level4 col-md-4" markdown="1">
-<h4 id="macosx">macOS<a class="anchor" aria-label="anchor" href="#macosx"></a></h4>
+<div class="section level4">
+<h4 id="mac-os-x">Mac OS X<a class="anchor" aria-label="anchor" href="#mac-os-x"></a></h4>
 <ul><li>
 <strong>Download the Installer</strong><br>
 Install LibreOffice by going to the <a href="https://www.libreoffice.org/download/libreoffice-fresh/" class="external-link">installation
@@ -321,7 +349,7 @@ The file <em>LibreOffice_X.X.X_MacOS_x86-64</em> (whichever version of
 LibreOffice you have selected) should have been downloaded. Double click
 on this file, and LibreOffice will be installed.</li>
 </ul></div>
-<div class="section level4 col-md-4" markdown="1">
+<div class="section level4">
 <h4 id="linux">Linux<a class="anchor" aria-label="anchor" href="#linux"></a></h4>
 <ul><li>
 <strong>Download the Installer</strong><br>
@@ -335,21 +363,28 @@ automatically.</li>
 Once the installer is downloaded, double click on it and it should
 install.</li>
 </ul></div>
-<p>                        </p>
 </div>
-<div class="section level3">
-<h3 id="download-data-file">Download Data File<a class="anchor" aria-label="anchor" href="#download-data-file"></a></h3>
-<p>Download <a href="data/training_attendance.xlsx">training_attendance.xlsx</a>, which
-is a <code>xlsx</code> file that should automatically download. You may
-need to right click or control click in order to save the file (NOTE: In
-Safari, right click and select <strong>download linked file</strong>; in
-Chrome and Firefox, right click and select <strong>save link
-as</strong>). Make a note of the location (i.e the folder, your desktop)
-to which you save the file.</p>
 </div>
-
-
-      </section></main><nav class="bottom-pagination mx-md-4" aria-label="Next Chapter"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
+</div>
+<div id="data" class="callout prereq">
+<div class="callout-square">
+<i class="callout-icon" data-feather="check"></i>
+</div>
+<div id="data" class="callout-inner">
+<h3 class="callout-title">Data<a class="anchor" aria-label="anchor" href="#data"></a>
+</h3>
+<div class="callout-content">
+<p><strong>Download</strong> this data file to your computer: <a href="data/training_attendance.xlsx">training_attendance.xlsx</a>. The
+file is an <code>xlsx</code> file that should automatically download.
+You may need to right click or control click in order to save the file
+(NOTE: In Safari, right click and select <strong>download linked
+file</strong>; in Chrome and Firefox, right click and select
+<strong>save link as</strong>). Make a note of the location (i.e the
+folder, your desktop) to which you save the file.</p>
+</div>
+</div>
+</div>
+</section></section></main><nav class="bottom-pagination mx-md-4" aria-label="Next Chapter"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link float-end" href="00-intro.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->

@@ -1047,8 +1047,8 @@ software.</td>
 <p>Choices for representing null values, as illustrated in the table
 above, are proposed and explained further by White and others in their
 article: <a href="https://ojs.library.queensu.ca/index.php/IEE/article/view/4608" class="external-link">Nine
-simple ways to make it easier to (re)use your data.</a> Ideas in Ecology
-and Evolution 6 (2013): 1-10. DOI: <a href="https://10.4033/iee.2013.6b.6.f" class="external-link">10.4033/iee.2013.6b.6.f</a></p>
+simple ways to make it easier to (re)use your data.</a> <em>Ideas in
+Ecology and Evolution</em> 6 (2013): 1-10. DOI: <a href="https://10.4033/iee.2013.6b.6.f" class="external-link">10.4033/iee.2013.6b.6.f</a></p>
 </section><section id="formatting"><h2 class="section-heading">Using formatting to convey information<a class="anchor" aria-label="anchor" href="#formatting"></a>
 </h2>
 <hr class="half-width">
@@ -1057,8 +1057,7 @@ should be excluded from an analysis, leaving blank rows to indicate
 separations in data.</p>
 <figure><img src="../fig/formatting.png" alt="formatting" class="figure mx-auto d-block"></figure><p><strong>Solution</strong>: create a new field to encode which data
 should be excluded.</p>
-<figure><img src="../fig/good_formatting.png" alt="good formatting" class="figure mx-auto d-block"></figure></section><section id="using-formatting-to-make-the-data-sheet-look-pretty-formatting_pretty"><h2 class="section-heading">Using formatting to make the data sheet look pretty
-{#formatting_pretty}<a class="anchor" aria-label="anchor" href="#using-formatting-to-make-the-data-sheet-look-pretty-formatting_pretty"></a>
+<figure><img src="../fig/good_formatting.png" alt="good formatting" class="figure mx-auto d-block"></figure></section><section id="formatting-pretty"><h2 class="section-heading">Using formatting to make the data sheet look pretty<a class="anchor" aria-label="anchor" href="#formatting-pretty"></a>
 </h2>
 <hr class="half-width">
 <p><strong>Example</strong>: merging cells.</p>
@@ -1093,7 +1092,7 @@ associate (PDRA), and other.</p>
 information in a cell. Design your data sheet to include a column for
 each type of attendee, if this information is important to collect,
 rather than just a total number.</p>
-</section><section id="field-name-problems-field_name"><h2 class="section-heading">Field name problems {#field_name}<a class="anchor" aria-label="anchor" href="#field-name-problems-field_name"></a>
+</section><section id="field-name"><h2 class="section-heading">Field name problems<a class="anchor" aria-label="anchor" href="#field-name"></a>
 </h2>
 <hr class="half-width">
 <p>Choose descriptive field names, but be careful not to include:
@@ -1920,9 +1919,10 @@ notice any strange values?</li>
 </button>
 <div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
-<p>We can see two outlier cells of 0 and can see these two classes were
-canceled. <img src="../fig/4_conditional-formatting.png" class="figure">
-{alt=‘Conditional Formatting’ .output}</p>
+<p>We can now quickly see the two outlier cells with the value of
+<code>0</code> and can also see that these two classes were
+canceled.</p>
+<figure><img src="../fig/4_conditional-formatting.png" class="output figure mx-auto d-block" alt="Conditional Formatting"></figure>
 </div>
 </div>
 </div>
@@ -1990,7 +1990,7 @@ of applications?</li>
   Narrative Guidance
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <ul>
 <li>Have the students export their cleaned data as <code>.csv</code>.
@@ -2001,15 +2001,17 @@ we’ll be using.</li>
 </div>
 </div>
 </div>
-<p>Storing the data you’re going to work with for your analyses in Excel
-default file format (<code>*.xls</code> or <code>*.xlsx</code> -
-depending on the Excel version) is a <strong>bad idea</strong>. Why?</p>
+<p>For various reasons, it is not a good idea to store the data you’re
+going to work with for your analyses in Excel file formats
+(<code>*.xls</code> or <code>*.xlsx</code> - depending on the Excel
+version) if you are hoping to preserve the data for the long term.
+Why?</p>
 <ul>
 <li>
-<p>Because it is a <strong>proprietary format</strong>, and it is
-possible that in the future, technology won’t exist (or will become
-sufficiently rare) to make it inconvenient, if not impossible, to open
-the file.</p>
+<p>For one thing, Excel is a <strong>proprietary format</strong>,
+and it is possible that in the future, technology won’t exist (or will
+become sufficiently rare) to make it inconvenient, if not impossible, to
+open the file.</p>
 <p>Think about zipdisks. How many old theses in your lab are “backed up”
 and stored on zipdisks? Ever wanted to pull out the raw data from one of
 those? <em>Exactly.</em></p>
@@ -2116,7 +2118,7 @@ worksheets in the <code>xls</code> documents.</p>
 <li>this equates to replacing a (simple but manual) export to
 <code>csv</code> with additional complexity/dependencies in the data
 analysis Python code</li>
-<li><strong>data formatting best practice STILL apply</strong></li>
+<li><strong>data formatting best practices STILL apply</strong></li>
 <li>Is there really a good reason why <code>csv</code> (or similar) is
 not adequate?</li>
 </ul>
@@ -2179,7 +2181,7 @@ not adequate?</li>
   This lesson is for reference
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
 <ul>
 <li>This is mainly here as a reference if people have questions about
