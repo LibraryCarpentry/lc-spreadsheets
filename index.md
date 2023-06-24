@@ -34,9 +34,3 @@ To most effectively use these materials, please make sure to install everything
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
-
-### Getting Started
-
-To get started, follow the directions in the "[Setup](https://librarycarpentry.org/lc-spreadsheets/setup.html)" tab to download data to your computer and follow any installation instructions.
-
-
