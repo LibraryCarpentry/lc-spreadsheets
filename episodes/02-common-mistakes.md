@@ -128,7 +128,7 @@ In such a case, it would be good to create a new column like `data_missing`, the
 | Missing     | Uncommon. Can cause problems with data type.                                                                                                                               |                       | Avoid          | 
 | \-, +, .     | Uncommon. Can cause problems with data type.                                                                                                                               |                       | Avoid          | 
 
-Choices for representing null values, as illustrated in the table above, are proposed and explained further by White and others in their article: [Nine simple ways to make it easier to (re)use your data.](https://ojs.library.queensu.ca/index.php/IEE/article/view/4608) Ideas in Ecology and Evolution 6 (2013): 1-10. DOI: [10\.4033/iee.2013.6b.6.f](https://10.4033/iee.2013.6b.6.f)
+Choices for representing null values, as illustrated in the table above, are proposed and explained further by White and others in their article: [Nine simple ways to make it easier to (re)use your data.](https://ojs.library.queensu.ca/index.php/IEE/article/view/4608) _Ideas in Ecology and Evolution_ 6 (2013): 1-10. DOI: [10\.4033/iee.2013.6b.6.f](https://10.4033/iee.2013.6b.6.f)
 
 ## Using formatting to convey information  {#formatting}
 
