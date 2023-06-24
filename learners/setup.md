@@ -2,11 +2,17 @@
 title: Setup
 ---
 
-### Spreadsheets
+## Setup
 
 Spreadsheets are useful for data entry and data organization, and some
 subsetting and sorting of the data as well as getting an overview of the
-data. To interact with spreadsheets, we can use
+data. 
+
+:::: prereq
+
+## Software 
+
+To interact with spreadsheets, we can use
 [LibreOffice](https://www.libreoffice.org), [Microsoft
 Excel](https://products.office.com/en-us/excel),
 [Gnumeric](https://www.gnumeric.org),
@@ -17,8 +23,6 @@ thinking about spreadsheets is the same.
 For this lesson, if you don't have a spreadsheet program already, you
 can use [LibreOffice](https://www.libreoffice.org). It's a free, open
 source spreadsheet program.
-
-<div class="col-md-4" markdown="1">
 
 #### Windows
 
@@ -33,11 +37,7 @@ source spreadsheet program.
   Once the installer is downloaded, double click on it and it should
   install.
 
-</div>
-
-<div class="col-md-4" markdown="1">
-
-#### macOS {#macosx}
+#### Mac OS X
 
 - **Download the Installer**  
   Install LibreOffice by going to the [installation
@@ -51,10 +51,6 @@ source spreadsheet program.
   downloaded. Double click on this file, and LibreOffice will be
   installed.
 
-</div>
-
-<div class="col-md-4" markdown="1">
-
 #### Linux
 
 - **Download the Installer**  
@@ -67,15 +63,13 @@ source spreadsheet program.
   Once the installer is downloaded, double click on it and it should
   install.
 
-</div>
+::::
 
-      
-     
-     
-     
+:::: prereq
 
-### Download Data File
+## Data
 
-Download [training\_attendance.xlsx](data/training_attendance.xlsx), which is a `xlsx` file that should automatically download. You may need to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as**). Make a note of the location (i.e the folder, your desktop) to which you save the file.
+**Download** this data file to your computer: [training\_attendance.xlsx](data/training_attendance.xlsx). 
+The file is an `xlsx` file that should automatically download. You may need to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as**). Make a note of the location (i.e the folder, your desktop) to which you save the file.
 
-
+::::

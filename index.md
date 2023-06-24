@@ -19,24 +19,31 @@ status: Teaching
 site: sandpaper::sandpaper_site
 ---
 
-[Library Carpentry](https://librarycarpentry.org/)'s aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less pain. The lessons below were designed for those interested in working with {{page.domain}} data in {{page.topic}}.
+[Library Carpentry](https://librarycarpentry.org/) aims to teach librarians, information professionals, and researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less pain. This lesson was designed for those interested in working with Library Carpentry data in spreadsheets.
 
 ::::::::::::::::::::::::::::::::::::::::::  prereq
 
-## Prerequisites
+## Getting Started
 
 Library Carpentry's teaching is hands-on, so participants are encouraged to use
 their own computers to insure the proper setup of tools for an efficient workflow.
-*These lessons assume no prior knowledge of the skills or tools*, but working
-through this lesson requires working copies of the software described below.
-To most effectively use these materials, please make sure to install everything
-*before* working through this lesson.
+*These lessons assume no prior knowledge of the skills or tools.* 
 
+#### Prerequisites
+
+This lesson requires working copies of the data, linked below, 
+as well as a working spreadsheet program, such as Microsoft Excel, 
+LibreOffice, or another program described below.
+To most effectively use these materials, install everything
+*before* working through this lesson.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Getting Started
+:::: prereq
 
-To get started, follow the directions in the "[Setup](https://librarycarpentry.org/lc-spreadsheets/setup.html)" tab to download data to your computer and follow any installation instructions.
+## For Instructors
 
+If you are teaching this lesson in a workshop, please see the [Instructor Notes](instructors/instructor-notes.md).
+
+::::
 
