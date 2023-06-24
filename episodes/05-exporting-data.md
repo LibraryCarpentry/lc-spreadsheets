@@ -39,11 +39,11 @@ contributors:
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Storing the data you're going to work with for your analyses in Excel
-default file format (`*.xls` or `*.xlsx` - depending on the Excel
-version) is a **bad idea**. Why?
+For various reasons, it is not a good idea to store the data you're going to work with for your analyses in Excel
+file formats (`*.xls` or `*.xlsx` - depending on the Excel
+version) if you are hoping to preserve the data for the long term. Why?
 
-- Because it is a **proprietary format**, and it is possible that in
+- For one thing, Excel is a **proprietary format**, and it is possible that in
   the future, technology won't exist (or will become sufficiently
   rare) to make it inconvenient, if not impossible, to open the file.
   
