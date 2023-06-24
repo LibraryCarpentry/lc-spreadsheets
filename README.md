@@ -2,7 +2,7 @@
 
 # Library Carpentry
 
-The Library Carpentry module '[Tidy data for librarians](https://librarycarpentry.org/lc-spreadsheets/)' is maintained by [Tim Dennis](https://github.com/jt14den), [Thea Atwood](https://github.com/tpatwood), *[Sherry Lake](https://github.com/shlake)*, [Erika Mias](https://github.com/erikamias), [Jez Cope](https://github.com/jezcope).
+The Library Carpentry module '[Tidy data for librarians](https://librarycarpentry.org/lc-spreadsheets/)' is maintained by [Tim Dennis](https://github.com/jt14den), [Thea Atwood](https://github.com/tpatwood), *[Sherry Lake](https://github.com/shlake)*, [Erika Mias](https://github.com/erikamias), [Jez Cope](https://github.com/jezcope), and [Jesse Johnston](https://github.com/morskyjezek).
 
 ## Background
 
@@ -31,5 +31,4 @@ This module in particular is heavily based on the [Data Carpentry Spreadsheets f
 Please cite as:
 
 > Sherry Lake, Tim Dennis, Jez Cope, Francois Michonneau, Christopher Erdmann, erikamias, … yvonnemery. (2020, July). LibraryCarpentry/lc-spreadsheets: LibraryCarpentry/lc-spreadsheets: Library Carpentry: Tidy data for Librarians, July 2020 (Version v2020.07.1). Zenodo. [http://doi.org/10.5281/zenodo.3954067](https://doi.org/10.5281/zenodo.3954067)
-
 
