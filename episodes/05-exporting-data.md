@@ -140,7 +140,7 @@ worksheets in the `xls` documents.
 
 - this equates to replacing a (simple but manual) export to `csv` with
   additional complexity/dependencies in the data analysis Python code
-- **data formatting best practice STILL apply**
+- **data formatting best practices STILL apply**
 - Is there really a good reason why `csv` (or similar) is not adequate?
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
