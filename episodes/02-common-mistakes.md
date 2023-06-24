@@ -28,6 +28,15 @@ contributors:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::: instructor
+
+### This lesson is for reference
+
+- **Don't go through this chapter** except to refer to as responses to the exercise in
+  the previous chapter.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Common Spreadsheet Errors
 
 - [Multiple tables](#tables)

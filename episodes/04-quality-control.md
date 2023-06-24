@@ -30,6 +30,19 @@ contributors:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::: instructor
+
+### Narrative Guidance
+
+*This lesson is optional*
+
+The challenge with this lesson is that the instructor's version of the spreadsheet software is going to look different than about half the room's. It makes
+it challenging to show where you can find menu options and navigate through.
+
+Instead discuss the concepts of quality control, and how things like sorting can help you find outliers in your data.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::
+
 When you have a well-structured data table, you can use several simple
 techniques within your spreadsheet to ensure the data you enter is
 free of errors. These approaches include techniques that are

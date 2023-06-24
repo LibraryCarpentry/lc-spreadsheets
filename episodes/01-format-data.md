@@ -30,6 +30,27 @@ contributors:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::: instructor
+
+### Narrative Guidance
+
+- Go through the point about keeping track of your steps and keeping raw data raw
+- Go through the cardinal rule of spreadsheets about columns, rows and cells
+- Hand them a messy data file and have them pair up and work together to clean up the data.
+  *Give them 15 minutes to do this.*
+- Ask for what people did to clean the data. As they bring up different points you can
+  refer to them in the 02-common-mistakes.md file, or expand a bit on the point they brought up.
+  If you are just teaching the lesson, it would be good to familiarize yourself with
+  the set of mistakes in 02-common-mistakes. All these mistakes are present in the messy
+  dataset.
+- If you get a response where they've fixed the date, you can pause and go to the
+  03-dates-as-data.md lesson. Or you can say you'll come back to dates at the end.
+  There's an exercise in that file about how to change the
+  date into three columns using Excel's built in MONTH, DAY, YEAR functions. Have them
+  run through that exercise.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::
+
 The most common mistake made is treating the program like it is a notebook by relying on context, notes in the margin, spatial layout of data and fields to convey information.
 As humans,
 we can (usually) interpret these things,

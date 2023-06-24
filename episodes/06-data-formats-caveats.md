@@ -17,6 +17,15 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::: instructor
+
+### This lesson is for reference
+
+- This is mainly here as a reference if people have questions about different file formats.
+  You don't need to go through this.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::
+
 <!-- Materials by: **Jeffrey Hollister**, **Alexander Duryee**, **Jennifer Bryan**, **Daisie Huang**, **Ben Marwick**, **Christie Bahlai**, **Owen Jones**, **Aleksandra Pawlik** -->
 
 ## Dealing with commas as part of data values in `*.csv` files
