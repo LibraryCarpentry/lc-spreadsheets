@@ -19,7 +19,7 @@ status: Teaching
 site: sandpaper::sandpaper_site
 ---
 
-[Library Carpentry](https://librarycarpentry.org/) aims to teach librarians, information professionals, and researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less pain. This lesson was designed for those interested in working with Library Carpentry data in spreadsheets.
+[Library Carpentry](https://librarycarpentry.org/) aims to teach librarians, information professionals, and researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less pain. This lesson was designed to teach the principles of working with data in spreadsheets.
 
 ::::::::::::::::::::::::::::::::::::::::::  prereq
 
