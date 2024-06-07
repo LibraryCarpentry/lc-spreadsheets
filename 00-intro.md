@@ -52,6 +52,7 @@ contributors:
   of the data in the spreadsheet. What are the pain points!?
 - As people answer highlight some of these issues with spreadsheets
 
+
 :::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Good **data organization** is the foundation of much of our day-to-day
@@ -69,7 +70,16 @@ to be able to do as librarians. We can use them for:
 - Statistics
 - Plotting
 
-***
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+## Jargon busting (Optional, not included in timing)
+The [Jargon Busting exercise](jargon_busting.md) is a helpful way to begin to explore terms, phrases, and ideas related to code and software development.
+
+:::::::::::::::::::::::::::::::::::::::: instructor
+This exercise can be useful when you teach Tidy Data as the introduction to a full LC workshop, especially if you want learners to have an opportunity to meet each other and interact. It can take anywhere from 10 to 45 minutes, depending on your approach.
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Spreadsheet outline
 
@@ -193,6 +203,7 @@ In this lesson, we're going to talk about:
 4. [Basic quality control and data manipulation in spreadsheets](04-quality-control.md)
 5. [Exporting data from spreadsheets](05-exporting-data.md)
 6. [Data export formats caveats](06-data-formats-caveats.md)
+
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
