@@ -89,19 +89,13 @@ When working with spreadsheets during data clean up or analyses, it's
 very easy to end up with a spreadsheet that looks very different from the one
 you started with. In order to be able to reproduce your analyses or figure out
 what you did when your leadership team ask for a different analysis,
-you **must:**
+you **should:**
 
-- **create a new file or tab with your cleaned or analyzed data.** Do
-  not modify that original dataset, or you will never know where you
-  started!
-- **keep track of the steps you took in your clean up or analysis.**
-  You should track these steps as a scientist would each step in an
-  experiment. You can do this in another text file, or a good option
-  is to create a new tab in your spreadsheet with your notes. This way
-  the notes and data stay together. Be sure you're saving your spreadsheet
-  with a file format compatible with multiple tabs, if you do this!
+- create a new file with your cleaned or analyzed data. Don’t modify the original dataset, or you will never know where you started!
+- keep track of the steps you took in your clean up or analysis. You should track these steps as you would any step in an experiment. We recommend that you do this in a plain text file stored in the same folder as the data file.
+- record the steps you followed in your data cleanup or analysis. Just as you would document key actions in a research project, it's important to keep a clear record of your workflow. We suggest saving this documentation in a plain text file within the same folder as your data file for easy access and organization.
 
-This might be an example of a spreadsheet setup:
+This might be an example of the setup as you work:
 
 ![](fig/spreadsheet-setup.png){alt='spreadsheet setup'}
 
