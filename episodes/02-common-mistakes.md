@@ -193,7 +193,7 @@ General best practice is to avoid adding characters such as newlines, tabs, and 
 
 ## A version of the cleaned data {#cleaned-data}
 
-After reviewing the `training_attendance.xlsx` data in the `2016` and `2017` tabs and addressing common formatting issues, you might end up with a version similar to the one in the `cleaned` tab. However, to achieve this result, certain decisions were made, and depending on your interpretation of the data, you may have arrived at a different outcome.This underscores the importance of good data entry and organization practices from the beginning of data collection, along with maintaining a data dictionary to store metadata. By doing so, your data will be clear to anyone using it, minimizing the risk of misinterpretation.
+After reviewing the `training_attendance.xlsx` data in the `2016` and `2017` tabs and addressing common formatting issues, you might end up with a version similar to the one in the `cleaned` tab. However, to achieve this result, certain decisions were made, and depending on your interpretation of the data, you may have arrived at a different outcome. This underscores the importance of good data entry and organization practices from the beginning of data collection, along with maintaining a data dictionary to store metadata. By doing so, your data will be clear to anyone using it, minimizing the risk of misinterpretation.
 
 Here are some decisions that were made to produce the `cleaned` tab, which may differ from your approach in the exercise:
 
