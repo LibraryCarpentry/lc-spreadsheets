@@ -191,6 +191,18 @@ General best practice is to avoid adding characters such as newlines, tabs, and 
 
 **Solution**: While recording data about your data ("metadata") is essential, this information should not be contained in the data file itself. Unlike a table in a paper or a supplemental file, metadata (in the form of legends) should not be included in a data file since this information is not data, and including it can disrupt how computer programs interpret your data file. Rather, metadata should be stored as a separate file in the same directory as your data file, preferably in plain text format with a name that clearly associates it with your data file. Because metadata files are free text format, they also allow you to encode comments, units, information about how null values are encoded, etc. that are important to document but can disrupt the formatting of your data file.
 
+## A version of the cleaned data {#cleaned-data}
+
+After reviewing the `training_attendance.xlsx` data in the `2016` and `2017` tabs and addressing common formatting issues, you might end up with a version similar to the one in the `cleaned` tab. However, to achieve this result, certain decisions were made, and depending on your interpretation of the data, you may have arrived at a different outcome. This underscores the importance of good data entry and organization practices from the beginning of data collection, along with maintaining a data dictionary to store metadata. By doing so, your data will be clear to anyone using it, minimizing the risk of misinterpretation.
+
+Here are some decisions that were made to produce the `cleaned` tab, which may differ from your approach in the exercise:
+
+- Underscores were used to replace spaces in field names.
+- The `Cancelled` column uses `Yes` and `No` values, but alternatives like `Canceled` and `Not Cancelled`, or `1` for canceled and `0` for not cancelled, could have been used.
+- Only the 2017 Open Access training includes the number of `Registered` participants. We kept this data, but since it wasn’t present in other tables, you may have chosen to exclude it.
+- Some date values were inconsistent, like those that say `2 June?` or `7/8 Feb`. For such inconsistencies, you may have decided to leave the data blank.
+- We formatted the dates according to ISO 8601 standards and added columns for the year, month, and day. This is considered best practice for handling dates, as you will see in the next episode.
+
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
 - Don't use multiple tables in one sheet
