@@ -418,7 +418,7 @@ read for humans</li>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
   <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Narrative Guidance </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <ul>
 <li>Introduce that we’re teaching data organization, and that we’re
@@ -477,7 +477,7 @@ code and software development.</p>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor2" aria-expanded="false" aria-controls="collapseInstructor2">
   <h3 class="accordion-header" id="headingInstructor2">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor2" class="accordion-collapse collapse" aria-labelledby="headingInstructor2" data-bs-parent="#accordionInstructor2">
+<div id="collapseInstructor2" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor2" aria-labelledby="headingInstructor2">
 <div class="accordion-body">
 <p>This exercise can be useful when you teach Tidy Data as the
 introduction to a full LC workshop, especially if you want learners to
@@ -654,7 +654,7 @@ caveats</a></li>
 </div>
 </section></section><section id="aio-01-format-data"><p>Content from <a href="01-format-data.html">Formatting data tables in Spreadsheets</a></p>
 <hr>
-<p>Last updated on 2023-06-24 |
+<p>Last updated on 2024-10-29 |
 
         <a href="https://github.com/librarycarpentry/lc-spreadsheets/edit/main/episodes/01-format-data.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 30 minutes</p>
@@ -762,22 +762,21 @@ account, and ideally automate the conversion from one to another.</p>
 very easy to end up with a spreadsheet that looks very different from
 the one you started with. In order to be able to reproduce your analyses
 or figure out what you did when your leadership team ask for a different
-analysis, you <strong>must:</strong></p>
+analysis, you <strong>should:</strong></p>
 <ul>
-<li>
-<strong>create a new file or tab with your cleaned or analyzed
-data.</strong> Do not modify that original dataset, or you will never
-know where you started!</li>
-<li>
-<strong>keep track of the steps you took in your clean up or
-analysis.</strong> You should track these steps as a scientist would
-each step in an experiment. You can do this in another text file, or a
-good option is to create a new tab in your spreadsheet with your notes.
-This way the notes and data stay together. Be sure you’re saving your
-spreadsheet with a file format compatible with multiple tabs, if you do
-this!</li>
+<li>create a new file with your cleaned or analyzed data. Don’t modify
+the original dataset, or you will never know where you started!</li>
+<li>keep track of the steps you took in your clean up or analysis. You
+should track these steps as you would any step in an experiment. We
+recommend that you do this in a plain text file stored in the same
+folder as the data file.</li>
+<li>record the steps you followed in your data cleanup or analysis. Just
+as you would document key actions in a research project, it’s important
+to keep a clear record of your workflow. We suggest saving this
+documentation in a plain text file within the same folder as your data
+file for easy access and organization.</li>
 </ul>
-<p>This might be an example of a spreadsheet setup:</p>
+<p>This might be an example of the setup as you work:</p>
 <figure><img src="../fig/spreadsheet-setup.png" alt="spreadsheet setup" class="figure mx-auto d-block"></figure><p>We will put these principles into practice today during your
 exercises.</p>
 </div>
@@ -1785,7 +1784,7 @@ spreadsheets.</li>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
   <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Narrative Guidance </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
 <p><em>This lesson is optional</em></p>
 <p>The challenge with this lesson is that the instructor’s version of
@@ -1926,7 +1925,7 @@ Smallest</em></p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Click the <kbd>Sort</kbd> button on the <kbd>Data</kbd> tab in Excel.
 A pop-up will appear.</p>
@@ -1974,7 +1973,7 @@ notice any strange values?</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>We can now quickly see the two outlier cells with the value of
 <code>0</code> and can also see that these two classes were
@@ -2046,7 +2045,7 @@ of applications?</li>
   Narrative Guidance
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
 <ul>
 <li>Have the students export their cleaned data as <code>.csv</code>.
