@@ -1,5 +1,5 @@
 ---
-title: Using spreadsheet programs for data organization
+title: Using spreadsheet programs for data organisation
 teaching: 10
 exercises: 5
 authors:
@@ -35,11 +35,11 @@ contributors:
 
 ### Narrative Guidance
 
-- Introduce that we're teaching data organization, and that we're using
+- Introduce that we're teaching data organisation, and that we're using
   spreadsheets, because most people do data entry in spreadsheets or
   have data in spreadsheets.
-- Emphasize that we are teaching good practice in data organization and that
-  this is the foundation of their research practice. Without organized and clean
+- Emphasize that we are teaching good practice in data organisation and that
+  this is the foundation of their research practice. Without organised and clean
   data, it will be difficult for them to apply the things we're teaching in the
   rest of the workshop to their data.
 - Much of their lives as a researcher will be spent on this 'data wrangling' stage, but
@@ -55,7 +55,7 @@ contributors:
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Good **data organization** is the foundation of much of our day-to-day
+Good **data organisation** is the foundation of much of our day-to-day
 work in libraries. Most **librarians** have data or do data entry in
 spreadsheets. Spreadsheet programs are very **useful graphical
 interfaces** for designing data tables and handling very basic data
@@ -93,7 +93,7 @@ In this lesson, we will look at:
 
 **Much of your time when you're producing a report will be spent in
 this 'data wrangling' stage.** It's not the most fun, but it's
-necessary. We'll teach you how to think about data organization and
+necessary. We'll teach you how to think about data organisation and
 some practices for more effective data wrangling.
 
 ***
