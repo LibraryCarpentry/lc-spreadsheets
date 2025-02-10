@@ -66,10 +66,10 @@ we have to set up our data for the computer to be able to understand it
 (and computers are very literal).
 
 This is why it's extremely important to set up well-formatted tables from the outset **before** you even start collecting data to analyse.
-**Data organization is the foundation of your data-related work.**
-Unorganized data can make it harder to work with your data,
-so you should be mindful of your data organization when doing your data entry.
-You'll want to organize your data in a way that allows other programs and people to easily understand and use the data.
+**Data organisation is the foundation of your data-related work.**
+Unorganised data can make it harder to work with your data,
+so you should be mindful of your data organisation when doing your data entry.
+You'll want to organise your data in a way that allows other programs and people to easily understand and use the data.
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 
@@ -93,7 +93,7 @@ you **should:**
 
 - create a new file with your cleaned or analyzed data. Don’t modify the original dataset, or you will never know where you started!
 - keep track of the steps you took in your clean up or analysis. You should track these steps as you would any step in an experiment. We recommend that you do this in a plain text file stored in the same folder as the data file.
-- record the steps you followed in your data cleanup or analysis. Just as you would document key actions in a research project, it's important to keep a clear record of your workflow. We suggest saving this documentation in a plain text file within the same folder as your data file for easy access and organization.
+- record the steps you followed in your data cleanup or analysis. Just as you would document key actions in a research project, it's important to keep a clear record of your workflow. We suggest saving this documentation in a plain text file within the same folder as your data file for easy access and organisation.
 
 This might be an example of the setup as you work:
 
