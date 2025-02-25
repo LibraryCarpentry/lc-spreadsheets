@@ -81,9 +81,9 @@ Your data sheet might get very long over the course of recording data. This make
 
 Instead you can Freeze the column headers.
 
-[Documentation on how to freeze column headers in Microsoft Excel](https://support.office.com/en-ca/article/Freeze-column-headings-for-easy-scrolling-57ccce0c-cf85-4725-9579-c5d13106ca6a)
+[Documentation on how to freeze column headers in Microsoft Excel](https://support.microsoft.com/en-us/office/freeze-panes-to-lock-rows-and-columns-dab2ffc9-020d-4026-8121-67dd25f2508f)
 
-[Documentation on how to freeze column headers in LibreOffice Calc](https://help.libreoffice.org/Calc/Freezing_Rows_or_Columns_as_Headers)
+[Documentation on how to freeze column headers in LibreOffice Calc](https://help.libreoffice.org/latest/en-US/text/scalc/guide/line_fix.html)
 
 [Documentation on how to freeze column headers in Google Sheets](https://support.google.com/docs/answer/9060449?co=GENIE.Platform%3DDesktop&hl=en)
 
