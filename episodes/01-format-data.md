@@ -167,7 +167,7 @@ We're going to take a messy version of some library training data and clean it u
 
 ## Important
 
-Do not forget of our first piece of advice:
+Do not forget our first piece of advice:
 **create a new file** for the cleaned data, and **never
 modify the original (raw) data**.
 
