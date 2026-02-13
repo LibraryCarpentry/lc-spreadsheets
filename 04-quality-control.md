@@ -59,7 +59,7 @@ keyboard) should never be entered. Likewise if one of the kinds of data being
 collected is a count, only integers greater than or equal to zero should be
 allowed.
 
-To control the kind of data entered into a a spreadsheet we use Data Validation
+To control the kind of data entered into a spreadsheet we use Data Validation
 (Excel) or Validity (LibreOffice Calc), to set the values that can be entered
 in each data column.
 
