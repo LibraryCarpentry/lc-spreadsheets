@@ -172,7 +172,7 @@ sure that we are adding the amount to the correct entity.
 - Finally the complete date string is reconstructed using the `DATE()` function.
 
 **Note:** Time values raise similar challenges. Seconds can be directly
-added but to add hour and minutes you will need to make sure
+added but to add hours and minutes you will need to make sure
 that quantities are added to the correct entities.
 
 ## Advantages of Alternative Date Formatting
