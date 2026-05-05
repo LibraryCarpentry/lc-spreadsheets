@@ -475,53 +475,53 @@ these reasons, but if you use the same column it is effectively storing
 two pieces of information in one column. In such a case, it would be
 good to create a new column like <code>data_missing</code>, then to use
 that column to capture the reasons for missing data.</p>
-<table class="table"><colgroup><col width="5%"><col width="78%"><col width="9%"><col width="6%"></colgroup><thead><tr class="header"><th>Null Values</th>
+<table class="table"><colgroup><col width="5%"><col width="78%"><col width="9%"><col width="6%"></colgroup><thead><tr><th>Null Values</th>
 <th>Problems</th>
 <th>Compatibility</th>
 <th>Recommendation</th>
-</tr></thead><tbody><tr class="odd"><td>0</td>
+</tr></thead><tbody><tr><td>0</td>
 <td>Indistinguishable from a true zero</td>
 <td></td>
 <td>NEVER use</td>
-</tr><tr class="even"><td>Blank</td>
+</tr><tr><td>Blank</td>
 <td>Hard to distinguish values that are missing from those overlooked on
 entry. Hard to distinguish blanks from spaces, which behave
 differently.</td>
 <td>R, Python, SQL, Excel</td>
 <td>Best option</td>
-</tr><tr class="odd"><td>-999, 999</td>
+</tr><tr><td>-999, 999</td>
 <td>Not recognized as null by many programs without user input. Can be
 inadvertently entered into calculations.</td>
 <td></td>
 <td>Avoid</td>
-</tr><tr class="even"><td>NA, na</td>
+</tr><tr><td>NA, na</td>
 <td>Can also be an abbreviation (e.g., North America), can cause
 problems with data type (turn a numerical column into a text column). NA
 is more commonly recognized than na.</td>
 <td>R</td>
 <td>Good option</td>
-</tr><tr class="odd"><td>N/A</td>
+</tr><tr><td>N/A</td>
 <td>An alternate form of NA, but often not compatible with
 software.</td>
 <td></td>
 <td>Avoid</td>
-</tr><tr class="even"><td>NULL</td>
+</tr><tr><td>NULL</td>
 <td>Can cause problems with data type.</td>
 <td>SQL</td>
 <td>Good option</td>
-</tr><tr class="odd"><td>None</td>
+</tr><tr><td>None</td>
 <td>Uncommon. Can cause problems with data type.</td>
 <td>Python</td>
 <td>Avoid</td>
-</tr><tr class="even"><td>No data</td>
+</tr><tr><td>No data</td>
 <td>Uncommon. Can cause problems with data type, contains a space.</td>
 <td></td>
 <td>Avoid</td>
-</tr><tr class="odd"><td>Missing</td>
+</tr><tr><td>Missing</td>
 <td>Uncommon. Can cause problems with data type.</td>
 <td></td>
 <td>Avoid</td>
-</tr><tr class="even"><td>-, +, .</td>
+</tr><tr><td>-, +, .</td>
 <td>Uncommon. Can cause problems with data type.</td>
 <td></td>
 <td>Avoid</td>
@@ -577,28 +577,28 @@ obvious in 6 months but don’t overdo it with names that are excessively
 long. Including the units in the field names avoids confusion and
 enables others to readily interpret your fields.</p>
 <p><strong>Examples</strong></p>
-<table class="table"><thead><tr class="header"><th>Good Name</th>
+<table class="table"><thead><tr><th>Good Name</th>
 <th>Good Alternative</th>
 <th>Avoid</th>
-</tr></thead><tbody><tr class="odd"><td>Max_temp_C</td>
+</tr></thead><tbody><tr><td>Max_temp_C</td>
 <td>MaxTemp</td>
 <td>Maximum Temp (°C)</td>
-</tr><tr class="even"><td>Precipitation_mm</td>
+</tr><tr><td>Precipitation_mm</td>
 <td>Precipitation</td>
 <td>precmm</td>
-</tr><tr class="odd"><td>Mean_year_growth</td>
+</tr><tr><td>Mean_year_growth</td>
 <td>MeanYearGrowth</td>
 <td>Mean growth/year</td>
-</tr><tr class="even"><td>sex</td>
+</tr><tr><td>sex</td>
 <td>sex</td>
 <td>M/F</td>
-</tr><tr class="odd"><td>length</td>
+</tr><tr><td>length</td>
 <td>length</td>
 <td>l</td>
-</tr><tr class="even"><td>cell_type</td>
+</tr><tr><td>cell_type</td>
 <td>CellType</td>
 <td>Cell Type</td>
-</tr><tr class="odd"><td>Observation_01</td>
+</tr><tr><td>Observation_01</td>
 <td>first_observation</td>
 <td>1st Obs</td>
 </tr></tbody></table></section><section><h2 class="section-heading" id="special">Special characters in data<a class="anchor" aria-label="anchor" href="#special"></a></h2>
@@ -713,7 +713,7 @@ look pretty</li>
   "identifier": "https://librarycarpentry.github.io/lc-spreadsheets/instructor/02-common-mistakes.html",
   "dateCreated": "2018-04-13",
   "dateModified": "2025-02-25",
-  "datePublished": "2026-04-28"
+  "datePublished": "2026-05-05"
 }
 
   </script><script>

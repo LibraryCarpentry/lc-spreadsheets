@@ -950,20 +950,20 @@ that column to capture the reasons for missing data.</p>
 <col width="9%">
 <col width="6%">
 </colgroup>
-<thead><tr class="header">
+<thead><tr>
 <th>Null Values</th>
 <th>Problems</th>
 <th>Compatibility</th>
 <th>Recommendation</th>
 </tr></thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>0</td>
 <td>Indistinguishable from a true zero</td>
 <td></td>
 <td>NEVER use</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Blank</td>
 <td>Hard to distinguish values that are missing from those overlooked on
 entry. Hard to distinguish blanks from spaces, which behave
@@ -971,14 +971,14 @@ differently.</td>
 <td>R, Python, SQL, Excel</td>
 <td>Best option</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>-999, 999</td>
 <td>Not recognized as null by many programs without user input. Can be
 inadvertently entered into calculations.</td>
 <td></td>
 <td>Avoid</td>
 </tr>
-<tr class="even">
+<tr>
 <td>NA, na</td>
 <td>Can also be an abbreviation (e.g., North America), can cause
 problems with data type (turn a numerical column into a text column). NA
@@ -986,38 +986,38 @@ is more commonly recognized than na.</td>
 <td>R</td>
 <td>Good option</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>N/A</td>
 <td>An alternate form of NA, but often not compatible with
 software.</td>
 <td></td>
 <td>Avoid</td>
 </tr>
-<tr class="even">
+<tr>
 <td>NULL</td>
 <td>Can cause problems with data type.</td>
 <td>SQL</td>
 <td>Good option</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>None</td>
 <td>Uncommon. Can cause problems with data type.</td>
 <td>Python</td>
 <td>Avoid</td>
 </tr>
-<tr class="even">
+<tr>
 <td>No data</td>
 <td>Uncommon. Can cause problems with data type, contains a space.</td>
 <td></td>
 <td>Avoid</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Missing</td>
 <td>Uncommon. Can cause problems with data type.</td>
 <td></td>
 <td>Avoid</td>
 </tr>
-<tr class="even">
+<tr>
 <td>-, +, .</td>
 <td>Uncommon. Can cause problems with data type.</td>
 <td></td>
@@ -1088,43 +1088,43 @@ long. Including the units in the field names avoids confusion and
 enables others to readily interpret your fields.</p>
 <p><strong>Examples</strong></p>
 <table class="table">
-<thead><tr class="header">
+<thead><tr>
 <th>Good Name</th>
 <th>Good Alternative</th>
 <th>Avoid</th>
 </tr></thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Max_temp_C</td>
 <td>MaxTemp</td>
 <td>Maximum Temp (°C)</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Precipitation_mm</td>
 <td>Precipitation</td>
 <td>precmm</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Mean_year_growth</td>
 <td>MeanYearGrowth</td>
 <td>Mean growth/year</td>
 </tr>
-<tr class="even">
+<tr>
 <td>sex</td>
 <td>sex</td>
 <td>M/F</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>length</td>
 <td>length</td>
 <td>l</td>
 </tr>
-<tr class="even">
+<tr>
 <td>cell_type</td>
 <td>CellType</td>
 <td>Cell Type</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Observation_01</td>
 <td>first_observation</td>
 <td>1st Obs</td>
@@ -1363,54 +1363,54 @@ applications.</p>
 <col width="10%">
 <col width="9%">
 </colgroup>
-<thead><tr class="header">
+<thead><tr>
 <th>Action of function</th>
 <th>Excel</th>
 <th>LibreOffice</th>
 <th>OpenOffice</th>
 </tr></thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Return the year number represented in the referenced cell value</td>
 <td><code>YEAR()</code></td>
 <td><code>YEAR()</code></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Return the month number represented in the referenced date serial
 number</td>
 <td><code>MONTH()</code></td>
 <td><code>MONTH()</code></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Return the day of the month represented in the referenced date
 serial number</td>
 <td><code>DAY()</code></td>
 <td><code>DAY()</code></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Calculate and display a date based on supplied year, month, and day
 values</td>
 <td><code>DATE(Year, Month, Day)</code></td>
 <td><code>DATE(Year; Month; Day)</code></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Return the serial number for date information supplied as a
 string</td>
 <td><code>DATEVALUE()</code></td>
 <td><code>DATEVALUE("Text")</code></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Change display of a number by applying specified formatting</td>
 <td><code>TEXT(Value, "Formatting code to apply")</code></td>
 <td><code>TEXT(Value; "Formatting to apply")</code></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Return the current system date</td>
 <td><code>NOW()</code></td>
 <td><code>NOW()</code></td>
@@ -1793,7 +1793,7 @@ Smallest</em></p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Click the <kbd>Sort</kbd> button on the <kbd>Data</kbd> tab in Excel.
 A pop-up will appear.</p>
@@ -1842,7 +1842,7 @@ notice any strange values?</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>We can now quickly see the two outlier cells with the value of
 <code>0</code> and can also see that these two classes were
@@ -2195,8 +2195,8 @@ build relevant scripts.</p>
   "url": "https://librarycarpentry.github.io/lc-spreadsheets/aio.html",
   "identifier": "https://librarycarpentry.github.io/lc-spreadsheets/aio.html",
   "dateCreated": "2018-04-13",
-  "dateModified": "2026-04-28",
-  "datePublished": "2026-04-28"
+  "dateModified": "2026-05-05",
+  "datePublished": "2026-05-05"
 }
 
   </script><script>
